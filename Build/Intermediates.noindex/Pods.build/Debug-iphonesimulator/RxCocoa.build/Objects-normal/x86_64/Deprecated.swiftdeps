@@ -1,0 +1,757 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "driveOnScheduler"
+- "UIBindingObserver"
+provides-nominal:
+- "7RxCocoa17UIBindingObserverC"
+provides-member:
+- ["7RxSwift14ObservableTypeP", ""]
+- ["So13NSTextStorageC", ""]
+- ["So12UIScrollViewC", ""]
+- ["So16UICollectionViewC", ""]
+- ["So11UITableViewC", ""]
+- ["So15UINavigationBarC", ""]
+- ["So22UINavigationControllerC", ""]
+- ["So8UITabBarC", ""]
+- ["So18UITabBarControllerC", ""]
+- ["So11UISearchBarC", ""]
+- ["So18UISearchControllerC", ""]
+- ["So12UIPickerViewC", ""]
+- ["So9UIWebViewC", ""]
+- ["7RxSwift8VariableC", ""]
+- ["7RxCocoa13DelegateProxyC", ""]
+- ["7RxCocoa17UIBindingObserverC", ""]
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- ["7RxSwift14ObservableTypeP", "bindNext"]
+- ["So13NSTextStorageC", "createRxDelegateProxy"]
+- ["So12UIScrollViewC", "createRxDelegateProxy"]
+- ["So16UICollectionViewC", "createRxDataSourceProxy"]
+- ["So11UITableViewC", "createRxDataSourceProxy"]
+- ["So15UINavigationBarC", "createRxDelegateProxy"]
+- ["So22UINavigationControllerC", "createRxDelegateProxy"]
+- ["So8UITabBarC", "createRxDelegateProxy"]
+- ["So18UITabBarControllerC", "createRxDelegateProxy"]
+- ["So11UISearchBarC", "createRxDelegateProxy"]
+- ["So18UISearchControllerC", "createRxDelegateProxy"]
+- ["So12UIPickerViewC", "createRxDelegateProxy"]
+- ["So12UIPickerViewC", "createRxDataSourceProxy"]
+- ["So9UIWebViewC", "createRxDelegateProxy"]
+- ["7RxSwift8VariableC", "asSharedSequence"]
+- ["7RxCocoa13DelegateProxyC", "assignedProxyFor"]
+- ["7RxCocoa13DelegateProxyC", "currentDelegateFor"]
+- ["7RxSwift8ReactiveV", "refreshing"]
+- ["7RxSwift8ReactiveV", "image"]
+- ["7RxSwift8VariableC", "asDriver"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "drive"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "drive"]
+- ["7RxSwift14ObservableTypeP", "bind"]
+- ["7RxSwift14ObservableTypeP", "bind"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "+"
+- "AnyObject"
+- "AnyObserver"
+- "AssignmentPrecedence"
+- "Binder"
+- "Bool"
+- !private "CAMediaTimingFunction"
+- !private "CATransition"
+- !private "CastingPrecedence"
+- "DelegateProxy"
+- !private "DispatchQueue"
+- "Disposable"
+- "Driver"
+- "DriverSharingStrategy"
+- "Event"
+- !private "MainScheduler"
+- "NSTextStorage"
+- "ObservableType"
+- "ObserverType"
+- "Reactive"
+- "RxCollectionViewDataSourceProxy"
+- "RxNavigationControllerDelegateProxy"
+- "RxPickerViewDataSourceProxy"
+- "RxPickerViewDelegateProxy"
+- "RxScrollViewDelegateProxy"
+- "RxSearchBarDelegateProxy"
+- "RxSearchControllerDelegateProxy"
+- "RxTabBarControllerDelegateProxy"
+- "RxTabBarDelegateProxy"
+- "RxTableViewDataSourceProxy"
+- "RxTextStorageDelegateProxy"
+- "RxWebViewDelegateProxy"
+- "SchedulerType"
+- "SharedSequence"
+- "SharedSequenceConvertibleType"
+- !private "SharingScheduler"
+- "SharingStrategyProtocol"
+- "String"
+- "StringLiteralType"
+- "UIBindingObserver"
+- "UICollectionView"
+- "UIImage"
+- "UIImageView"
+- "UINavigationBar"
+- "UINavigationController"
+- "UIPickerView"
+- "UIRefreshControl"
+- "UIScrollView"
+- "UISearchBar"
+- "UISearchController"
+- "UITabBar"
+- "UITabBarController"
+- "UITableView"
+- "UIWebView"
+- "Variable"
+- "Void"
+- !private "bindingError"
+- "driveOnScheduler"
+- !private "errorMessage"
+- !private "fatalError"
+- !private "kCAMediaTimingFunctionEaseInEaseOut"
+- !private "kCATransition"
+- !private "rxFatalError"
+depends-member:
+- !private ["7RxSwift11AnyObserverV", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["7RxCocoa6BinderV", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8CAActionP", "duration"]
+- !private ["So8CAActionP", "init"]
+- !private ["So8CAActionP", "timingFunction"]
+- !private ["So8CAActionP", "type"]
+- !private ["So11CAAnimationC", "duration"]
+- !private ["So11CAAnimationC", "init"]
+- !private ["So11CAAnimationC", "timingFunction"]
+- !private ["So11CAAnimationC", "type"]
+- !private ["So7CALayerC", "add"]
+- !private ["So7CALayerC", "removeAllAnimations"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So13CAMediaTimingP", "add"]
+- !private ["So13CAMediaTimingP", "duration"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "removeAllAnimations"]
+- !private ["So13CAMediaTimingP", "timingFunction"]
+- !private ["So13CAMediaTimingP", "type"]
+- !private ["So21CAMediaTimingFunctionC", "init"]
+- !private ["So12CATransitionC", "duration"]
+- !private ["So12CATransitionC", "init"]
+- !private ["So12CATransitionC", "timingFunction"]
+- !private ["So12CATransitionC", "type"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isMain"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "removeAllAnimations"]
+- !private ["s7CVarArgP", "timingFunction"]
+- !private ["s7CVarArgP", "type"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isMain"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllAnimations"]
+- !private ["s28CustomDebugStringConvertibleP", "timingFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMain"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "removeAllAnimations"]
+- !private ["s23CustomStringConvertibleP", "timingFunction"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- ["7RxCocoa13DelegateProxyC", "Delegate"]
+- ["7RxCocoa13DelegateProxyC", "ParentObject"]
+- ["7RxCocoa13DelegateProxyC", "assignedProxyFor"]
+- ["7RxCocoa13DelegateProxyC", "currentDelegateFor"]
+- !private ["7RxCocoa13DelegateProxyC", "fatalError"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "isMain"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "isMain"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["7RxCocoa21DriverSharingStrategyV", "deinit"]
+- !private ["7RxCocoa21DriverSharingStrategyV", "scheduler"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "add"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "duration"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "image"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isMain"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "removeAllAnimations"]
+- !private ["s9EquatableP", "timingFunction"]
+- !private ["s9EquatableP", "type"]
+- ["7RxSwift5EventO", "completed"]
+- ["7RxSwift5EventO", "error"]
+- ["7RxSwift5EventO", "next"]
+- ["7RxSwift16EventConvertibleP", "completed"]
+- ["7RxSwift16EventConvertibleP", "error"]
+- ["7RxSwift16EventConvertibleP", "next"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7RxCocoa13HasDataSourceP", "fatalError"]
+- !private ["7RxCocoa11HasDelegateP", "fatalError"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "add"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "duration"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "image"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isMain"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "removeAllAnimations"]
+- !private ["s8HashableP", "timingFunction"]
+- !private ["s8HashableP", "type"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "ensureExecutingOnScheduler"]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["7RxSwift13MainSchedulerC", "ensureExecutingOnScheduler"]
+- ["s10MirrorPathP", "init"]
+- ["So18NSAttributedStringC", "RxTextStorageDelegateProxy"]
+- ["So18NSAttributedStringC", "createRxDelegateProxy"]
+- !private ["So18NSAttributedStringC", "fatalError"]
+- !private ["So8NSCodingP", "add"]
+- !private ["So8NSCodingP", "duration"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "removeAllAnimations"]
+- !private ["So8NSCodingP", "timingFunction"]
+- !private ["So8NSCodingP", "type"]
+- !private ["So9NSCopyingP", "duration"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "timingFunction"]
+- !private ["So9NSCopyingP", "type"]
+- !private ["So26NSExtensionRequestHandlingP", "fatalError"]
+- !private ["So21NSItemProviderReadingP", "fatalError"]
+- !private ["So21NSItemProviderWritingP", "fatalError"]
+- ["So25NSMutableAttributedStringC", "RxTextStorageDelegateProxy"]
+- ["So25NSMutableAttributedStringC", "createRxDelegateProxy"]
+- !private ["So25NSMutableAttributedStringC", "fatalError"]
+- !private ["So16NSMutableCopyingP", "fatalError"]
+- ["So8NSObjectC", "Delegate"]
+- ["So8NSObjectC", "ParentObject"]
+- ["So8NSObjectC", "RxCollectionViewDataSourceProxy"]
+- ["So8NSObjectC", "RxNavigationControllerDelegateProxy"]
+- ["So8NSObjectC", "RxPickerViewDataSourceProxy"]
+- ["So8NSObjectC", "RxPickerViewDelegateProxy"]
+- ["So8NSObjectC", "RxScrollViewDelegateProxy"]
+- ["So8NSObjectC", "RxSearchBarDelegateProxy"]
+- ["So8NSObjectC", "RxSearchControllerDelegateProxy"]
+- ["So8NSObjectC", "RxTabBarControllerDelegateProxy"]
+- ["So8NSObjectC", "RxTabBarDelegateProxy"]
+- ["So8NSObjectC", "RxTableViewDataSourceProxy"]
+- ["So8NSObjectC", "RxTextStorageDelegateProxy"]
+- ["So8NSObjectC", "RxWebViewDelegateProxy"]
+- !private ["So8NSObjectC", "add"]
+- ["So8NSObjectC", "assignedProxyFor"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "createRxDataSourceProxy"]
+- ["So8NSObjectC", "createRxDelegateProxy"]
+- ["So8NSObjectC", "currentDelegateFor"]
+- !private ["So8NSObjectC", "duration"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isMain"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "removeAllAnimations"]
+- !private ["So8NSObjectC", "timingFunction"]
+- !private ["So8NSObjectC", "type"]
+- !private ["So16NSObjectProtocolP", "add"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "duration"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isMain"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "removeAllAnimations"]
+- !private ["So16NSObjectProtocolP", "timingFunction"]
+- !private ["So16NSObjectProtocolP", "type"]
+- !private ["So14NSSecureCodingP", "add"]
+- !private ["So14NSSecureCodingP", "duration"]
+- !private ["So14NSSecureCodingP", "fatalError"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "removeAllAnimations"]
+- !private ["So14NSSecureCodingP", "timingFunction"]
+- !private ["So14NSSecureCodingP", "type"]
+- ["So13NSTextStorageC", "RxTextStorageDelegateProxy"]
+- ["So13NSTextStorageC", "createRxDelegateProxy"]
+- !private ["So13NSTextStorageC", "fatalError"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "isMain"]
+- !private ["So9OS_objectC", "main"]
+- !private ["7RxSwift10ObservableC", "bind"]
+- !private ["7RxSwift10ObservableC", "bindTo"]
+- !private ["7RxSwift10ObservableC", "observeOn"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Disposable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "DriverSharingStrategy"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "MainScheduler"]
+- ["7RxSwift25ObservableConvertibleTypeP", "ObserverType"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Self"]
+- ["7RxSwift25ObservableConvertibleTypeP", "SharingStrategy"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Variable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Void"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "bind"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "bindTo"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "drive"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "errorMessage"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "observeOn"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "rxFatalError"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- ["7RxSwift14ObservableTypeP", "Disposable"]
+- ["7RxSwift14ObservableTypeP", "E"]
+- ["7RxSwift14ObservableTypeP", "ObserverType"]
+- ["7RxSwift14ObservableTypeP", "Self"]
+- ["7RxSwift14ObservableTypeP", "Variable"]
+- ["7RxSwift14ObservableTypeP", "Void"]
+- ["7RxSwift14ObservableTypeP", "bind"]
+- ["7RxSwift14ObservableTypeP", "bindNext"]
+- ["7RxSwift14ObservableTypeP", "bindTo"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "observeOn"]
+- !private ["7RxSwift14ObservableTypeP", "rxFatalError"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift12ObserverTypeP", "AnyObserver"]
+- !private ["7RxSwift12ObserverTypeP", "DispatchQueue"]
+- ["7RxSwift12ObserverTypeP", "E"]
+- !private ["7RxSwift12ObserverTypeP", "UIElement"]
+- ["7RxSwift12ObserverTypeP", ""]
+- !private ["7RxSwift12ObserverTypeP", "binding"]
+- !private ["7RxSwift12ObserverTypeP", "bindingError"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- ["7RxSwift12ObserverTypeP", "on"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["7RxSwift8ReactiveV", "Binder"]
+- ["7RxSwift8ReactiveV", "Bool"]
+- !private ["7RxSwift8ReactiveV", "CAMediaTimingFunction"]
+- !private ["7RxSwift8ReactiveV", "CATransition"]
+- ["7RxSwift8ReactiveV", "String"]
+- ["7RxSwift8ReactiveV", "UIImage"]
+- ["7RxSwift8ReactiveV", "UIImageView"]
+- ["7RxSwift8ReactiveV", "UIRefreshControl"]
+- !private ["7RxSwift8ReactiveV", "base"]
+- ["7RxSwift8ReactiveV", "image"]
+- !private ["7RxSwift8ReactiveV", "isRefreshing"]
+- !private ["7RxSwift8ReactiveV", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["7RxSwift8ReactiveV", "kCATransition"]
+- ["7RxSwift8ReactiveV", "refreshing"]
+- !private ["7RxSwift18ReactiveCompatibleP", "add"]
+- !private ["7RxSwift18ReactiveCompatibleP", "async"]
+- !private ["7RxSwift18ReactiveCompatibleP", "duration"]
+- !private ["7RxSwift18ReactiveCompatibleP", "fatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "image"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isMain"]
+- !private ["7RxSwift18ReactiveCompatibleP", "layer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "main"]
+- !private ["7RxSwift18ReactiveCompatibleP", "removeAllAnimations"]
+- !private ["7RxSwift18ReactiveCompatibleP", "timingFunction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "type"]
+- !private ["7RxSwift13SchedulerTypeP", "ensureExecutingOnScheduler"]
+- ["s8SequenceP", "init"]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "ensureExecutingOnScheduler"]
+- !private ["7RxCocoa14SharedSequenceV", "init"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "Disposable"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "DriverSharingStrategy"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "E"]
+- !private ["7RxCocoa29SharedSequenceConvertibleTypeP", "MainScheduler"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "SharingStrategy"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "Variable"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "drive"]
+- !private ["7RxCocoa29SharedSequenceConvertibleTypeP", "errorMessage"]
+- !private ["7RxCocoa29SharedSequenceConvertibleTypeP", "init"]
+- !private ["7RxCocoa16SharingSchedulerO", "mock"]
+- !private ["7RxCocoa23SharingStrategyProtocolP", "scheduler"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So16UIBarPositioningP", "fatalError"]
+- ["7RxCocoa17UIBindingObserverC", "AnyObserver"]
+- !private ["7RxCocoa17UIBindingObserverC", "DispatchQueue"]
+- ["7RxCocoa17UIBindingObserverC", "E"]
+- ["7RxCocoa17UIBindingObserverC", "Event"]
+- ["7RxCocoa17UIBindingObserverC", "UIElement"]
+- ["7RxCocoa17UIBindingObserverC", "UIElementType"]
+- ["7RxCocoa17UIBindingObserverC", "Value"]
+- ["7RxCocoa17UIBindingObserverC", "Void"]
+- ["7RxCocoa17UIBindingObserverC", "asObserver"]
+- ["7RxCocoa17UIBindingObserverC", "binding"]
+- !private ["7RxCocoa17UIBindingObserverC", "bindingError"]
+- ["7RxCocoa17UIBindingObserverC", "deinit"]
+- ["7RxCocoa17UIBindingObserverC", "init"]
+- ["7RxCocoa17UIBindingObserverC", "on"]
+- ["So16UICollectionViewC", "RxCollectionViewDataSourceProxy"]
+- ["So16UICollectionViewC", "createRxDataSourceProxy"]
+- !private ["So16UICollectionViewC", "fatalError"]
+- !private ["So18UIContentContainerP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So23UIDataSourceTranslatingP", "fatalError"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So11UIImageViewC", "layer"]
+- ["So15UINavigationBarC", "RxNavigationControllerDelegateProxy"]
+- ["So15UINavigationBarC", "createRxDelegateProxy"]
+- !private ["So15UINavigationBarC", "fatalError"]
+- ["So22UINavigationControllerC", "RxNavigationControllerDelegateProxy"]
+- ["So22UINavigationControllerC", "createRxDelegateProxy"]
+- !private ["So22UINavigationControllerC", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So12UIPickerViewC", "RxPickerViewDataSourceProxy"]
+- ["So12UIPickerViewC", "RxPickerViewDelegateProxy"]
+- ["So12UIPickerViewC", "createRxDataSourceProxy"]
+- ["So12UIPickerViewC", "createRxDelegateProxy"]
+- !private ["So12UIPickerViewC", "fatalError"]
+- ["So11UIResponderC", "RxCollectionViewDataSourceProxy"]
+- ["So11UIResponderC", "RxNavigationControllerDelegateProxy"]
+- ["So11UIResponderC", "RxPickerViewDataSourceProxy"]
+- ["So11UIResponderC", "RxPickerViewDelegateProxy"]
+- ["So11UIResponderC", "RxScrollViewDelegateProxy"]
+- ["So11UIResponderC", "RxSearchBarDelegateProxy"]
+- ["So11UIResponderC", "RxSearchControllerDelegateProxy"]
+- ["So11UIResponderC", "RxTabBarControllerDelegateProxy"]
+- ["So11UIResponderC", "RxTabBarDelegateProxy"]
+- ["So11UIResponderC", "RxTableViewDataSourceProxy"]
+- ["So11UIResponderC", "RxWebViewDelegateProxy"]
+- ["So11UIResponderC", "createRxDataSourceProxy"]
+- ["So11UIResponderC", "createRxDelegateProxy"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "image"]
+- !private ["So11UIResponderC", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- ["So12UIScrollViewC", "RxCollectionViewDataSourceProxy"]
+- ["So12UIScrollViewC", "RxScrollViewDelegateProxy"]
+- ["So12UIScrollViewC", "RxTableViewDataSourceProxy"]
+- ["So12UIScrollViewC", "createRxDataSourceProxy"]
+- ["So12UIScrollViewC", "createRxDelegateProxy"]
+- !private ["So12UIScrollViewC", "fatalError"]
+- !private ["So20UIScrollViewDelegateP", "fatalError"]
+- ["So11UISearchBarC", "RxSearchBarDelegateProxy"]
+- ["So11UISearchBarC", "createRxDelegateProxy"]
+- !private ["So11UISearchBarC", "fatalError"]
+- ["So18UISearchControllerC", "RxSearchControllerDelegateProxy"]
+- ["So18UISearchControllerC", "createRxDelegateProxy"]
+- !private ["So18UISearchControllerC", "fatalError"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "fatalError"]
+- !private ["So16UIStateRestoringP", "fatalError"]
+- ["So8UITabBarC", "RxTabBarDelegateProxy"]
+- ["So8UITabBarC", "createRxDelegateProxy"]
+- !private ["So8UITabBarC", "fatalError"]
+- ["So18UITabBarControllerC", "RxTabBarControllerDelegateProxy"]
+- ["So18UITabBarControllerC", "createRxDelegateProxy"]
+- !private ["So18UITabBarControllerC", "fatalError"]
+- !private ["So16UITabBarDelegateP", "fatalError"]
+- ["So11UITableViewC", "RxTableViewDataSourceProxy"]
+- ["So11UITableViewC", "createRxDataSourceProxy"]
+- !private ["So11UITableViewC", "fatalError"]
+- !private ["So17UITextInputTraitsP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- ["So6UIViewC", "RxCollectionViewDataSourceProxy"]
+- ["So6UIViewC", "RxNavigationControllerDelegateProxy"]
+- ["So6UIViewC", "RxPickerViewDataSourceProxy"]
+- ["So6UIViewC", "RxPickerViewDelegateProxy"]
+- ["So6UIViewC", "RxScrollViewDelegateProxy"]
+- ["So6UIViewC", "RxSearchBarDelegateProxy"]
+- ["So6UIViewC", "RxTabBarDelegateProxy"]
+- ["So6UIViewC", "RxTableViewDataSourceProxy"]
+- ["So6UIViewC", "RxWebViewDelegateProxy"]
+- ["So6UIViewC", "createRxDataSourceProxy"]
+- ["So6UIViewC", "createRxDelegateProxy"]
+- !private ["So6UIViewC", "fatalError"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "layer"]
+- ["So16UIViewControllerC", "RxNavigationControllerDelegateProxy"]
+- ["So16UIViewControllerC", "RxSearchControllerDelegateProxy"]
+- ["So16UIViewControllerC", "RxTabBarControllerDelegateProxy"]
+- ["So16UIViewControllerC", "createRxDelegateProxy"]
+- !private ["So16UIViewControllerC", "fatalError"]
+- !private ["So37UIViewControllerAnimatedTransitioningP", "fatalError"]
+- !private ["So37UIViewControllerTransitioningDelegateP", "fatalError"]
+- ["So9UIWebViewC", "RxWebViewDelegateProxy"]
+- ["So9UIWebViewC", "createRxDelegateProxy"]
+- !private ["So9UIWebViewC", "fatalError"]
+- ["7RxSwift8VariableC", "Driver"]
+- !private ["7RxSwift8VariableC", "DriverSharingStrategy"]
+- ["7RxSwift8VariableC", "E"]
+- ["7RxSwift8VariableC", "SharedSequence"]
+- ["7RxSwift8VariableC", "SharingStrategyProtocol"]
+- ["7RxSwift8VariableC", "asDriver"]
+- !private ["7RxSwift8VariableC", "asObservable"]
+- ["7RxSwift8VariableC", "asSharedSequence"]
+- !private ["7RxSwift8VariableC", "value"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllAnimations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timingFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["So16_RXDelegateProxyC", "Delegate"]
+- ["So16_RXDelegateProxyC", "ParentObject"]
+- ["So16_RXDelegateProxyC", "assignedProxyFor"]
+- ["So16_RXDelegateProxyC", "currentDelegateFor"]
+- !private ["So16_RXDelegateProxyC", "fatalError"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "7RxSwift11AnyObserverV"
+- "s23BidirectionalCollectionP"
+- !private "7RxCocoa6BinderV"
+- !private "Sb"
+- !private "So8CAActionP"
+- !private "So11CAAnimationC"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So21CAMediaTimingFunctionC"
+- !private "So12CATransitionC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "7RxCocoa13DelegateProxyC"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "7RxCocoa21DriverSharingStrategyV"
+- "s9EncodableP"
+- "s9EquatableP"
+- "7RxSwift5EventO"
+- "7RxSwift16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7RxCocoa13HasDataSourceP"
+- !private "7RxCocoa11HasDelegateP"
+- "s8HashableP"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "7RxCocoa16KVORepresentableP"
+- "s25LosslessStringConvertibleP"
+- !private "7RxSwift13MainSchedulerC"
+- "s10MirrorPathP"
+- "So18NSAttributedStringC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So25NSMutableAttributedStringC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "So13NSTextStorageC"
+- !private "So9OS_objectC"
+- !private "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift12ObserverTypeP"
+- "s26RangeReplaceableCollectionP"
+- "7RxSwift8ReactiveV"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "7RxSwift13SchedulerTypeP"
+- "s8SequenceP"
+- !private "7RxSwift28SerialDispatchQueueSchedulerC"
+- !private "7RxCocoa14SharedSequenceV"
+- "7RxCocoa29SharedSequenceConvertibleTypeP"
+- !private "7RxCocoa16SharingSchedulerO"
+- !private "7RxCocoa23SharingStrategyProtocolP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UIBarPositioningP"
+- "7RxCocoa17UIBindingObserverC"
+- "So16UICollectionViewC"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So11UIImageViewC"
+- "So15UINavigationBarC"
+- "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So12UIPickerViewC"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- !private "So20UIScrollViewDelegateP"
+- "So11UISearchBarC"
+- "So18UISearchControllerC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- "So8UITabBarC"
+- "So18UITabBarControllerC"
+- !private "So16UITabBarDelegateP"
+- "So11UITableViewC"
+- !private "So17UITextInputTraitsP"
+- !private "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So37UIViewControllerAnimatedTransitioningP"
+- !private "So37UIViewControllerTransitioningDelegateP"
+- "So9UIWebViewC"
+- "7RxSwift8VariableC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "So16_RXDelegateProxyC"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b72c63042c437bbeb5b21b6d20570d15"

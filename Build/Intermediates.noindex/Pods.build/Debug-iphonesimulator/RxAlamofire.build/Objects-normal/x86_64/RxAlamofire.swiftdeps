@@ -1,0 +1,736 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxAlamofireUnknownError"
+- "urlRequest"
+- "request"
+- "request"
+- "requestData"
+- "requestData"
+- "data"
+- "requestString"
+- "requestString"
+- "string"
+- "requestJSON"
+- "requestJSON"
+- "json"
+- "upload"
+- "upload"
+- "upload"
+- "download"
+- "download"
+- "RxAlamofireRequest"
+- "RxAlamofireResponse"
+- "RxProgress"
+- "=="
+provides-nominal:
+- "9Alamofire14SessionManagerC"
+- "11RxAlamofire0aB7RequestP"
+- "11RxAlamofire0aB8ResponseP"
+- "9Alamofire19DefaultDataResponseV"
+- "9Alamofire23DefaultDownloadResponseV"
+- "9Alamofire11DataRequestC"
+- "9Alamofire15DownloadRequestC"
+- "9Alamofire7RequestC"
+- "11RxAlamofire0A8ProgressV"
+provides-member:
+- ["9Alamofire14SessionManagerC", ""]
+- ["11RxAlamofire0aB7RequestP", ""]
+- ["11RxAlamofire0aB8ResponseP", ""]
+- ["9Alamofire19DefaultDataResponseV", ""]
+- ["9Alamofire23DefaultDownloadResponseV", ""]
+- ["9Alamofire11DataRequestC", ""]
+- ["9Alamofire15DownloadRequestC", ""]
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["9Alamofire7RequestC", ""]
+- ["11RxAlamofire0A8ProgressV", ""]
+- ["7RxSwift8ReactiveV", "request"]
+- ["7RxSwift8ReactiveV", "request"]
+- ["7RxSwift8ReactiveV", "request"]
+- ["7RxSwift8ReactiveV", "responseData"]
+- ["7RxSwift8ReactiveV", "data"]
+- ["7RxSwift8ReactiveV", "responseString"]
+- ["7RxSwift8ReactiveV", "string"]
+- ["7RxSwift8ReactiveV", "responseJSON"]
+- ["7RxSwift8ReactiveV", "json"]
+- ["7RxSwift8ReactiveV", "upload"]
+- ["7RxSwift8ReactiveV", "upload"]
+- ["7RxSwift8ReactiveV", "upload"]
+- ["7RxSwift8ReactiveV", "download"]
+- ["7RxSwift8ReactiveV", "download"]
+- ["7RxSwift14ObservableTypeP", "responseJSON"]
+- ["7RxSwift14ObservableTypeP", "json"]
+- ["7RxSwift14ObservableTypeP", "responseString"]
+- ["7RxSwift14ObservableTypeP", "string"]
+- ["7RxSwift14ObservableTypeP", "responseData"]
+- ["7RxSwift14ObservableTypeP", "data"]
+- ["7RxSwift14ObservableTypeP", "responsePropertyList"]
+- ["7RxSwift14ObservableTypeP", "propertyList"]
+- ["7RxSwift14ObservableTypeP", "progress"]
+- ["7RxSwift14ObservableTypeP", "validate"]
+- ["7RxSwift14ObservableTypeP", "validate"]
+- ["7RxSwift14ObservableTypeP", "validate"]
+- ["7RxSwift14ObservableTypeP", "validate"]
+- ["7RxSwift8ReactiveV", "validateSuccessfulResponse"]
+- ["7RxSwift8ReactiveV", "responseResult"]
+- ["7RxSwift8ReactiveV", "responseJSON"]
+- ["7RxSwift8ReactiveV", "result"]
+- ["7RxSwift8ReactiveV", "responseData"]
+- ["7RxSwift8ReactiveV", "data"]
+- ["7RxSwift8ReactiveV", "responseString"]
+- ["7RxSwift8ReactiveV", "string"]
+- ["7RxSwift8ReactiveV", "responseJSON"]
+- ["7RxSwift8ReactiveV", "json"]
+- ["7RxSwift8ReactiveV", "responsePropertyList"]
+- ["7RxSwift8ReactiveV", "propertyList"]
+- ["7RxSwift8ReactiveV", "progress"]
+- ["11RxAlamofire0A8ProgressV", "bytesRemaining"]
+- ["11RxAlamofire0A8ProgressV", "completed"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "-"
+- !private "..<"
+- !private "/"
+- "=="
+- !private ">"
+- !private ">="
+- "Alamofire"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CastingPrecedence"
+- "Data"
+- "DataRequest"
+- "DataResponse"
+- "DataResponseSerializerProtocol"
+- "DefaultDataResponse"
+- "DefaultDownloadResponse"
+- "DispatchQueue"
+- !private "Disposable"
+- !private "Disposables"
+- "DownloadRequest"
+- "Equatable"
+- "Error"
+- "Float"
+- "Foundation"
+- "HTTPURLResponse"
+- "InputStream"
+- "Int"
+- "Int64"
+- "JSONSerialization"
+- "NSError"
+- "Observable"
+- "ObservableType"
+- "ParameterEncoding"
+- "PropertyListSerialization"
+- "Reactive"
+- "ReactiveCompatible"
+- "Request"
+- "RxAlamofireRequest"
+- "RxAlamofireResponse"
+- "RxAlamofireUnknownError"
+- "RxProgress"
+- "Sequence"
+- "SessionManager"
+- "String"
+- "StringLiteralType"
+- "URL"
+- "URLConvertible"
+- !private "URLEncoding"
+- "URLRequestConvertible"
+- "UploadRequest"
+- "Void"
+- "data"
+- "download"
+- "json"
+- "request"
+- "requestData"
+- "requestJSON"
+- "requestString"
+- "string"
+- "upload"
+- "urlRequest"
+depends-member:
+- !private ["7RxSwift11AnyObserverV", "on"]
+- ["s23BidirectionalCollectionP", "Encoding"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "Encoding"]
+- ["s7CVarArgP", "ReadOptions"]
+- ["s7CVarArgP", "ReadingOptions"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "completedUnitCount"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "totalUnitCount"]
+- ["s10CollectionP", "Encoding"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "Encoding"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "CompatibleType"]
+- ["s28CustomDebugStringConvertibleP", "DownloadFileDestination"]
+- ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "ProgressHandler"]
+- ["s28CustomDebugStringConvertibleP", "ReadOptions"]
+- ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
+- ["s28CustomDebugStringConvertibleP", "Validation"]
+- ["s28CustomDebugStringConvertibleP", "_Default_CompatibleType"]
+- ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "completedUnitCount"]
+- !private ["s28CustomDebugStringConvertibleP", "dataResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "propertyListResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- ["s28CustomDebugStringConvertibleP", "responseWith"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- ["s28CustomDebugStringConvertibleP", "resume"]
+- ["s28CustomDebugStringConvertibleP", "rx"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "stringResponseSerializer"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "totalUnitCount"]
+- !private ["s28CustomDebugStringConvertibleP", "uploadProgress"]
+- !private ["s28CustomDebugStringConvertibleP", "validate"]
+- ["s29CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "setValue"]
+- ["s23CustomStringConvertibleP", "CompatibleType"]
+- ["s23CustomStringConvertibleP", "DownloadFileDestination"]
+- ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "ProgressHandler"]
+- ["s23CustomStringConvertibleP", "ReadOptions"]
+- ["s23CustomStringConvertibleP", "ReadingOptions"]
+- ["s23CustomStringConvertibleP", "Validation"]
+- ["s23CustomStringConvertibleP", "_Default_CompatibleType"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "completedUnitCount"]
+- !private ["s23CustomStringConvertibleP", "dataResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "downloadProgress"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "propertyListResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- ["s23CustomStringConvertibleP", "responseWith"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- ["s23CustomStringConvertibleP", "resume"]
+- ["s23CustomStringConvertibleP", "rx"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "stringResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "totalUnitCount"]
+- !private ["s23CustomStringConvertibleP", "uploadProgress"]
+- !private ["s23CustomStringConvertibleP", "validate"]
+- ["9Alamofire11DataRequestC", "RxAlamofireResponse"]
+- ["9Alamofire11DataRequestC", "Validation"]
+- ["9Alamofire11DataRequestC", "Void"]
+- ["9Alamofire11DataRequestC", "cancel"]
+- !private ["9Alamofire11DataRequestC", "dataResponseSerializer"]
+- ["9Alamofire11DataRequestC", "deinit"]
+- !private ["9Alamofire11DataRequestC", "downloadProgress"]
+- !private ["9Alamofire11DataRequestC", "flatMap"]
+- !private ["9Alamofire11DataRequestC", "jsonResponseSerializer"]
+- !private ["9Alamofire11DataRequestC", "propertyListResponseSerializer"]
+- !private ["9Alamofire11DataRequestC", "response"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- ["9Alamofire11DataRequestC", "responseWith"]
+- ["9Alamofire11DataRequestC", "resume"]
+- !private ["9Alamofire11DataRequestC", "rx"]
+- !private ["9Alamofire11DataRequestC", "stringResponseSerializer"]
+- !private ["9Alamofire11DataRequestC", "uploadProgress"]
+- !private ["9Alamofire11DataRequestC", "validate"]
+- !private ["9Alamofire12DataResponseV", "response"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- ["s9DecodableP", "Encoding"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- ["9Alamofire19DefaultDataResponseV", "deinit"]
+- ["9Alamofire19DefaultDataResponseV", "error"]
+- ["9Alamofire23DefaultDownloadResponseV", "deinit"]
+- ["9Alamofire23DefaultDownloadResponseV", "error"]
+- !private ["7RxSwift11DisposablesV", "create"]
+- ["9Alamofire15DownloadRequestC", "DownloadFileDestination"]
+- ["9Alamofire15DownloadRequestC", "RxAlamofireResponse"]
+- ["9Alamofire15DownloadRequestC", "Void"]
+- ["9Alamofire15DownloadRequestC", "cancel"]
+- ["9Alamofire15DownloadRequestC", "deinit"]
+- !private ["9Alamofire15DownloadRequestC", "downloadProgress"]
+- !private ["9Alamofire15DownloadRequestC", "response"]
+- ["9Alamofire15DownloadRequestC", "responseWith"]
+- ["9Alamofire15DownloadRequestC", "resume"]
+- ["s9EncodableP", "Encoding"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "Encoding"]
+- !private ["s9EquatableP", "Float"]
+- ["s9EquatableP", "ReadOptions"]
+- ["s9EquatableP", "ReadingOptions"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "allowFragments"]
+- !private ["s9EquatableP", "bytesWritten"]
+- !private ["s9EquatableP", "completedUnitCount"]
+- !private ["s9EquatableP", "httpMethod"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "setValue"]
+- !private ["s9EquatableP", "totalBytes"]
+- !private ["s9EquatableP", "totalUnitCount"]
+- ["s5ErrorP", "init"]
+- !private ["7RxSwift5EventO", "completed"]
+- !private ["7RxSwift5EventO", "error"]
+- !private ["7RxSwift5EventO", "next"]
+- !private ["7RxSwift16EventConvertibleP", "completed"]
+- !private ["7RxSwift16EventConvertibleP", "error"]
+- !private ["7RxSwift16EventConvertibleP", "next"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "Encoding"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["9Alamofire10HTTPMethodO", "rawValue"]
+- ["s8HashableP", "Encoding"]
+- ["s8HashableP", "ReadOptions"]
+- ["s8HashableP", "ReadingOptions"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "completedUnitCount"]
+- !private ["s8HashableP", "httpMethod"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "setValue"]
+- !private ["s8HashableP", "totalUnitCount"]
+- ["So17JSONSerializationC", "ReadingOptions"]
+- ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "Encoding"]
+- ["s10MirrorPathP", "init"]
+- !private ["So25PropertyListSerializationC17MutabilityOptionsV", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So7NSErrorC", "init"]
+- ["So8NSObjectC", "ReadOptions"]
+- ["So8NSObjectC", "ReadingOptions"]
+- !private ["So8NSObjectC", "completedUnitCount"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "totalUnitCount"]
+- ["So16NSObjectProtocolP", "ReadOptions"]
+- ["So16NSObjectProtocolP", "ReadingOptions"]
+- !private ["So16NSObjectProtocolP", "completedUnitCount"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "totalUnitCount"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["s7NumericP", "init"]
+- !private ["7RxSwift10ObservableC", "create"]
+- !private ["7RxSwift10ObservableC", "flatMap"]
+- !private ["7RxSwift10ObservableC", "startWith"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Data"]
+- ["7RxSwift25ObservableConvertibleTypeP", "DataRequest"]
+- ["7RxSwift25ObservableConvertibleTypeP", "DataResponse"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- ["7RxSwift25ObservableConvertibleTypeP", "HTTPURLResponse"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Int"]
+- ["7RxSwift25ObservableConvertibleTypeP", "JSONSerialization"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "PropertyListSerialization"]
+- ["7RxSwift25ObservableConvertibleTypeP", "RxProgress"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Sequence"]
+- ["7RxSwift25ObservableConvertibleTypeP", "String"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "create"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "startWith"]
+- ["7RxSwift14ObservableTypeP", "Data"]
+- ["7RxSwift14ObservableTypeP", "DataRequest"]
+- ["7RxSwift14ObservableTypeP", "DataResponse"]
+- ["7RxSwift14ObservableTypeP", "E"]
+- ["7RxSwift14ObservableTypeP", "HTTPURLResponse"]
+- ["7RxSwift14ObservableTypeP", "Int"]
+- ["7RxSwift14ObservableTypeP", "JSONSerialization"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- ["7RxSwift14ObservableTypeP", "PropertyListSerialization"]
+- ["7RxSwift14ObservableTypeP", "RxProgress"]
+- ["7RxSwift14ObservableTypeP", "Sequence"]
+- ["7RxSwift14ObservableTypeP", "String"]
+- !private ["7RxSwift14ObservableTypeP", "create"]
+- ["7RxSwift14ObservableTypeP", "data"]
+- !private ["7RxSwift14ObservableTypeP", "flatMap"]
+- ["7RxSwift14ObservableTypeP", "json"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "progress"]
+- ["7RxSwift14ObservableTypeP", "propertyList"]
+- ["7RxSwift14ObservableTypeP", "responseData"]
+- ["7RxSwift14ObservableTypeP", "responseJSON"]
+- ["7RxSwift14ObservableTypeP", "responsePropertyList"]
+- ["7RxSwift14ObservableTypeP", "responseString"]
+- !private ["7RxSwift14ObservableTypeP", "startWith"]
+- ["7RxSwift14ObservableTypeP", "string"]
+- ["7RxSwift14ObservableTypeP", "validate"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- !private ["s9OptionSetP", "allowFragments"]
+- !private ["s9OptionSetP", "init"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["9Alamofire17ParameterEncodingP", "encode"]
+- !private ["So8ProgressC", "completedUnitCount"]
+- !private ["So8ProgressC", "totalUnitCount"]
+- ["So25PropertyListSerializationC", "ReadOptions"]
+- ["s26RangeReplaceableCollectionP", "Encoding"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "allowFragments"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- ["7RxSwift8ReactiveV", "Alamofire"]
+- !private ["7RxSwift8ReactiveV", "Base"]
+- ["7RxSwift8ReactiveV", "Data"]
+- ["7RxSwift8ReactiveV", "DataRequest"]
+- ["7RxSwift8ReactiveV", "DataResponse"]
+- ["7RxSwift8ReactiveV", "DataResponseSerializerProtocol"]
+- ["7RxSwift8ReactiveV", "DispatchQueue"]
+- !private ["7RxSwift8ReactiveV", "Disposable"]
+- !private ["7RxSwift8ReactiveV", "Disposables"]
+- ["7RxSwift8ReactiveV", "DownloadRequest"]
+- !private ["7RxSwift8ReactiveV", "Error"]
+- ["7RxSwift8ReactiveV", "HTTPURLResponse"]
+- ["7RxSwift8ReactiveV", "InputStream"]
+- ["7RxSwift8ReactiveV", "JSONSerialization"]
+- ["7RxSwift8ReactiveV", "Observable"]
+- ["7RxSwift8ReactiveV", "ParameterEncoding"]
+- ["7RxSwift8ReactiveV", "PropertyListSerialization"]
+- ["7RxSwift8ReactiveV", "Request"]
+- ["7RxSwift8ReactiveV", "RxAlamofireRequest"]
+- !private ["7RxSwift8ReactiveV", "RxAlamofireUnknownError"]
+- ["7RxSwift8ReactiveV", "RxProgress"]
+- ["7RxSwift8ReactiveV", "SessionManager"]
+- ["7RxSwift8ReactiveV", "String"]
+- ["7RxSwift8ReactiveV", "URL"]
+- ["7RxSwift8ReactiveV", "URLConvertible"]
+- !private ["7RxSwift8ReactiveV", "URLEncoding"]
+- ["7RxSwift8ReactiveV", "URLRequestConvertible"]
+- ["7RxSwift8ReactiveV", "UploadRequest"]
+- !private ["7RxSwift8ReactiveV", "Void"]
+- !private ["7RxSwift8ReactiveV", "base"]
+- ["7RxSwift8ReactiveV", "data"]
+- ["7RxSwift8ReactiveV", "download"]
+- ["7RxSwift8ReactiveV", "json"]
+- ["7RxSwift8ReactiveV", "progress"]
+- ["7RxSwift8ReactiveV", "propertyList"]
+- ["7RxSwift8ReactiveV", "request"]
+- ["7RxSwift8ReactiveV", "responseData"]
+- ["7RxSwift8ReactiveV", "responseJSON"]
+- ["7RxSwift8ReactiveV", "responsePropertyList"]
+- ["7RxSwift8ReactiveV", "responseResult"]
+- ["7RxSwift8ReactiveV", "responseString"]
+- ["7RxSwift8ReactiveV", "result"]
+- ["7RxSwift8ReactiveV", "string"]
+- ["7RxSwift8ReactiveV", "upload"]
+- ["7RxSwift8ReactiveV", "validateSuccessfulResponse"]
+- ["7RxSwift18ReactiveCompatibleP", "CompatibleType"]
+- ["7RxSwift18ReactiveCompatibleP", "DownloadFileDestination"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ProgressHandler"]
+- ["7RxSwift18ReactiveCompatibleP", "ReadOptions"]
+- ["7RxSwift18ReactiveCompatibleP", "ReadingOptions"]
+- ["7RxSwift18ReactiveCompatibleP", "Validation"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "_Default_CompatibleType"]
+- ["7RxSwift18ReactiveCompatibleP", "cancel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "completedUnitCount"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dataResponseSerializer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "default"]
+- !private ["7RxSwift18ReactiveCompatibleP", "download"]
+- !private ["7RxSwift18ReactiveCompatibleP", "downloadProgress"]
+- !private ["7RxSwift18ReactiveCompatibleP", "flatMap"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "jsonResponseSerializer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "propertyListResponseSerializer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "request"]
+- !private ["7RxSwift18ReactiveCompatibleP", "response"]
+- !private ["7RxSwift18ReactiveCompatibleP", "responseJSON"]
+- ["7RxSwift18ReactiveCompatibleP", "responseWith"]
+- ["7RxSwift18ReactiveCompatibleP", "resume"]
+- ["7RxSwift18ReactiveCompatibleP", "rx"]
+- !private ["7RxSwift18ReactiveCompatibleP", "startRequestsImmediately"]
+- !private ["7RxSwift18ReactiveCompatibleP", "stringResponseSerializer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "totalUnitCount"]
+- !private ["7RxSwift18ReactiveCompatibleP", "upload"]
+- !private ["7RxSwift18ReactiveCompatibleP", "uploadProgress"]
+- !private ["7RxSwift18ReactiveCompatibleP", "validate"]
+- !private ["So17JSONSerializationC14ReadingOptionsV", "allowFragments"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "setValue"]
+- ["9Alamofire7RequestC", "CompatibleType"]
+- ["9Alamofire7RequestC", "DownloadFileDestination"]
+- !private ["9Alamofire7RequestC", "ProgressHandler"]
+- ["9Alamofire7RequestC", "RxAlamofireResponse"]
+- ["9Alamofire7RequestC", "Validation"]
+- ["9Alamofire7RequestC", "Void"]
+- ["9Alamofire7RequestC", "_Default_CompatibleType"]
+- ["9Alamofire7RequestC", "cancel"]
+- !private ["9Alamofire7RequestC", "dataResponseSerializer"]
+- ["9Alamofire7RequestC", "deinit"]
+- !private ["9Alamofire7RequestC", "downloadProgress"]
+- !private ["9Alamofire7RequestC", "flatMap"]
+- !private ["9Alamofire7RequestC", "jsonResponseSerializer"]
+- !private ["9Alamofire7RequestC", "propertyListResponseSerializer"]
+- !private ["9Alamofire7RequestC", "response"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- ["9Alamofire7RequestC", "responseWith"]
+- ["9Alamofire7RequestC", "resume"]
+- ["9Alamofire7RequestC", "rx"]
+- !private ["9Alamofire7RequestC", "stringResponseSerializer"]
+- !private ["9Alamofire7RequestC", "uploadProgress"]
+- !private ["9Alamofire7RequestC", "validate"]
+- ["9Alamofire8ResponseP", "error"]
+- !private ["9Alamofire8ResponseP", "response"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "error"]
+- !private ["9Alamofire6ResultO", "failure"]
+- !private ["9Alamofire6ResultO", "success"]
+- ["11RxAlamofire0aB7RequestP", "DownloadFileDestination"]
+- ["11RxAlamofire0aB7RequestP", "RxAlamofireResponse"]
+- ["11RxAlamofire0aB7RequestP", "Validation"]
+- ["11RxAlamofire0aB7RequestP", "Void"]
+- ["11RxAlamofire0aB7RequestP", ""]
+- ["11RxAlamofire0aB7RequestP", "cancel"]
+- !private ["11RxAlamofire0aB7RequestP", "dataResponseSerializer"]
+- !private ["11RxAlamofire0aB7RequestP", "downloadProgress"]
+- !private ["11RxAlamofire0aB7RequestP", "flatMap"]
+- !private ["11RxAlamofire0aB7RequestP", "jsonResponseSerializer"]
+- !private ["11RxAlamofire0aB7RequestP", "propertyListResponseSerializer"]
+- !private ["11RxAlamofire0aB7RequestP", "response"]
+- !private ["11RxAlamofire0aB7RequestP", "responseJSON"]
+- ["11RxAlamofire0aB7RequestP", "responseWith"]
+- ["11RxAlamofire0aB7RequestP", "resume"]
+- !private ["11RxAlamofire0aB7RequestP", "rx"]
+- !private ["11RxAlamofire0aB7RequestP", "stringResponseSerializer"]
+- !private ["11RxAlamofire0aB7RequestP", "uploadProgress"]
+- !private ["11RxAlamofire0aB7RequestP", "validate"]
+- ["11RxAlamofire0aB8ResponseP", "Error"]
+- ["11RxAlamofire0aB8ResponseP", ""]
+- ["11RxAlamofire0aB8ResponseP", "error"]
+- ["11RxAlamofire0A8ProgressV", "Float"]
+- ["11RxAlamofire0A8ProgressV", "Int64"]
+- ["11RxAlamofire0A8ProgressV", "bytesRemaining"]
+- ["11RxAlamofire0A8ProgressV", "bytesWritten"]
+- ["11RxAlamofire0A8ProgressV", "completed"]
+- ["11RxAlamofire0A8ProgressV", "deinit"]
+- ["11RxAlamofire0A8ProgressV", "init"]
+- ["11RxAlamofire0A8ProgressV", "totalBytes"]
+- ["s8SequenceP", "Encoding"]
+- ["s8SequenceP", "init"]
+- ["9Alamofire14SessionManagerC", "CompatibleType"]
+- ["9Alamofire14SessionManagerC", "_Default_CompatibleType"]
+- !private ["9Alamofire14SessionManagerC", "default"]
+- ["9Alamofire14SessionManagerC", "deinit"]
+- !private ["9Alamofire14SessionManagerC", "download"]
+- !private ["9Alamofire14SessionManagerC", "request"]
+- ["9Alamofire14SessionManagerC", "rx"]
+- !private ["9Alamofire14SessionManagerC", "startRequestsImmediately"]
+- !private ["9Alamofire14SessionManagerC", "upload"]
+- !private ["s10SetAlgebraP", "allowFragments"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "Encoding"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "Encoding"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "Encoding"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "Encoding"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "Encoding"]
+- !private ["9Alamofire14URLConvertibleP", "asURL"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire11URLEncodingV", "default"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "setValue"]
+- !private ["9Alamofire21URLRequestConvertibleP", "httpMethod"]
+- !private ["9Alamofire21URLRequestConvertibleP", "init"]
+- !private ["9Alamofire21URLRequestConvertibleP", "setValue"]
+- !private ["9Alamofire13UploadRequestC", "uploadProgress"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Encoding"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "Encoding"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ReadOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completedUnitCount"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalUnitCount"]
+- ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "setValue"]
+- ["s16_SwiftStringViewP", "Encoding"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "7RxSwift11AnyObserverV"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- "s9DecodableP"
+- "9Alamofire19DefaultDataResponseV"
+- "9Alamofire23DefaultDownloadResponseV"
+- !private "7RxSwift11DisposablesV"
+- "9Alamofire15DownloadRequestC"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- !private "9Alamofire10HTTPMethodO"
+- "s8HashableP"
+- "So17JSONSerializationC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So25PropertyListSerializationC17MutabilityOptionsV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So7NSErrorC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "s9OptionSetP"
+- !private "9Alamofire17ParameterEncodingP"
+- !private "So8ProgressC"
+- "So25PropertyListSerializationC"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "So17JSONSerializationC14ReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "9Alamofire7RequestC"
+- "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- "11RxAlamofire0aB7RequestP"
+- "11RxAlamofire0aB8ResponseP"
+- "11RxAlamofire0A8ProgressV"
+- "s8SequenceP"
+- "9Alamofire14SessionManagerC"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- !private "9Alamofire11URLEncodingV"
+- !private "10Foundation10URLRequestV"
+- !private "9Alamofire21URLRequestConvertibleP"
+- !private "9Alamofire13UploadRequestC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxAlamofire/RxAlamofire-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxAlamofire.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "76e57b95b2086515957bebea8340a7d2"

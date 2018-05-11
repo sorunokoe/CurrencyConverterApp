@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxTableViewDelegateProxy"
+provides-nominal:
+- "7RxCocoa0A22TableViewDelegateProxyC"
+provides-member:
+- ["7RxCocoa0A22TableViewDelegateProxyC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "RxScrollViewDelegateProxy"
+- "RxTableViewDelegateProxy"
+- !private "StringLiteralType"
+- "UITableView"
+- "UITableViewDelegate"
+depends-member:
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "indexPathForPreferredFocusedView"]
+- ["s7CVarArgP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "tableView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedView"]
+- ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedView"]
+- ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "tableView"]
+- ["7RxCocoa13DelegateProxyC", "UITableView"]
+- ["7RxCocoa13DelegateProxyC", "indexPathForPreferredFocusedView"]
+- ["7RxCocoa13DelegateProxyC", "indexPathForPreferredFocusedViewInTableView"]
+- ["7RxCocoa13DelegateProxyC", "tableView"]
+- ["7RxCocoa17DelegateProxyTypeP", ""]
+- ["7RxCocoa17DelegateProxyTypeP", "indexPathForPreferredFocusedView"]
+- ["7RxCocoa17DelegateProxyTypeP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "init"]
+- ["7RxCocoa17DelegateProxyTypeP", "tableView"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "indexPathForPreferredFocusedView"]
+- ["s9EquatableP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "tableView"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "indexPathForPreferredFocusedView"]
+- ["s8HashableP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "tableView"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "indexPathForPreferredFocusedView"]
+- ["So8NSObjectC", "indexPathForPreferredFocusedViewInTableView"]
+- ["So8NSObjectC", "tableView"]
+- ["So16NSObjectProtocolP", ""]
+- ["So16NSObjectProtocolP", "indexPathForPreferredFocusedView"]
+- ["So16NSObjectProtocolP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "tableView"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "indexPathForPreferredFocusedView"]
+- ["7RxSwift18ReactiveCompatibleP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "tableView"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "UITableView"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", ""]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "indexPathForPreferredFocusedView"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "indexPathForPreferredFocusedViewInTableView"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "init"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "tableView"]
+- ["7RxCocoa0A22TableViewDelegateProxyC", "UITableView"]
+- ["7RxCocoa0A22TableViewDelegateProxyC", "deinit"]
+- ["7RxCocoa0A22TableViewDelegateProxyC", "indexPathForPreferredFocusedView"]
+- ["7RxCocoa0A22TableViewDelegateProxyC", "indexPathForPreferredFocusedViewInTableView"]
+- ["7RxCocoa0A22TableViewDelegateProxyC", "init"]
+- ["7RxCocoa0A22TableViewDelegateProxyC", "tableView"]
+- !private ["s12StaticStringV", "init"]
+- ["So20UIScrollViewDelegateP", ""]
+- ["So20UIScrollViewDelegateP", "indexPathForPreferredFocusedView"]
+- ["So20UIScrollViewDelegateP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- ["So20UIScrollViewDelegateP", "tableView"]
+- ["So19UITableViewDelegateP", ""]
+- ["So19UITableViewDelegateP", "indexPathForPreferredFocusedView"]
+- ["So19UITableViewDelegateP", "indexPathForPreferredFocusedViewInTableView"]
+- ["So19UITableViewDelegateP", "tableView"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedViewInTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- ["So16_RXDelegateProxyC", "UITableView"]
+- ["So16_RXDelegateProxyC", "indexPathForPreferredFocusedView"]
+- ["So16_RXDelegateProxyC", "indexPathForPreferredFocusedViewInTableView"]
+- ["So16_RXDelegateProxyC", "tableView"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "7RxCocoa13DelegateProxyC"
+- "7RxCocoa17DelegateProxyTypeP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0A23ScrollViewDelegateProxyC"
+- "7RxCocoa0A22TableViewDelegateProxyC"
+- !private "s12StaticStringV"
+- "So20UIScrollViewDelegateP"
+- "So19UITableViewDelegateP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "So16_RXDelegateProxyC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "6697d77be6b0e64ddbeb4a2ccf17bcff"

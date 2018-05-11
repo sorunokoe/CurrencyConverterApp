@@ -1,0 +1,340 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewProxy"
+provides-nominal:
+- "11Cartography9ViewProxyC"
+provides-member:
+- ["11Cartography9ViewProxyC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "AutoresizingMaskLayoutProxy"
+- "Bool"
+- "Context"
+- "LayoutGuideProxy"
+- "SupportsBaselineLayoutProxy"
+- "SupportsPositioningLayoutProxy"
+- "View"
+- "ViewProxy"
+depends-member:
+- ["11Cartography27AutoresizingMaskLayoutProxyP", ""]
+- ["11Cartography27AutoresizingMaskLayoutProxyP", "context"]
+- ["11Cartography27AutoresizingMaskLayoutProxyP", "item"]
+- ["11Cartography27AutoresizingMaskLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography27AutoresizingMaskLayoutProxyP", "view"]
+- !private ["So15CALayerDelegateP", "asProxy"]
+- !private ["So15CALayerDelegateP", "layoutMarginsGuide"]
+- !private ["So15CALayerDelegateP", "readableContentGuide"]
+- !private ["So15CALayerDelegateP", "safeAreaLayoutGuide"]
+- !private ["So15CALayerDelegateP", "superview"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "asProxy"]
+- !private ["s7CVarArgP", "layoutMarginsGuide"]
+- !private ["s7CVarArgP", "readableContentGuide"]
+- !private ["s7CVarArgP", "safeAreaLayoutGuide"]
+- !private ["s7CVarArgP", "superview"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "asProxy"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutMarginsGuide"]
+- !private ["s28CustomDebugStringConvertibleP", "readableContentGuide"]
+- !private ["s28CustomDebugStringConvertibleP", "safeAreaLayoutGuide"]
+- !private ["s28CustomDebugStringConvertibleP", "superview"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "asProxy"]
+- !private ["s23CustomStringConvertibleP", "layoutMarginsGuide"]
+- !private ["s23CustomStringConvertibleP", "readableContentGuide"]
+- !private ["s23CustomStringConvertibleP", "safeAreaLayoutGuide"]
+- !private ["s23CustomStringConvertibleP", "superview"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s9EquatableP", "asProxy"]
+- !private ["s9EquatableP", "layoutMarginsGuide"]
+- !private ["s9EquatableP", "readableContentGuide"]
+- !private ["s9EquatableP", "safeAreaLayoutGuide"]
+- !private ["s9EquatableP", "superview"]
+- !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s8HashableP", "asProxy"]
+- !private ["s8HashableP", "layoutMarginsGuide"]
+- !private ["s8HashableP", "readableContentGuide"]
+- !private ["s8HashableP", "safeAreaLayoutGuide"]
+- !private ["s8HashableP", "superview"]
+- !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography10LayoutItemP", "asProxy"]
+- !private ["11Cartography10LayoutItemP", "layoutMarginsGuide"]
+- !private ["11Cartography10LayoutItemP", "readableContentGuide"]
+- !private ["11Cartography10LayoutItemP", "safeAreaLayoutGuide"]
+- !private ["11Cartography10LayoutItemP", "superview"]
+- !private ["11Cartography10LayoutItemP", "translatesAutoresizingMaskIntoConstraints"]
+- ["11Cartography11LayoutProxyP", ""]
+- ["11Cartography11LayoutProxyP", "context"]
+- ["11Cartography11LayoutProxyP", "item"]
+- ["11Cartography11LayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography11LayoutProxyP", "view"]
+- !private ["So8NSCodingP", "asProxy"]
+- !private ["So8NSCodingP", "layoutMarginsGuide"]
+- !private ["So8NSCodingP", "readableContentGuide"]
+- !private ["So8NSCodingP", "safeAreaLayoutGuide"]
+- !private ["So8NSCodingP", "superview"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "asProxy"]
+- !private ["So8NSObjectC", "layoutMarginsGuide"]
+- !private ["So8NSObjectC", "readableContentGuide"]
+- !private ["So8NSObjectC", "safeAreaLayoutGuide"]
+- !private ["So8NSObjectC", "superview"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16NSObjectProtocolP", "asProxy"]
+- !private ["So16NSObjectProtocolP", "layoutMarginsGuide"]
+- !private ["So16NSObjectProtocolP", "readableContentGuide"]
+- !private ["So16NSObjectProtocolP", "safeAreaLayoutGuide"]
+- !private ["So16NSObjectProtocolP", "superview"]
+- !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", ""]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "context"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "item"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography27SupportsBaselineLayoutProxyP", "view"]
+- ["11Cartography25SupportsBottomLayoutProxyP", ""]
+- ["11Cartography25SupportsBottomLayoutProxyP", "context"]
+- ["11Cartography25SupportsBottomLayoutProxyP", "item"]
+- ["11Cartography25SupportsBottomLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "view"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", ""]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "context"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "item"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography26SupportsCenterXLayoutProxyP", "view"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", ""]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "context"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "item"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography26SupportsCenterYLayoutProxyP", "view"]
+- ["11Cartography28SupportsCenteringLayoutProxyP", ""]
+- ["11Cartography28SupportsCenteringLayoutProxyP", "context"]
+- ["11Cartography28SupportsCenteringLayoutProxyP", "item"]
+- ["11Cartography28SupportsCenteringLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography28SupportsCenteringLayoutProxyP", "view"]
+- ["11Cartography24SupportsEdgesLayoutProxyP", ""]
+- ["11Cartography24SupportsEdgesLayoutProxyP", "context"]
+- ["11Cartography24SupportsEdgesLayoutProxyP", "item"]
+- ["11Cartography24SupportsEdgesLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography24SupportsEdgesLayoutProxyP", "view"]
+- ["11Cartography25SupportsHeightLayoutProxyP", ""]
+- ["11Cartography25SupportsHeightLayoutProxyP", "context"]
+- ["11Cartography25SupportsHeightLayoutProxyP", "item"]
+- ["11Cartography25SupportsHeightLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography25SupportsHeightLayoutProxyP", "view"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", ""]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "context"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "item"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "view"]
+- ["11Cartography23SupportsLeftLayoutProxyP", ""]
+- ["11Cartography23SupportsLeftLayoutProxyP", "context"]
+- ["11Cartography23SupportsLeftLayoutProxyP", "item"]
+- ["11Cartography23SupportsLeftLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "view"]
+- ["11Cartography30SupportsPositioningLayoutProxyP", ""]
+- ["11Cartography30SupportsPositioningLayoutProxyP", "context"]
+- ["11Cartography30SupportsPositioningLayoutProxyP", "item"]
+- ["11Cartography30SupportsPositioningLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography30SupportsPositioningLayoutProxyP", "view"]
+- ["11Cartography24SupportsRightLayoutProxyP", ""]
+- ["11Cartography24SupportsRightLayoutProxyP", "context"]
+- ["11Cartography24SupportsRightLayoutProxyP", "item"]
+- ["11Cartography24SupportsRightLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "view"]
+- ["11Cartography23SupportsSizeLayoutProxyP", ""]
+- ["11Cartography23SupportsSizeLayoutProxyP", "context"]
+- ["11Cartography23SupportsSizeLayoutProxyP", "item"]
+- ["11Cartography23SupportsSizeLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography23SupportsSizeLayoutProxyP", "view"]
+- ["11Cartography22SupportsTopLayoutProxyP", ""]
+- ["11Cartography22SupportsTopLayoutProxyP", "context"]
+- ["11Cartography22SupportsTopLayoutProxyP", "item"]
+- ["11Cartography22SupportsTopLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "view"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", ""]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "context"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "item"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "view"]
+- ["11Cartography24SupportsWidthLayoutProxyP", ""]
+- ["11Cartography24SupportsWidthLayoutProxyP", "context"]
+- ["11Cartography24SupportsWidthLayoutProxyP", "item"]
+- ["11Cartography24SupportsWidthLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography24SupportsWidthLayoutProxyP", "view"]
+- !private ["So29UIAccessibilityIdentificationP", "asProxy"]
+- !private ["So29UIAccessibilityIdentificationP", "layoutMarginsGuide"]
+- !private ["So29UIAccessibilityIdentificationP", "readableContentGuide"]
+- !private ["So29UIAccessibilityIdentificationP", "safeAreaLayoutGuide"]
+- !private ["So29UIAccessibilityIdentificationP", "superview"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So12UIAppearanceP", "asProxy"]
+- !private ["So12UIAppearanceP", "layoutMarginsGuide"]
+- !private ["So12UIAppearanceP", "readableContentGuide"]
+- !private ["So12UIAppearanceP", "safeAreaLayoutGuide"]
+- !private ["So12UIAppearanceP", "superview"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "asProxy"]
+- !private ["So21UIAppearanceContainerP", "layoutMarginsGuide"]
+- !private ["So21UIAppearanceContainerP", "readableContentGuide"]
+- !private ["So21UIAppearanceContainerP", "safeAreaLayoutGuide"]
+- !private ["So21UIAppearanceContainerP", "superview"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So17UICoordinateSpaceP", "asProxy"]
+- !private ["So17UICoordinateSpaceP", "layoutMarginsGuide"]
+- !private ["So17UICoordinateSpaceP", "readableContentGuide"]
+- !private ["So17UICoordinateSpaceP", "safeAreaLayoutGuide"]
+- !private ["So17UICoordinateSpaceP", "superview"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIDynamicItemP", "asProxy"]
+- !private ["So13UIDynamicItemP", "layoutMarginsGuide"]
+- !private ["So13UIDynamicItemP", "readableContentGuide"]
+- !private ["So13UIDynamicItemP", "safeAreaLayoutGuide"]
+- !private ["So13UIDynamicItemP", "superview"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "asProxy"]
+- !private ["So18UIFocusEnvironmentP", "layoutMarginsGuide"]
+- !private ["So18UIFocusEnvironmentP", "readableContentGuide"]
+- !private ["So18UIFocusEnvironmentP", "safeAreaLayoutGuide"]
+- !private ["So18UIFocusEnvironmentP", "superview"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIFocusItemP", "asProxy"]
+- !private ["So11UIFocusItemP", "layoutMarginsGuide"]
+- !private ["So11UIFocusItemP", "readableContentGuide"]
+- !private ["So11UIFocusItemP", "safeAreaLayoutGuide"]
+- !private ["So11UIFocusItemP", "superview"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UILayoutGuideC", "asProxy"]
+- !private ["So13UILayoutGuideC", "deinit"]
+- !private ["So30UIPasteConfigurationSupportingP", "asProxy"]
+- !private ["So30UIPasteConfigurationSupportingP", "layoutMarginsGuide"]
+- !private ["So30UIPasteConfigurationSupportingP", "readableContentGuide"]
+- !private ["So30UIPasteConfigurationSupportingP", "safeAreaLayoutGuide"]
+- !private ["So30UIPasteConfigurationSupportingP", "superview"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIResponderC", "asProxy"]
+- !private ["So11UIResponderC", "layoutMarginsGuide"]
+- !private ["So11UIResponderC", "readableContentGuide"]
+- !private ["So11UIResponderC", "safeAreaLayoutGuide"]
+- !private ["So11UIResponderC", "superview"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "asProxy"]
+- !private ["So30UIResponderStandardEditActionsP", "layoutMarginsGuide"]
+- !private ["So30UIResponderStandardEditActionsP", "readableContentGuide"]
+- !private ["So30UIResponderStandardEditActionsP", "safeAreaLayoutGuide"]
+- !private ["So30UIResponderStandardEditActionsP", "superview"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "asProxy"]
+- !private ["So18UITraitEnvironmentP", "layoutMarginsGuide"]
+- !private ["So18UITraitEnvironmentP", "readableContentGuide"]
+- !private ["So18UITraitEnvironmentP", "safeAreaLayoutGuide"]
+- !private ["So18UITraitEnvironmentP", "superview"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6UIViewC", "asProxy"]
+- !private ["So6UIViewC", "deinit"]
+- !private ["So6UIViewC", "layoutMarginsGuide"]
+- !private ["So6UIViewC", "readableContentGuide"]
+- !private ["So6UIViewC", "safeAreaLayoutGuide"]
+- !private ["So6UIViewC", "superview"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- ["11Cartography9ViewProxyC", "AnyObject"]
+- ["11Cartography9ViewProxyC", "Bool"]
+- ["11Cartography9ViewProxyC", "Context"]
+- ["11Cartography9ViewProxyC", "LayoutGuideProxy"]
+- ["11Cartography9ViewProxyC", "View"]
+- ["11Cartography9ViewProxyC", "ViewProxy"]
+- ["11Cartography9ViewProxyC", "context"]
+- ["11Cartography9ViewProxyC", "deinit"]
+- ["11Cartography9ViewProxyC", "init"]
+- ["11Cartography9ViewProxyC", "item"]
+- ["11Cartography9ViewProxyC", "layoutMarginsGuide"]
+- ["11Cartography9ViewProxyC", "readableContentGuide"]
+- ["11Cartography9ViewProxyC", "safeAreaLayoutGuide"]
+- ["11Cartography9ViewProxyC", "superview"]
+- ["11Cartography9ViewProxyC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["11Cartography9ViewProxyC", "view"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "asProxy"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutMarginsGuide"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "readableContentGuide"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "safeAreaLayoutGuide"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "superview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asProxy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutMarginsGuide"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "readableContentGuide"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "safeAreaLayoutGuide"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "superview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+depends-nominal:
+- "11Cartography27AutoresizingMaskLayoutProxyP"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "11Cartography10LayoutItemP"
+- "11Cartography11LayoutProxyP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "11Cartography27SupportsBaselineLayoutProxyP"
+- "11Cartography25SupportsBottomLayoutProxyP"
+- "11Cartography26SupportsCenterXLayoutProxyP"
+- "11Cartography26SupportsCenterYLayoutProxyP"
+- "11Cartography28SupportsCenteringLayoutProxyP"
+- "11Cartography24SupportsEdgesLayoutProxyP"
+- "11Cartography25SupportsHeightLayoutProxyP"
+- "11Cartography26SupportsLeadingLayoutProxyP"
+- "11Cartography23SupportsLeftLayoutProxyP"
+- "11Cartography30SupportsPositioningLayoutProxyP"
+- "11Cartography24SupportsRightLayoutProxyP"
+- "11Cartography23SupportsSizeLayoutProxyP"
+- "11Cartography22SupportsTopLayoutProxyP"
+- "11Cartography27SupportsTrailingLayoutProxyP"
+- "11Cartography24SupportsWidthLayoutProxyP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So13UILayoutGuideC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "11Cartography9ViewProxyC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Cartography/Cartography-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Cartography.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "204463d8b8da97e907e180651262ab96"

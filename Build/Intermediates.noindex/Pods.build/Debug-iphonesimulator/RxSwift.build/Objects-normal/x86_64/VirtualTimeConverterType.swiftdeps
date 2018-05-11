@@ -1,0 +1,86 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VirtualTimeConverterType"
+- "VirtualTimeComparison"
+provides-nominal:
+- "7RxSwift24VirtualTimeConverterTypeP"
+- "7RxSwift21VirtualTimeComparisonO"
+provides-member:
+- ["7RxSwift24VirtualTimeConverterTypeP", ""]
+- ["7RxSwift21VirtualTimeComparisonO", ""]
+- ["7RxSwift21VirtualTimeComparisonO", "lessThen"]
+- ["7RxSwift21VirtualTimeComparisonO", "greaterThan"]
+- ["7RxSwift21VirtualTimeComparisonO", "equal"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "RxTime"
+- "RxTimeInterval"
+- "VirtualTimeComparison"
+- "VirtualTimeConverterType"
+depends-member:
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "greaterThan"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "lessThan"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "equal"]
+- !private ["s8HashableP", "greaterThan"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "lessThan"]
+- ["7RxSwift21VirtualTimeComparisonO", "Bool"]
+- ["7RxSwift21VirtualTimeComparisonO", "__derived_enum_equals"]
+- ["7RxSwift21VirtualTimeComparisonO", "deinit"]
+- ["7RxSwift21VirtualTimeComparisonO", "equal"]
+- ["7RxSwift21VirtualTimeComparisonO", "greaterThan"]
+- ["7RxSwift21VirtualTimeComparisonO", "hashValue"]
+- ["7RxSwift21VirtualTimeComparisonO", "lessThan"]
+- ["7RxSwift21VirtualTimeComparisonO", "lessThen"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "RxTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "RxTimeInterval"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "VirtualTimeComparison"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "VirtualTimeIntervalUnit"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "VirtualTimeUnit"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "compareVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertFromVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertFromVirtualTimeInterval"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertToVirtualTime"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "convertToVirtualTimeInterval"]
+- ["7RxSwift24VirtualTimeConverterTypeP", "offsetVirtualTime"]
+depends-nominal:
+- "s9EquatableP"
+- "s8HashableP"
+- "7RxSwift21VirtualTimeComparisonO"
+- "7RxSwift24VirtualTimeConverterTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c5a14b01a59a921fa2718a6b3839fca4"

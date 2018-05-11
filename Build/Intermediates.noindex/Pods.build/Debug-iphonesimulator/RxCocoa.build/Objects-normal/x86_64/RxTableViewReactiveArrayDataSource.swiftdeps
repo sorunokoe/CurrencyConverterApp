@@ -1,0 +1,544 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_RxTableViewReactiveArrayDataSource"
+- "RxTableViewReactiveArrayDataSourceSequenceWrapper"
+- "RxTableViewReactiveArrayDataSource"
+provides-nominal:
+- "7RxCocoa01_A32TableViewReactiveArrayDataSourceC"
+- "7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC"
+- "7RxCocoa0A32TableViewReactiveArrayDataSourceC"
+provides-member:
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", ""]
+- ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", ""]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", ""]
+provides-dynamic-lookup:
+- "numberOfSections"
+- "tableView"
+depends-top-level:
+- !private "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Binder"
+- "Event"
+- "IndexPath"
+- "Int"
+- "NSObject"
+- !private "RxCocoaError"
+- "RxTableViewDataSourceType"
+- "RxTableViewReactiveArrayDataSource"
+- "RxTableViewReactiveArrayDataSourceSequenceWrapper"
+- "SectionedViewDataSourceType"
+- "Sequence"
+- !private "StringLiteralType"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewDataSource"
+- "_RxTableViewReactiveArrayDataSource"
+- !private "precondition"
+- !private "rxAbstractMethod"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "item"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["s23BidirectionalCollectionP", "section"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["7RxCocoa6BinderV", "deinit"]
+- !private ["7RxCocoa6BinderV", "init"]
+- !private ["7RxCocoa6BinderV", "on"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["s7CVarArgP", "Array"]
+- !private ["s7CVarArgP", "Binder"]
+- ["s7CVarArgP", "Element"]
+- !private ["s7CVarArgP", "RxCocoaError"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_tableView"]
+- !private ["s7CVarArgP", "cellFactory"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "itemModels"]
+- ["s7CVarArgP", "model"]
+- ["s7CVarArgP", "numberOfSections"]
+- ["s7CVarArgP", "numberOfSectionsInTableView"]
+- !private ["s7CVarArgP", "precondition"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "rxAbstractMethod"]
+- ["s7CVarArgP", "sectionIndexTitles"]
+- ["s7CVarArgP", "sectionIndexTitlesForTableView"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "tableView"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "item"]
+- !private ["s10CollectionP", "row"]
+- !private ["s10CollectionP", "section"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "item"]
+- !private ["s10ComparableP", "row"]
+- !private ["s10ComparableP", "section"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "Binder"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- !private ["s28CustomDebugStringConvertibleP", "RxCocoaError"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "cellFactory"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "item"]
+- !private ["s28CustomDebugStringConvertibleP", "itemModels"]
+- !private ["s28CustomDebugStringConvertibleP", "itemsNotYetBound"]
+- ["s28CustomDebugStringConvertibleP", "model"]
+- ["s28CustomDebugStringConvertibleP", "numberOfSections"]
+- ["s28CustomDebugStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "precondition"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "rxAbstractMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "section"]
+- ["s28CustomDebugStringConvertibleP", "sectionIndexTitles"]
+- ["s28CustomDebugStringConvertibleP", "sectionIndexTitlesForTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "item"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "section"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- !private ["s23CustomStringConvertibleP", "Binder"]
+- ["s23CustomStringConvertibleP", "Element"]
+- !private ["s23CustomStringConvertibleP", "RxCocoaError"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_tableView"]
+- !private ["s23CustomStringConvertibleP", "cellFactory"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "item"]
+- !private ["s23CustomStringConvertibleP", "itemModels"]
+- ["s23CustomStringConvertibleP", "model"]
+- ["s23CustomStringConvertibleP", "numberOfSections"]
+- ["s23CustomStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "rxAbstractMethod"]
+- !private ["s23CustomStringConvertibleP", "section"]
+- ["s23CustomStringConvertibleP", "sectionIndexTitles"]
+- ["s23CustomStringConvertibleP", "sectionIndexTitlesForTableView"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "item"]
+- !private ["s9DecodableP", "row"]
+- !private ["s9DecodableP", "section"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "item"]
+- !private ["s9EncodableP", "row"]
+- !private ["s9EncodableP", "section"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Array"]
+- !private ["s9EquatableP", "Binder"]
+- ["s9EquatableP", "Element"]
+- !private ["s9EquatableP", "RxCocoaError"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_tableView"]
+- !private ["s9EquatableP", "cellFactory"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "item"]
+- !private ["s9EquatableP", "itemModels"]
+- ["s9EquatableP", "model"]
+- ["s9EquatableP", "numberOfSections"]
+- ["s9EquatableP", "numberOfSectionsInTableView"]
+- !private ["s9EquatableP", "precondition"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "rxAbstractMethod"]
+- !private ["s9EquatableP", "section"]
+- ["s9EquatableP", "sectionIndexTitles"]
+- ["s9EquatableP", "sectionIndexTitlesForTableView"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "tableView"]
+- !private ["s5ErrorP", "itemsNotYetBound"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "item"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "section"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7RxCocoa13HasDataSourceP", "reloadData"]
+- !private ["7RxCocoa11HasDelegateP", "reloadData"]
+- !private ["s8HashableP", "Array"]
+- !private ["s8HashableP", "Binder"]
+- ["s8HashableP", "Element"]
+- !private ["s8HashableP", "RxCocoaError"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_tableView"]
+- !private ["s8HashableP", "cellFactory"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "item"]
+- !private ["s8HashableP", "itemModels"]
+- ["s8HashableP", "model"]
+- ["s8HashableP", "numberOfSections"]
+- ["s8HashableP", "numberOfSectionsInTableView"]
+- !private ["s8HashableP", "precondition"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "rxAbstractMethod"]
+- !private ["s8HashableP", "section"]
+- ["s8HashableP", "sectionIndexTitles"]
+- ["s8HashableP", "sectionIndexTitlesForTableView"]
+- ["s8HashableP", "tableView"]
+- !private ["10Foundation9IndexPathV", "item"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["10Foundation9IndexPathV", "section"]
+- ["s16IteratorProtocolP", "Element"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "item"]
+- !private ["s17MutableCollectionP", "row"]
+- !private ["s17MutableCollectionP", "section"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSObjectC", "Array"]
+- !private ["So8NSObjectC", "Binder"]
+- ["So8NSObjectC", "CellFactory"]
+- ["So8NSObjectC", "Element"]
+- ["So8NSObjectC", "Event"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "RxCocoaError"]
+- ["So8NSObjectC", "S"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_tableView"]
+- ["So8NSObjectC", "cellFactory"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "itemModels"]
+- ["So8NSObjectC", "model"]
+- ["So8NSObjectC", "modelAtIndex"]
+- ["So8NSObjectC", "numberOfSections"]
+- ["So8NSObjectC", "numberOfSectionsInTableView"]
+- !private ["So8NSObjectC", "precondition"]
+- !private ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "rxAbstractMethod"]
+- ["So8NSObjectC", "sectionIndexTitles"]
+- ["So8NSObjectC", "sectionIndexTitlesForTableView"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So16NSObjectProtocolP", "Array"]
+- !private ["So16NSObjectProtocolP", "Binder"]
+- ["So16NSObjectProtocolP", "Element"]
+- !private ["So16NSObjectProtocolP", "RxCocoaError"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_tableView"]
+- !private ["So16NSObjectProtocolP", "cellFactory"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "itemModels"]
+- ["So16NSObjectProtocolP", "model"]
+- ["So16NSObjectProtocolP", "numberOfSections"]
+- ["So16NSObjectProtocolP", "numberOfSectionsInTableView"]
+- !private ["So16NSObjectProtocolP", "precondition"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "rxAbstractMethod"]
+- ["So16NSObjectProtocolP", "sectionIndexTitles"]
+- ["So16NSObjectProtocolP", "sectionIndexTitlesForTableView"]
+- ["So16NSObjectProtocolP", "tableView"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "item"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- !private ["s22RandomAccessCollectionP", "section"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Array"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Binder"]
+- ["7RxSwift18ReactiveCompatibleP", "Element"]
+- !private ["7RxSwift18ReactiveCompatibleP", "RxCocoaError"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "_tableView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "cellFactory"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "itemModels"]
+- ["7RxSwift18ReactiveCompatibleP", "model"]
+- ["7RxSwift18ReactiveCompatibleP", "numberOfSections"]
+- ["7RxSwift18ReactiveCompatibleP", "numberOfSectionsInTableView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "precondition"]
+- !private ["7RxSwift18ReactiveCompatibleP", "reloadData"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rxAbstractMethod"]
+- ["7RxSwift18ReactiveCompatibleP", "sectionIndexTitles"]
+- ["7RxSwift18ReactiveCompatibleP", "sectionIndexTitlesForTableView"]
+- ["7RxSwift18ReactiveCompatibleP", "tableView"]
+- !private ["10Foundation20ReferenceConvertibleP", "item"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["10Foundation20ReferenceConvertibleP", "section"]
+- !private ["7RxCocoa0aB5ErrorO", "deinit"]
+- !private ["7RxCocoa0aB5ErrorO", "itemsNotYetBound"]
+- !private ["7RxCocoa0A23TableViewDataSourceTypeP", "Array"]
+- !private ["7RxCocoa0A23TableViewDataSourceTypeP", "Binder"]
+- ["7RxCocoa0A23TableViewDataSourceTypeP", "Element"]
+- ["7RxCocoa0A23TableViewDataSourceTypeP", ""]
+- ["7RxCocoa0A23TableViewDataSourceTypeP", "tableView"]
+- !private ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "Array"]
+- !private ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "Binder"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "CellFactory"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "Element"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "Event"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "IndexPath"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "Int"]
+- !private ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "RxCocoaError"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "S"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "UITableView"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "UITableViewCell"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", ""]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "_tableView"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "cellFactory"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "deinit"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "init"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "itemModels"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "model"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "modelAtIndex"]
+- !private ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "precondition"]
+- ["7RxCocoa0A32TableViewReactiveArrayDataSourceC", "tableView"]
+- !private ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "Array"]
+- !private ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "Binder"]
+- ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "CellFactory"]
+- ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "Element"]
+- ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "Event"]
+- ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "S"]
+- ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "UITableView"]
+- ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "deinit"]
+- ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "init"]
+- ["7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC", "tableView"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "Array"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "Binder"]
+- ["7RxCocoa27SectionedViewDataSourceTypeP", "Element"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "RxCocoaError"]
+- ["7RxCocoa27SectionedViewDataSourceTypeP", ""]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "cellFactory"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "init"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "itemModels"]
+- ["7RxCocoa27SectionedViewDataSourceTypeP", "model"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "precondition"]
+- ["7RxCocoa27SectionedViewDataSourceTypeP", "tableView"]
+- ["s8SequenceP", "Iterator"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "item"]
+- !private ["s8SequenceP", "row"]
+- !private ["s8SequenceP", "section"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So11UIResponderC", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So11UITableViewC", "reloadData"]
+- !private ["So21UITableViewDataSourceP", "Array"]
+- !private ["So21UITableViewDataSourceP", "Binder"]
+- ["So21UITableViewDataSourceP", "Element"]
+- !private ["So21UITableViewDataSourceP", "RxCocoaError"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So21UITableViewDataSourceP", "_tableView"]
+- !private ["So21UITableViewDataSourceP", "cellFactory"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "itemModels"]
+- ["So21UITableViewDataSourceP", "model"]
+- ["So21UITableViewDataSourceP", "numberOfSections"]
+- ["So21UITableViewDataSourceP", "numberOfSectionsInTableView"]
+- !private ["So21UITableViewDataSourceP", "precondition"]
+- !private ["So21UITableViewDataSourceP", "rxAbstractMethod"]
+- ["So21UITableViewDataSourceP", "sectionIndexTitles"]
+- ["So21UITableViewDataSourceP", "sectionIndexTitlesForTableView"]
+- ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Array"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Binder"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Element"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RxCocoaError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cellFactory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemModels"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "model"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSections"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSectionsInTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "precondition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rxAbstractMethod"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sectionIndexTitles"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sectionIndexTitlesForTableView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "item"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "section"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "Array"]
+- !private ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "Binder"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "CellFactory"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "Element"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "Event"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "IndexPath"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "Int"]
+- !private ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "RxCocoaError"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "S"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "UITableView"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "UITableViewCell"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", ""]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "_tableView"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "cellFactory"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "deinit"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "init"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "itemModels"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "model"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "modelAtIndex"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "numberOfSections"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "numberOfSectionsInTableView"]
+- !private ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "precondition"]
+- !private ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "rxAbstractMethod"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "sectionIndexTitles"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "sectionIndexTitlesForTableView"]
+- ["7RxCocoa01_A32TableViewReactiveArrayDataSourceC", "tableView"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "7RxCocoa6BinderV"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7RxCocoa13HasDataSourceP"
+- !private "7RxCocoa11HasDelegateP"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- "s16IteratorProtocolP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "7RxCocoa0aB5ErrorO"
+- "7RxCocoa0A23TableViewDataSourceTypeP"
+- "7RxCocoa0A32TableViewReactiveArrayDataSourceC"
+- "7RxCocoa0A47TableViewReactiveArrayDataSourceSequenceWrapperC"
+- "7RxCocoa27SectionedViewDataSourceTypeP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So11UITableViewC"
+- "So21UITableViewDataSourceP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "7RxCocoa01_A32TableViewReactiveArrayDataSourceC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "86f3573343dc51cc9dbc034ecefe6be1"

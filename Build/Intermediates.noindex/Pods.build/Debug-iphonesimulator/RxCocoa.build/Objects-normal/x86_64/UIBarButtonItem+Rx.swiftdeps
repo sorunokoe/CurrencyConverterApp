@@ -1,0 +1,323 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BarButtonItemTarget"
+provides-nominal:
+- "7RxCocoa19BarButtonItemTargetC"
+provides-member:
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxCocoa19BarButtonItemTargetC", ""]
+- ["7RxSwift8ReactiveV", "isEnabled"]
+- ["7RxSwift8ReactiveV", "title"]
+- ["7RxSwift8ReactiveV", "tap"]
+provides-dynamic-lookup:
+- "action"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BarButtonItemTarget"
+- "Binder"
+- "Bool"
+- "ControlEvent"
+- !private "Disposables"
+- !private "MainScheduler"
+- !private "Observable"
+- "Reactive"
+- "RxTarget"
+- "String"
+- !private "StringLiteralType"
+- "UIBarButtonItem"
+- "UInt8"
+- "Void"
+- !private "rx_tap_key"
+depends-member:
+- !private ["7RxSwift11AnyObserverV", "on"]
+- ["7RxCocoa19BarButtonItemTargetC", "AnyObject"]
+- !private ["7RxCocoa19BarButtonItemTargetC", "BarButtonItemTarget"]
+- ["7RxCocoa19BarButtonItemTargetC", "Callback"]
+- !private ["7RxCocoa19BarButtonItemTargetC", "MainScheduler"]
+- ["7RxCocoa19BarButtonItemTargetC", "UIBarButtonItem"]
+- ["7RxCocoa19BarButtonItemTargetC", "Void"]
+- ["7RxCocoa19BarButtonItemTargetC", "action"]
+- ["7RxCocoa19BarButtonItemTargetC", "barButtonItem"]
+- ["7RxCocoa19BarButtonItemTargetC", "callback"]
+- ["7RxCocoa19BarButtonItemTargetC", "deinit"]
+- ["7RxCocoa19BarButtonItemTargetC", "dispose"]
+- ["7RxCocoa19BarButtonItemTargetC", "init"]
+- !private ["7RxCocoa6BinderV", "init"]
+- !private ["s7CVarArgP", "BarButtonItemTarget"]
+- !private ["s7CVarArgP", "MainScheduler"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "action"]
+- !private ["s7CVarArgP", "barButtonItem"]
+- !private ["s7CVarArgP", "callback"]
+- !private ["s7CVarArgP", "dispose"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "target"]
+- !private ["s7CVarArgP", "title"]
+- !private ["7RxCocoa12ControlEventV", "init"]
+- !private ["7RxCocoa16ControlEventTypeP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "BarButtonItemTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "MainScheduler"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "action"]
+- !private ["s28CustomDebugStringConvertibleP", "barButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "callback"]
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "dispose"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "target"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "BarButtonItemTarget"]
+- !private ["s23CustomStringConvertibleP", "MainScheduler"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "action"]
+- !private ["s23CustomStringConvertibleP", "barButtonItem"]
+- !private ["s23CustomStringConvertibleP", "callback"]
+- !private ["s23CustomStringConvertibleP", "dispose"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "target"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["7RxSwift10DisposableP", "BarButtonItemTarget"]
+- !private ["7RxSwift10DisposableP", "MainScheduler"]
+- ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift10DisposableP", "action"]
+- !private ["7RxSwift10DisposableP", "barButtonItem"]
+- !private ["7RxSwift10DisposableP", "callback"]
+- !private ["7RxSwift10DisposableP", "dispose"]
+- !private ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift11DisposablesV", "create"]
+- !private ["s9EquatableP", "BarButtonItemTarget"]
+- !private ["s9EquatableP", "MainScheduler"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "action"]
+- !private ["s9EquatableP", "barButtonItem"]
+- !private ["s9EquatableP", "callback"]
+- !private ["s9EquatableP", "dispose"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEnabled"]
+- !private ["s9EquatableP", "target"]
+- !private ["s9EquatableP", "title"]
+- !private ["7RxSwift5EventO", "completed"]
+- !private ["7RxSwift5EventO", "next"]
+- !private ["7RxSwift16EventConvertibleP", "completed"]
+- !private ["7RxSwift16EventConvertibleP", "next"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "BarButtonItemTarget"]
+- !private ["s8HashableP", "MainScheduler"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "action"]
+- !private ["s8HashableP", "barButtonItem"]
+- !private ["s8HashableP", "callback"]
+- !private ["s8HashableP", "dispose"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEnabled"]
+- !private ["s8HashableP", "target"]
+- !private ["s8HashableP", "title"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "ensureExecutingOnScheduler"]
+- !private ["7RxSwift13MainSchedulerC", "ensureExecutingOnScheduler"]
+- !private ["So8NSCodingP", "action"]
+- !private ["So8NSCodingP", "isEnabled"]
+- !private ["So8NSCodingP", "target"]
+- !private ["So8NSCodingP", "title"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "BarButtonItemTarget"]
+- ["So8NSObjectC", "Callback"]
+- !private ["So8NSObjectC", "MainScheduler"]
+- ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "action"]
+- ["So8NSObjectC", "barButtonItem"]
+- ["So8NSObjectC", "callback"]
+- ["So8NSObjectC", "dispose"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEnabled"]
+- !private ["So8NSObjectC", "target"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So16NSObjectProtocolP", "BarButtonItemTarget"]
+- !private ["So16NSObjectProtocolP", "MainScheduler"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "action"]
+- !private ["So16NSObjectProtocolP", "barButtonItem"]
+- !private ["So16NSObjectProtocolP", "callback"]
+- !private ["So16NSObjectProtocolP", "dispose"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEnabled"]
+- !private ["So16NSObjectProtocolP", "target"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["7RxSwift10ObservableC", "create"]
+- !private ["7RxSwift10ObservableC", "share"]
+- !private ["7RxSwift10ObservableC", "takeUntil"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "create"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "share"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "takeUntil"]
+- !private ["7RxSwift14ObservableTypeP", "create"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "share"]
+- !private ["7RxSwift14ObservableTypeP", "takeUntil"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- !private ["7RxSwift8ReactiveV", "BarButtonItemTarget"]
+- ["7RxSwift8ReactiveV", "Binder"]
+- ["7RxSwift8ReactiveV", "Bool"]
+- ["7RxSwift8ReactiveV", "ControlEvent"]
+- !private ["7RxSwift8ReactiveV", "Disposables"]
+- !private ["7RxSwift8ReactiveV", "Observable"]
+- ["7RxSwift8ReactiveV", "String"]
+- ["7RxSwift8ReactiveV", "UIBarButtonItem"]
+- !private ["7RxSwift8ReactiveV", "base"]
+- !private ["7RxSwift8ReactiveV", "deallocated"]
+- ["7RxSwift8ReactiveV", "isEnabled"]
+- !private ["7RxSwift8ReactiveV", "lazyInstanceObservable"]
+- !private ["7RxSwift8ReactiveV", "rx_tap_key"]
+- ["7RxSwift8ReactiveV", "tap"]
+- ["7RxSwift8ReactiveV", "title"]
+- !private ["7RxSwift18ReactiveCompatibleP", "BarButtonItemTarget"]
+- !private ["7RxSwift18ReactiveCompatibleP", "MainScheduler"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "action"]
+- !private ["7RxSwift18ReactiveCompatibleP", "barButtonItem"]
+- !private ["7RxSwift18ReactiveCompatibleP", "callback"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dispose"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isEnabled"]
+- !private ["7RxSwift18ReactiveCompatibleP", "target"]
+- !private ["7RxSwift18ReactiveCompatibleP", "title"]
+- ["7RxCocoa0A6TargetC", "AnyObject"]
+- !private ["7RxCocoa0A6TargetC", "BarButtonItemTarget"]
+- ["7RxCocoa0A6TargetC", "Callback"]
+- !private ["7RxCocoa0A6TargetC", "MainScheduler"]
+- ["7RxCocoa0A6TargetC", "UIBarButtonItem"]
+- ["7RxCocoa0A6TargetC", "Void"]
+- ["7RxCocoa0A6TargetC", ""]
+- ["7RxCocoa0A6TargetC", "action"]
+- ["7RxCocoa0A6TargetC", "barButtonItem"]
+- ["7RxCocoa0A6TargetC", "callback"]
+- !private ["7RxCocoa0A6TargetC", "deinit"]
+- ["7RxCocoa0A6TargetC", "dispose"]
+- ["7RxCocoa0A6TargetC", "init"]
+- !private ["7RxSwift13SchedulerTypeP", "ensureExecutingOnScheduler"]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "ensureExecutingOnScheduler"]
+- !private ["s12StaticStringV", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "action"]
+- !private ["So29UIAccessibilityIdentificationP", "isEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "target"]
+- !private ["So29UIAccessibilityIdentificationP", "title"]
+- !private ["So12UIAppearanceP", "action"]
+- !private ["So12UIAppearanceP", "isEnabled"]
+- !private ["So12UIAppearanceP", "target"]
+- !private ["So12UIAppearanceP", "title"]
+- !private ["So15UIBarButtonItemC", "action"]
+- !private ["So15UIBarButtonItemC", "isEnabled"]
+- !private ["So15UIBarButtonItemC", "target"]
+- !private ["So15UIBarButtonItemC", "title"]
+- !private ["So9UIBarItemC", "action"]
+- !private ["So9UIBarItemC", "isEnabled"]
+- !private ["So9UIBarItemC", "target"]
+- !private ["So9UIBarItemC", "title"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "action"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isEnabled"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "target"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "title"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BarButtonItemTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MainScheduler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "action"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "callback"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dispose"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "target"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+depends-nominal:
+- !private "7RxSwift11AnyObserverV"
+- "7RxCocoa19BarButtonItemTargetC"
+- !private "7RxCocoa6BinderV"
+- "s7CVarArgP"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "7RxSwift10DisposableP"
+- !private "7RxSwift11DisposablesV"
+- "s9EquatableP"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "7RxSwift13MainSchedulerC"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0A6TargetC"
+- !private "7RxSwift13SchedulerTypeP"
+- !private "7RxSwift28SerialDispatchQueueSchedulerC"
+- !private "s12StaticStringV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So15UIBarButtonItemC"
+- !private "So9UIBarItemC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b5e04756c49141fccb18555bb8fb7cf9"

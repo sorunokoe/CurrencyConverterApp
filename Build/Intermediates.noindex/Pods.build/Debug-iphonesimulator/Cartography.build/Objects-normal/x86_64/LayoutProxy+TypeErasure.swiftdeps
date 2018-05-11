@@ -1,0 +1,257 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyTopLayoutProxy"
+- "AnyBottomLayoutProxy"
+- "AnyLeftLayoutProxy"
+- "AnyRightLayoutProxy"
+- "AnyLeadingLayoutProxy"
+- "AnyTrailingLayoutProxy"
+- "AnyCenterXLayoutProxy"
+- "AnyCenterYLayoutProxy"
+- "AnyBaselineLayoutProxy"
+- "AnyHorizontalDistributionLayoutProxy"
+- "AnyLeftToRightDistributionLayoutProxy"
+- "AnyVerticalDistributionLayoutProxy"
+provides-nominal:
+- "11Cartography17AnyTopLayoutProxyC"
+- "11Cartography20AnyBottomLayoutProxyC"
+- "11Cartography18AnyLeftLayoutProxyC"
+- "11Cartography19AnyRightLayoutProxyC"
+- "11Cartography21AnyLeadingLayoutProxyC"
+- "11Cartography22AnyTrailingLayoutProxyC"
+- "11Cartography21AnyCenterXLayoutProxyC"
+- "11Cartography21AnyCenterYLayoutProxyC"
+- "11Cartography22AnyBaselineLayoutProxyC"
+- "11Cartography36AnyHorizontalDistributionLayoutProxyC"
+- "11Cartography37AnyLeftToRightDistributionLayoutProxyC"
+- "11Cartography34AnyVerticalDistributionLayoutProxyC"
+provides-member:
+- ["11Cartography17AnyTopLayoutProxyC", ""]
+- ["11Cartography20AnyBottomLayoutProxyC", ""]
+- ["11Cartography18AnyLeftLayoutProxyC", ""]
+- ["11Cartography19AnyRightLayoutProxyC", ""]
+- ["11Cartography21AnyLeadingLayoutProxyC", ""]
+- ["11Cartography22AnyTrailingLayoutProxyC", ""]
+- ["11Cartography21AnyCenterXLayoutProxyC", ""]
+- ["11Cartography21AnyCenterYLayoutProxyC", ""]
+- ["11Cartography22AnyBaselineLayoutProxyC", ""]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", ""]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", ""]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyBaselineLayoutProxy"
+- "AnyBottomLayoutProxy"
+- "AnyCenterXLayoutProxy"
+- "AnyCenterYLayoutProxy"
+- "AnyHorizontalDistributionLayoutProxy"
+- "AnyLeadingLayoutProxy"
+- "AnyLeftLayoutProxy"
+- "AnyLeftToRightDistributionLayoutProxy"
+- "AnyObject"
+- "AnyRightLayoutProxy"
+- "AnyTopLayoutProxy"
+- "AnyTrailingLayoutProxy"
+- "AnyVerticalDistributionLayoutProxy"
+- "AssignmentPrecedence"
+- "Context"
+- "SupportsBaselineLayoutProxy"
+- "SupportsBottomLayoutProxy"
+- "SupportsCenterXLayoutProxy"
+- "SupportsCenterYLayoutProxy"
+- "SupportsLeadingLayoutProxy"
+- "SupportsLeftLayoutProxy"
+- "SupportsRightLayoutProxy"
+- "SupportsTopLayoutProxy"
+- "SupportsTrailingLayoutProxy"
+depends-member:
+- ["11Cartography22AnyBaselineLayoutProxyC", "AnyObject"]
+- ["11Cartography22AnyBaselineLayoutProxyC", "Context"]
+- ["11Cartography22AnyBaselineLayoutProxyC", "SupportsBaselineLayoutProxy"]
+- ["11Cartography22AnyBaselineLayoutProxyC", "context"]
+- ["11Cartography22AnyBaselineLayoutProxyC", "deinit"]
+- ["11Cartography22AnyBaselineLayoutProxyC", "init"]
+- ["11Cartography22AnyBaselineLayoutProxyC", "item"]
+- ["11Cartography22AnyBaselineLayoutProxyC", "proxy"]
+- ["11Cartography20AnyBottomLayoutProxyC", "AnyObject"]
+- ["11Cartography20AnyBottomLayoutProxyC", "Context"]
+- ["11Cartography20AnyBottomLayoutProxyC", "SupportsBottomLayoutProxy"]
+- ["11Cartography20AnyBottomLayoutProxyC", "context"]
+- ["11Cartography20AnyBottomLayoutProxyC", "deinit"]
+- ["11Cartography20AnyBottomLayoutProxyC", "init"]
+- ["11Cartography20AnyBottomLayoutProxyC", "item"]
+- ["11Cartography20AnyBottomLayoutProxyC", "proxy"]
+- ["11Cartography21AnyCenterXLayoutProxyC", "AnyObject"]
+- ["11Cartography21AnyCenterXLayoutProxyC", "Context"]
+- ["11Cartography21AnyCenterXLayoutProxyC", "SupportsCenterXLayoutProxy"]
+- ["11Cartography21AnyCenterXLayoutProxyC", "context"]
+- ["11Cartography21AnyCenterXLayoutProxyC", "deinit"]
+- ["11Cartography21AnyCenterXLayoutProxyC", "init"]
+- ["11Cartography21AnyCenterXLayoutProxyC", "item"]
+- ["11Cartography21AnyCenterXLayoutProxyC", "proxy"]
+- ["11Cartography21AnyCenterYLayoutProxyC", "AnyObject"]
+- ["11Cartography21AnyCenterYLayoutProxyC", "Context"]
+- ["11Cartography21AnyCenterYLayoutProxyC", "SupportsCenterYLayoutProxy"]
+- ["11Cartography21AnyCenterYLayoutProxyC", "context"]
+- ["11Cartography21AnyCenterYLayoutProxyC", "deinit"]
+- ["11Cartography21AnyCenterYLayoutProxyC", "init"]
+- ["11Cartography21AnyCenterYLayoutProxyC", "item"]
+- ["11Cartography21AnyCenterYLayoutProxyC", "proxy"]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", "AnyObject"]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", "Context"]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", "SupportsLeadingLayoutProxy"]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", "SupportsTrailingLayoutProxy"]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", "context"]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", "deinit"]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", "init"]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", "item"]
+- ["11Cartography36AnyHorizontalDistributionLayoutProxyC", "proxy"]
+- ["11Cartography21AnyLeadingLayoutProxyC", "AnyObject"]
+- ["11Cartography21AnyLeadingLayoutProxyC", "Context"]
+- ["11Cartography21AnyLeadingLayoutProxyC", "SupportsLeadingLayoutProxy"]
+- ["11Cartography21AnyLeadingLayoutProxyC", "context"]
+- ["11Cartography21AnyLeadingLayoutProxyC", "deinit"]
+- ["11Cartography21AnyLeadingLayoutProxyC", "init"]
+- ["11Cartography21AnyLeadingLayoutProxyC", "item"]
+- ["11Cartography21AnyLeadingLayoutProxyC", "proxy"]
+- ["11Cartography18AnyLeftLayoutProxyC", "AnyObject"]
+- ["11Cartography18AnyLeftLayoutProxyC", "Context"]
+- ["11Cartography18AnyLeftLayoutProxyC", "SupportsLeftLayoutProxy"]
+- ["11Cartography18AnyLeftLayoutProxyC", "context"]
+- ["11Cartography18AnyLeftLayoutProxyC", "deinit"]
+- ["11Cartography18AnyLeftLayoutProxyC", "init"]
+- ["11Cartography18AnyLeftLayoutProxyC", "item"]
+- ["11Cartography18AnyLeftLayoutProxyC", "proxy"]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", "AnyObject"]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", "Context"]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", "SupportsLeftLayoutProxy"]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", "SupportsRightLayoutProxy"]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", "context"]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", "deinit"]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", "init"]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", "item"]
+- ["11Cartography37AnyLeftToRightDistributionLayoutProxyC", "proxy"]
+- ["11Cartography19AnyRightLayoutProxyC", "AnyObject"]
+- ["11Cartography19AnyRightLayoutProxyC", "Context"]
+- ["11Cartography19AnyRightLayoutProxyC", "SupportsRightLayoutProxy"]
+- ["11Cartography19AnyRightLayoutProxyC", "context"]
+- ["11Cartography19AnyRightLayoutProxyC", "deinit"]
+- ["11Cartography19AnyRightLayoutProxyC", "init"]
+- ["11Cartography19AnyRightLayoutProxyC", "item"]
+- ["11Cartography19AnyRightLayoutProxyC", "proxy"]
+- ["11Cartography17AnyTopLayoutProxyC", "AnyObject"]
+- ["11Cartography17AnyTopLayoutProxyC", "Context"]
+- ["11Cartography17AnyTopLayoutProxyC", "SupportsTopLayoutProxy"]
+- ["11Cartography17AnyTopLayoutProxyC", "context"]
+- ["11Cartography17AnyTopLayoutProxyC", "deinit"]
+- ["11Cartography17AnyTopLayoutProxyC", "init"]
+- ["11Cartography17AnyTopLayoutProxyC", "item"]
+- ["11Cartography17AnyTopLayoutProxyC", "proxy"]
+- ["11Cartography22AnyTrailingLayoutProxyC", "AnyObject"]
+- ["11Cartography22AnyTrailingLayoutProxyC", "Context"]
+- ["11Cartography22AnyTrailingLayoutProxyC", "SupportsTrailingLayoutProxy"]
+- ["11Cartography22AnyTrailingLayoutProxyC", "context"]
+- ["11Cartography22AnyTrailingLayoutProxyC", "deinit"]
+- ["11Cartography22AnyTrailingLayoutProxyC", "init"]
+- ["11Cartography22AnyTrailingLayoutProxyC", "item"]
+- ["11Cartography22AnyTrailingLayoutProxyC", "proxy"]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", "AnyObject"]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", "Context"]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", "SupportsBottomLayoutProxy"]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", "SupportsTopLayoutProxy"]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", "context"]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", "deinit"]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", "init"]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", "item"]
+- ["11Cartography34AnyVerticalDistributionLayoutProxyC", "proxy"]
+- ["11Cartography11LayoutProxyP", ""]
+- ["11Cartography11LayoutProxyP", "context"]
+- ["11Cartography11LayoutProxyP", "item"]
+- !private ["11Cartography11LayoutProxyP", "proxy"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", ""]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "context"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "item"]
+- !private ["11Cartography27SupportsBaselineLayoutProxyP", "proxy"]
+- ["11Cartography25SupportsBottomLayoutProxyP", ""]
+- ["11Cartography25SupportsBottomLayoutProxyP", "context"]
+- ["11Cartography25SupportsBottomLayoutProxyP", "item"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "proxy"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", ""]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "context"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "item"]
+- !private ["11Cartography26SupportsCenterXLayoutProxyP", "proxy"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", ""]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "context"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "item"]
+- !private ["11Cartography26SupportsCenterYLayoutProxyP", "proxy"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", ""]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "context"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "item"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "proxy"]
+- ["11Cartography23SupportsLeftLayoutProxyP", ""]
+- ["11Cartography23SupportsLeftLayoutProxyP", "context"]
+- ["11Cartography23SupportsLeftLayoutProxyP", "item"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "proxy"]
+- ["11Cartography24SupportsRightLayoutProxyP", ""]
+- ["11Cartography24SupportsRightLayoutProxyP", "context"]
+- ["11Cartography24SupportsRightLayoutProxyP", "item"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "proxy"]
+- ["11Cartography22SupportsTopLayoutProxyP", ""]
+- ["11Cartography22SupportsTopLayoutProxyP", "context"]
+- ["11Cartography22SupportsTopLayoutProxyP", "item"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "proxy"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", ""]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "context"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "item"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "proxy"]
+depends-nominal:
+- "11Cartography22AnyBaselineLayoutProxyC"
+- "11Cartography20AnyBottomLayoutProxyC"
+- "11Cartography21AnyCenterXLayoutProxyC"
+- "11Cartography21AnyCenterYLayoutProxyC"
+- "11Cartography36AnyHorizontalDistributionLayoutProxyC"
+- "11Cartography21AnyLeadingLayoutProxyC"
+- "11Cartography18AnyLeftLayoutProxyC"
+- "11Cartography37AnyLeftToRightDistributionLayoutProxyC"
+- "11Cartography19AnyRightLayoutProxyC"
+- "11Cartography17AnyTopLayoutProxyC"
+- "11Cartography22AnyTrailingLayoutProxyC"
+- "11Cartography34AnyVerticalDistributionLayoutProxyC"
+- "11Cartography11LayoutProxyP"
+- "11Cartography27SupportsBaselineLayoutProxyP"
+- "11Cartography25SupportsBottomLayoutProxyP"
+- "11Cartography26SupportsCenterXLayoutProxyP"
+- "11Cartography26SupportsCenterYLayoutProxyP"
+- "11Cartography26SupportsLeadingLayoutProxyP"
+- "11Cartography23SupportsLeftLayoutProxyP"
+- "11Cartography24SupportsRightLayoutProxyP"
+- "11Cartography22SupportsTopLayoutProxyP"
+- "11Cartography27SupportsTrailingLayoutProxyP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Cartography/Cartography-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Cartography.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7a4dea9d6f3c077dd5f44bc281ab6920"

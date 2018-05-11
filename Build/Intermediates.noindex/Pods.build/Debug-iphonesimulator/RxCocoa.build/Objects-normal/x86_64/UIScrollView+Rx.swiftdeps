@@ -1,0 +1,389 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift8ReactiveV", "EndZoomEvent"]
+- ["7RxSwift8ReactiveV", "WillEndDraggingEvent"]
+- ["7RxSwift8ReactiveV", "delegate"]
+- ["7RxSwift8ReactiveV", "contentOffset"]
+- ["7RxSwift8ReactiveV", "isScrollEnabled"]
+- ["7RxSwift8ReactiveV", "didScroll"]
+- ["7RxSwift8ReactiveV", "willBeginDecelerating"]
+- ["7RxSwift8ReactiveV", "didEndDecelerating"]
+- ["7RxSwift8ReactiveV", "willBeginDragging"]
+- ["7RxSwift8ReactiveV", "willEndDragging"]
+- ["7RxSwift8ReactiveV", "didEndDragging"]
+- ["7RxSwift8ReactiveV", "didZoom"]
+- ["7RxSwift8ReactiveV", "didScrollToTop"]
+- ["7RxSwift8ReactiveV", "didEndScrollingAnimation"]
+- ["7RxSwift8ReactiveV", "willBeginZooming"]
+- ["7RxSwift8ReactiveV", "didEndZooming"]
+- ["7RxSwift8ReactiveV", "setDelegate"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnyObject"
+- !private "AssignmentPrecedence"
+- "Binder"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CGPoint"
+- !private "CastingPrecedence"
+- "ControlEvent"
+- "ControlProperty"
+- "DelegateProxy"
+- "Disposable"
+- !private "MemoryLayout"
+- !private "NSValue"
+- "Reactive"
+- !private "RxCocoaError"
+- !private "RxScrollViewDelegateProxy"
+- "UIScrollView"
+- "UIScrollViewDelegate"
+- "UIView"
+- "UnsafeMutablePointer"
+- "Void"
+- !private "castOptionalOrThrow"
+- !private "castOrThrow"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["7RxCocoa6BinderV", "deinit"]
+- !private ["7RxCocoa6BinderV", "init"]
+- !private ["So15CALayerDelegateP", "contentOffset"]
+- !private ["So15CALayerDelegateP", "isScrollEnabled"]
+- !private ["s7CVarArgP", "contentOffset"]
+- !private ["s7CVarArgP", "contentOffsetBehaviorSubject"]
+- !private ["s7CVarArgP", "contentOffsetPublishSubject"]
+- !private ["s7CVarArgP", "installForwardDelegate"]
+- !private ["s7CVarArgP", "isScrollEnabled"]
+- !private ["s7CVarArgP", "methodInvoked"]
+- !private ["s7CVarArgP", "pointerValue"]
+- !private ["s7CVarArgP", "proxy"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "bindMemory"]
+- !private ["7RxCocoa12ControlEventV", "init"]
+- !private ["7RxCocoa16ControlEventTypeP", "init"]
+- !private ["7RxCocoa15ControlPropertyV", "init"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "contentOffset"]
+- !private ["s28CustomDebugStringConvertibleP", "contentOffsetBehaviorSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "contentOffsetPublishSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "installForwardDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "isScrollEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "methodInvoked"]
+- !private ["s28CustomDebugStringConvertibleP", "pointerValue"]
+- !private ["s28CustomDebugStringConvertibleP", "proxy"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unknown"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bindMemory"]
+- !private ["s17CustomReflectableP", "bindMemory"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "contentOffset"]
+- !private ["s23CustomStringConvertibleP", "contentOffsetBehaviorSubject"]
+- !private ["s23CustomStringConvertibleP", "contentOffsetPublishSubject"]
+- !private ["s23CustomStringConvertibleP", "installForwardDelegate"]
+- !private ["s23CustomStringConvertibleP", "isScrollEnabled"]
+- !private ["s23CustomStringConvertibleP", "methodInvoked"]
+- !private ["s23CustomStringConvertibleP", "pointerValue"]
+- !private ["s23CustomStringConvertibleP", "proxy"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["7RxCocoa13DelegateProxyC", "contentOffsetBehaviorSubject"]
+- !private ["7RxCocoa13DelegateProxyC", "contentOffsetPublishSubject"]
+- !private ["7RxCocoa13DelegateProxyC", "installForwardDelegate"]
+- !private ["7RxCocoa13DelegateProxyC", "methodInvoked"]
+- !private ["7RxCocoa13DelegateProxyC", "proxy"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "contentOffsetBehaviorSubject"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "contentOffsetPublishSubject"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "installForwardDelegate"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "proxy"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "bindMemory"]
+- !private ["s9EquatableP", "contentOffset"]
+- !private ["s9EquatableP", "contentOffsetBehaviorSubject"]
+- !private ["s9EquatableP", "contentOffsetPublishSubject"]
+- !private ["s9EquatableP", "installForwardDelegate"]
+- !private ["s9EquatableP", "isScrollEnabled"]
+- !private ["s9EquatableP", "methodInvoked"]
+- !private ["s9EquatableP", "pointerValue"]
+- !private ["s9EquatableP", "proxy"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s5ErrorP", "unknown"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["7RxCocoa11HasDelegateP", "contentOffset"]
+- !private ["7RxCocoa11HasDelegateP", "isScrollEnabled"]
+- !private ["s8HashableP", "bindMemory"]
+- !private ["s8HashableP", "contentOffset"]
+- !private ["s8HashableP", "contentOffsetBehaviorSubject"]
+- !private ["s8HashableP", "contentOffsetPublishSubject"]
+- !private ["s8HashableP", "installForwardDelegate"]
+- !private ["s8HashableP", "isScrollEnabled"]
+- !private ["s8HashableP", "methodInvoked"]
+- !private ["s8HashableP", "pointerValue"]
+- !private ["s8HashableP", "proxy"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "contentOffset"]
+- !private ["So8NSCodingP", "isScrollEnabled"]
+- !private ["So8NSCodingP", "pointerValue"]
+- !private ["So9NSCopyingP", "pointerValue"]
+- !private ["So8NSObjectC", "contentOffset"]
+- !private ["So8NSObjectC", "contentOffsetBehaviorSubject"]
+- !private ["So8NSObjectC", "contentOffsetPublishSubject"]
+- !private ["So8NSObjectC", "installForwardDelegate"]
+- !private ["So8NSObjectC", "isScrollEnabled"]
+- !private ["So8NSObjectC", "methodInvoked"]
+- !private ["So8NSObjectC", "pointerValue"]
+- !private ["So8NSObjectC", "proxy"]
+- !private ["So16NSObjectProtocolP", "contentOffset"]
+- !private ["So16NSObjectProtocolP", "contentOffsetBehaviorSubject"]
+- !private ["So16NSObjectProtocolP", "contentOffsetPublishSubject"]
+- !private ["So16NSObjectProtocolP", "installForwardDelegate"]
+- !private ["So16NSObjectProtocolP", "isScrollEnabled"]
+- !private ["So16NSObjectProtocolP", "methodInvoked"]
+- !private ["So16NSObjectProtocolP", "pointerValue"]
+- !private ["So16NSObjectProtocolP", "proxy"]
+- !private ["So16NSObjectProtocolP", "scrollViewDidEndDecelerating"]
+- !private ["So16NSObjectProtocolP", "scrollViewDidEndDragging"]
+- !private ["So16NSObjectProtocolP", "scrollViewDidEndScrollingAnimation"]
+- !private ["So16NSObjectProtocolP", "scrollViewDidEndZooming"]
+- !private ["So16NSObjectProtocolP", "scrollViewDidScrollToTop"]
+- !private ["So16NSObjectProtocolP", "scrollViewDidZoom"]
+- !private ["So16NSObjectProtocolP", "scrollViewWillBeginDecelerating"]
+- !private ["So16NSObjectProtocolP", "scrollViewWillBeginDragging"]
+- !private ["So16NSObjectProtocolP", "scrollViewWillBeginZooming"]
+- !private ["So16NSObjectProtocolP", "scrollViewWillEndDragging"]
+- !private ["So14NSSecureCodingP", "pointerValue"]
+- !private ["So7NSValueC", "pointerValue"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["7RxSwift8ReactiveV", "AnyObject"]
+- ["7RxSwift8ReactiveV", "Binder"]
+- ["7RxSwift8ReactiveV", "Bool"]
+- ["7RxSwift8ReactiveV", "CGFloat"]
+- ["7RxSwift8ReactiveV", "CGPoint"]
+- ["7RxSwift8ReactiveV", "ControlEvent"]
+- ["7RxSwift8ReactiveV", "ControlProperty"]
+- ["7RxSwift8ReactiveV", "DelegateProxy"]
+- ["7RxSwift8ReactiveV", "Disposable"]
+- ["7RxSwift8ReactiveV", "EndZoomEvent"]
+- !private ["7RxSwift8ReactiveV", "MemoryLayout"]
+- !private ["7RxSwift8ReactiveV", "NSValue"]
+- !private ["7RxSwift8ReactiveV", "RxCocoaError"]
+- !private ["7RxSwift8ReactiveV", "RxScrollViewDelegateProxy"]
+- ["7RxSwift8ReactiveV", "UIScrollView"]
+- ["7RxSwift8ReactiveV", "UIScrollViewDelegate"]
+- ["7RxSwift8ReactiveV", "UIView"]
+- ["7RxSwift8ReactiveV", "UnsafeMutablePointer"]
+- ["7RxSwift8ReactiveV", "Void"]
+- ["7RxSwift8ReactiveV", "WillEndDraggingEvent"]
+- !private ["7RxSwift8ReactiveV", "base"]
+- !private ["7RxSwift8ReactiveV", "castOptionalOrThrow"]
+- !private ["7RxSwift8ReactiveV", "castOrThrow"]
+- ["7RxSwift8ReactiveV", "contentOffset"]
+- ["7RxSwift8ReactiveV", "delegate"]
+- ["7RxSwift8ReactiveV", "didEndDecelerating"]
+- ["7RxSwift8ReactiveV", "didEndDragging"]
+- ["7RxSwift8ReactiveV", "didEndScrollingAnimation"]
+- ["7RxSwift8ReactiveV", "didEndZooming"]
+- ["7RxSwift8ReactiveV", "didScroll"]
+- ["7RxSwift8ReactiveV", "didScrollToTop"]
+- ["7RxSwift8ReactiveV", "didZoom"]
+- ["7RxSwift8ReactiveV", "isScrollEnabled"]
+- ["7RxSwift8ReactiveV", "setDelegate"]
+- ["7RxSwift8ReactiveV", "willBeginDecelerating"]
+- ["7RxSwift8ReactiveV", "willBeginDragging"]
+- ["7RxSwift8ReactiveV", "willBeginZooming"]
+- ["7RxSwift8ReactiveV", "willEndDragging"]
+- !private ["7RxSwift18ReactiveCompatibleP", "contentOffset"]
+- !private ["7RxSwift18ReactiveCompatibleP", "contentOffsetBehaviorSubject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "contentOffsetPublishSubject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "installForwardDelegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isScrollEnabled"]
+- !private ["7RxSwift18ReactiveCompatibleP", "methodInvoked"]
+- !private ["7RxSwift18ReactiveCompatibleP", "pointerValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "proxy"]
+- !private ["7RxCocoa0aB5ErrorO", "deinit"]
+- !private ["7RxCocoa0aB5ErrorO", "unknown"]
+- !private ["7RxCocoa0A23ScrollViewDelegateProxyC", "contentOffsetBehaviorSubject"]
+- !private ["7RxCocoa0A23ScrollViewDelegateProxyC", "contentOffsetPublishSubject"]
+- !private ["7RxCocoa0A23ScrollViewDelegateProxyC", "deinit"]
+- !private ["7RxCocoa0A23ScrollViewDelegateProxyC", "installForwardDelegate"]
+- !private ["7RxCocoa0A23ScrollViewDelegateProxyC", "proxy"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10StrideableP", "bindMemory"]
+- !private ["So29UIAccessibilityIdentificationP", "contentOffset"]
+- !private ["So29UIAccessibilityIdentificationP", "isScrollEnabled"]
+- !private ["So12UIAppearanceP", "contentOffset"]
+- !private ["So12UIAppearanceP", "isScrollEnabled"]
+- !private ["So21UIAppearanceContainerP", "contentOffset"]
+- !private ["So21UIAppearanceContainerP", "isScrollEnabled"]
+- !private ["So17UICoordinateSpaceP", "contentOffset"]
+- !private ["So17UICoordinateSpaceP", "isScrollEnabled"]
+- !private ["So13UIDynamicItemP", "contentOffset"]
+- !private ["So13UIDynamicItemP", "isScrollEnabled"]
+- !private ["So18UIFocusEnvironmentP", "contentOffset"]
+- !private ["So18UIFocusEnvironmentP", "isScrollEnabled"]
+- !private ["So11UIFocusItemP", "contentOffset"]
+- !private ["So11UIFocusItemP", "isScrollEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentOffset"]
+- !private ["So30UIPasteConfigurationSupportingP", "isScrollEnabled"]
+- !private ["So11UIResponderC", "contentOffset"]
+- !private ["So11UIResponderC", "isScrollEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "contentOffset"]
+- !private ["So30UIResponderStandardEditActionsP", "isScrollEnabled"]
+- !private ["So12UIScrollViewC", "contentOffset"]
+- !private ["So12UIScrollViewC", "isScrollEnabled"]
+- !private ["So20UIScrollViewDelegateP", "contentOffsetBehaviorSubject"]
+- !private ["So20UIScrollViewDelegateP", "contentOffsetPublishSubject"]
+- !private ["So20UIScrollViewDelegateP", "installForwardDelegate"]
+- !private ["So20UIScrollViewDelegateP", "proxy"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewDidEndDecelerating"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewDidEndDragging"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewDidEndScrollingAnimation"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewDidEndZooming"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewDidScrollToTop"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewDidZoom"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewWillBeginDecelerating"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewWillBeginDragging"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewWillBeginZooming"]
+- !private ["So20UIScrollViewDelegateP", "scrollViewWillEndDragging"]
+- !private ["So18UITraitEnvironmentP", "contentOffset"]
+- !private ["So18UITraitEnvironmentP", "isScrollEnabled"]
+- !private ["So6UIViewC", "contentOffset"]
+- !private ["So6UIViewC", "isScrollEnabled"]
+- !private ["Sv", "bindMemory"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentOffset"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isScrollEnabled"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentOffset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentOffsetBehaviorSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentOffsetPublishSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "installForwardDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isScrollEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "methodInvoked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pointerValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "proxy"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "bindMemory"]
+- !private ["So16_RXDelegateProxyC", "contentOffsetBehaviorSubject"]
+- !private ["So16_RXDelegateProxyC", "contentOffsetPublishSubject"]
+- !private ["So16_RXDelegateProxyC", "installForwardDelegate"]
+- !private ["So16_RXDelegateProxyC", "methodInvoked"]
+- !private ["So16_RXDelegateProxyC", "proxy"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "7RxCocoa6BinderV"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
+- !private "7RxCocoa15ControlPropertyV"
+- !private "7RxCocoa19ControlPropertyTypeP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "7RxCocoa13DelegateProxyC"
+- !private "7RxCocoa17DelegateProxyTypeP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "7RxCocoa11HasDelegateP"
+- !private "s8HashableP"
+- !private "s12MemoryLayoutO"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "7RxSwift8ReactiveV"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "7RxCocoa0aB5ErrorO"
+- !private "7RxCocoa0A23ScrollViewDelegateProxyC"
+- !private "s8SequenceP"
+- !private "s10StrideableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So20UIScrollViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "Sv"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "So16_RXDelegateProxyC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "480b67240c0c0bc4890a2e404cf624ab"

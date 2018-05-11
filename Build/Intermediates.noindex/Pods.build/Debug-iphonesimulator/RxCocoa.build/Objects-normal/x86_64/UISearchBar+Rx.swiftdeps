@@ -1,0 +1,343 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift8ReactiveV", "delegate"]
+- ["7RxSwift8ReactiveV", "text"]
+- ["7RxSwift8ReactiveV", "value"]
+- ["7RxSwift8ReactiveV", "selectedScopeButtonIndex"]
+- ["7RxSwift8ReactiveV", "cancelButtonClicked"]
+- ["7RxSwift8ReactiveV", "bookmarkButtonClicked"]
+- ["7RxSwift8ReactiveV", "resultsListButtonClicked"]
+- ["7RxSwift8ReactiveV", "searchButtonClicked"]
+- ["7RxSwift8ReactiveV", "textDidBeginEditing"]
+- ["7RxSwift8ReactiveV", "textDidEndEditing"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- !private "AssignmentPrecedence"
+- !private "Binder"
+- "CastingPrecedence"
+- "ControlEvent"
+- "ControlProperty"
+- "DelegateProxy"
+- "Int"
+- !private "Observable"
+- "Reactive"
+- !private "RxSearchBarDelegateProxy"
+- "String"
+- "UISearchBar"
+- "UISearchBarDelegate"
+- "Void"
+- !private "castOrThrow"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["7RxCocoa6BinderV", "deinit"]
+- !private ["7RxCocoa6BinderV", "init"]
+- !private ["So15CALayerDelegateP", "rx"]
+- !private ["So15CALayerDelegateP", "selectedScopeButtonIndex"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "methodInvoked"]
+- !private ["s7CVarArgP", "proxy"]
+- !private ["s7CVarArgP", "rx"]
+- !private ["s7CVarArgP", "selectedScopeButtonIndex"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["7RxCocoa12ControlEventV", "init"]
+- !private ["7RxCocoa16ControlEventTypeP", "init"]
+- !private ["7RxCocoa15ControlPropertyV", "init"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "methodInvoked"]
+- !private ["s28CustomDebugStringConvertibleP", "proxy"]
+- !private ["s28CustomDebugStringConvertibleP", "rx"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedScopeButtonIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "startWith"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "startWith"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "methodInvoked"]
+- !private ["s23CustomStringConvertibleP", "proxy"]
+- !private ["s23CustomStringConvertibleP", "rx"]
+- !private ["s23CustomStringConvertibleP", "selectedScopeButtonIndex"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "startWith"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["7RxCocoa13DelegateProxyC", "methodInvoked"]
+- !private ["7RxCocoa13DelegateProxyC", "proxy"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "proxy"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "startWith"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "methodInvoked"]
+- !private ["s9EquatableP", "proxy"]
+- !private ["s9EquatableP", "rx"]
+- !private ["s9EquatableP", "selectedScopeButtonIndex"]
+- !private ["s9EquatableP", "startWith"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "text"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "startWith"]
+- !private ["7RxCocoa11HasDelegateP", "rx"]
+- !private ["7RxCocoa11HasDelegateP", "selectedScopeButtonIndex"]
+- !private ["7RxCocoa11HasDelegateP", "text"]
+- !private ["s8HashableP", "methodInvoked"]
+- !private ["s8HashableP", "proxy"]
+- !private ["s8HashableP", "rx"]
+- !private ["s8HashableP", "selectedScopeButtonIndex"]
+- !private ["s8HashableP", "text"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "rx"]
+- !private ["So8NSCodingP", "selectedScopeButtonIndex"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSObjectC", "methodInvoked"]
+- !private ["So8NSObjectC", "proxy"]
+- !private ["So8NSObjectC", "rx"]
+- !private ["So8NSObjectC", "selectedScopeButtonIndex"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So16NSObjectProtocolP", "methodInvoked"]
+- !private ["So16NSObjectProtocolP", "proxy"]
+- !private ["So16NSObjectProtocolP", "rx"]
+- !private ["So16NSObjectProtocolP", "searchBar"]
+- !private ["So16NSObjectProtocolP", "searchBarBookmarkButtonClicked"]
+- !private ["So16NSObjectProtocolP", "searchBarCancelButtonClicked"]
+- !private ["So16NSObjectProtocolP", "searchBarResultsListButtonClicked"]
+- !private ["So16NSObjectProtocolP", "searchBarSearchButtonClicked"]
+- !private ["So16NSObjectProtocolP", "searchBarTextDidBeginEditing"]
+- !private ["So16NSObjectProtocolP", "searchBarTextDidEndEditing"]
+- !private ["So16NSObjectProtocolP", "selectedScopeButtonIndex"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["7RxSwift10ObservableC", "deferred"]
+- !private ["7RxSwift10ObservableC", "empty"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift10ObservableC", "startWith"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "deferred"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "empty"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "startWith"]
+- !private ["7RxSwift14ObservableTypeP", "deferred"]
+- !private ["7RxSwift14ObservableTypeP", "empty"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "startWith"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["Sq", "map"]
+- !private ["Sq", "startWith"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["7RxSwift8ReactiveV", "Binder"]
+- ["7RxSwift8ReactiveV", "ControlEvent"]
+- ["7RxSwift8ReactiveV", "ControlProperty"]
+- ["7RxSwift8ReactiveV", "DelegateProxy"]
+- ["7RxSwift8ReactiveV", "Int"]
+- !private ["7RxSwift8ReactiveV", "Observable"]
+- !private ["7RxSwift8ReactiveV", "RxSearchBarDelegateProxy"]
+- ["7RxSwift8ReactiveV", "String"]
+- ["7RxSwift8ReactiveV", "UISearchBar"]
+- ["7RxSwift8ReactiveV", "UISearchBarDelegate"]
+- ["7RxSwift8ReactiveV", "Void"]
+- !private ["7RxSwift8ReactiveV", "base"]
+- ["7RxSwift8ReactiveV", "bookmarkButtonClicked"]
+- ["7RxSwift8ReactiveV", "cancelButtonClicked"]
+- !private ["7RxSwift8ReactiveV", "castOrThrow"]
+- ["7RxSwift8ReactiveV", "delegate"]
+- ["7RxSwift8ReactiveV", "resultsListButtonClicked"]
+- ["7RxSwift8ReactiveV", "searchButtonClicked"]
+- ["7RxSwift8ReactiveV", "selectedScopeButtonIndex"]
+- ["7RxSwift8ReactiveV", "text"]
+- ["7RxSwift8ReactiveV", "textDidBeginEditing"]
+- ["7RxSwift8ReactiveV", "textDidEndEditing"]
+- ["7RxSwift8ReactiveV", "value"]
+- !private ["7RxSwift18ReactiveCompatibleP", "methodInvoked"]
+- !private ["7RxSwift18ReactiveCompatibleP", "proxy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rx"]
+- !private ["7RxSwift18ReactiveCompatibleP", "selectedScopeButtonIndex"]
+- !private ["7RxSwift18ReactiveCompatibleP", "text"]
+- !private ["7RxCocoa0A22SearchBarDelegateProxyC", "deinit"]
+- !private ["7RxCocoa0A22SearchBarDelegateProxyC", "proxy"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["So29UIAccessibilityIdentificationP", "rx"]
+- !private ["So29UIAccessibilityIdentificationP", "selectedScopeButtonIndex"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "rx"]
+- !private ["So12UIAppearanceP", "selectedScopeButtonIndex"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "rx"]
+- !private ["So21UIAppearanceContainerP", "selectedScopeButtonIndex"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So16UIBarPositioningP", "rx"]
+- !private ["So16UIBarPositioningP", "selectedScopeButtonIndex"]
+- !private ["So16UIBarPositioningP", "text"]
+- !private ["So24UIBarPositioningDelegateP", "proxy"]
+- !private ["So24UIBarPositioningDelegateP", "searchBar"]
+- !private ["So24UIBarPositioningDelegateP", "searchBarBookmarkButtonClicked"]
+- !private ["So24UIBarPositioningDelegateP", "searchBarCancelButtonClicked"]
+- !private ["So24UIBarPositioningDelegateP", "searchBarResultsListButtonClicked"]
+- !private ["So24UIBarPositioningDelegateP", "searchBarSearchButtonClicked"]
+- !private ["So24UIBarPositioningDelegateP", "searchBarTextDidBeginEditing"]
+- !private ["So24UIBarPositioningDelegateP", "searchBarTextDidEndEditing"]
+- !private ["So17UICoordinateSpaceP", "rx"]
+- !private ["So17UICoordinateSpaceP", "selectedScopeButtonIndex"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "rx"]
+- !private ["So13UIDynamicItemP", "selectedScopeButtonIndex"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "rx"]
+- !private ["So18UIFocusEnvironmentP", "selectedScopeButtonIndex"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "rx"]
+- !private ["So11UIFocusItemP", "selectedScopeButtonIndex"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "rx"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedScopeButtonIndex"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So11UIResponderC", "rx"]
+- !private ["So11UIResponderC", "selectedScopeButtonIndex"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "rx"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedScopeButtonIndex"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So11UISearchBarC", "rx"]
+- !private ["So11UISearchBarC", "selectedScopeButtonIndex"]
+- !private ["So11UISearchBarC", "text"]
+- !private ["So19UISearchBarDelegateP", "proxy"]
+- !private ["So19UISearchBarDelegateP", "searchBar"]
+- !private ["So19UISearchBarDelegateP", "searchBarBookmarkButtonClicked"]
+- !private ["So19UISearchBarDelegateP", "searchBarCancelButtonClicked"]
+- !private ["So19UISearchBarDelegateP", "searchBarResultsListButtonClicked"]
+- !private ["So19UISearchBarDelegateP", "searchBarSearchButtonClicked"]
+- !private ["So19UISearchBarDelegateP", "searchBarTextDidBeginEditing"]
+- !private ["So19UISearchBarDelegateP", "searchBarTextDidEndEditing"]
+- !private ["So17UITextInputTraitsP", "rx"]
+- !private ["So17UITextInputTraitsP", "selectedScopeButtonIndex"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So18UITraitEnvironmentP", "rx"]
+- !private ["So18UITraitEnvironmentP", "selectedScopeButtonIndex"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So6UIViewC", "rx"]
+- !private ["So6UIViewC", "selectedScopeButtonIndex"]
+- !private ["So6UIViewC", "text"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rx"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedScopeButtonIndex"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "methodInvoked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "proxy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rx"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedScopeButtonIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "startWith"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["So16_RXDelegateProxyC", "methodInvoked"]
+- !private ["So16_RXDelegateProxyC", "proxy"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "7RxCocoa6BinderV"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
+- !private "7RxCocoa15ControlPropertyV"
+- !private "7RxCocoa19ControlPropertyTypeP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "7RxCocoa13DelegateProxyC"
+- !private "7RxCocoa17DelegateProxyTypeP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7RxCocoa11HasDelegateP"
+- !private "s8HashableP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "Sq"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "7RxSwift8ReactiveV"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "7RxCocoa0A22SearchBarDelegateProxyC"
+- !private "s8SequenceP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UIBarPositioningP"
+- !private "So24UIBarPositioningDelegateP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So11UISearchBarC"
+- !private "So19UISearchBarDelegateP"
+- !private "So17UITextInputTraitsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So16_RXDelegateProxyC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "7438fd7576a986f04742c66141b7a21b"

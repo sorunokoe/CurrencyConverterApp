@@ -1,0 +1,160 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LayoutSupport"
+provides-nominal:
+- "11Cartography13LayoutSupportC"
+provides-member:
+- ["11Cartography13LayoutSupportC", ""]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "car_topLayoutGuide"]
+- ["So16UIViewControllerC", "car_bottomLayoutGuide"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Context"
+- "LayoutItem"
+- "LayoutSupport"
+- "LayoutSupportProxy"
+- "UILayoutSupport"
+- "UIViewController"
+depends-member:
+- !private ["s7CVarArgP", "LayoutSupport"]
+- !private ["s7CVarArgP", "bottomLayoutGuide"]
+- !private ["s7CVarArgP", "topLayoutGuide"]
+- !private ["s28CustomDebugStringConvertibleP", "LayoutSupport"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomLayoutGuide"]
+- !private ["s28CustomDebugStringConvertibleP", "topLayoutGuide"]
+- !private ["s23CustomStringConvertibleP", "LayoutSupport"]
+- !private ["s23CustomStringConvertibleP", "bottomLayoutGuide"]
+- !private ["s23CustomStringConvertibleP", "topLayoutGuide"]
+- !private ["s9EquatableP", "LayoutSupport"]
+- !private ["s9EquatableP", "bottomLayoutGuide"]
+- !private ["s9EquatableP", "topLayoutGuide"]
+- !private ["s8HashableP", "LayoutSupport"]
+- !private ["s8HashableP", "bottomLayoutGuide"]
+- !private ["s8HashableP", "topLayoutGuide"]
+- !private ["11Cartography10LayoutItemP", "LayoutSupportProxy"]
+- ["11Cartography10LayoutItemP", "ProxyType"]
+- ["11Cartography10LayoutItemP", ""]
+- ["11Cartography10LayoutItemP", "_Default_ProxyType"]
+- ["11Cartography10LayoutItemP", "asProxy"]
+- !private ["11Cartography10LayoutItemP", "init"]
+- !private ["11Cartography10LayoutItemP", "layoutGuide"]
+- !private ["11Cartography11LayoutProxyP", "init"]
+- ["11Cartography13LayoutSupportC", "Context"]
+- ["11Cartography13LayoutSupportC", "LayoutSupportProxy"]
+- ["11Cartography13LayoutSupportC", "ProxyType"]
+- ["11Cartography13LayoutSupportC", "UILayoutSupport"]
+- ["11Cartography13LayoutSupportC", "_Default_ProxyType"]
+- ["11Cartography13LayoutSupportC", "asProxy"]
+- ["11Cartography13LayoutSupportC", "deinit"]
+- ["11Cartography13LayoutSupportC", "init"]
+- ["11Cartography13LayoutSupportC", "layoutGuide"]
+- ["11Cartography18LayoutSupportProxyC", "deinit"]
+- !private ["11Cartography18LayoutSupportProxyC", "init"]
+- !private ["So8NSCodingP", "LayoutSupport"]
+- !private ["So8NSCodingP", "bottomLayoutGuide"]
+- !private ["So8NSCodingP", "topLayoutGuide"]
+- !private ["So26NSExtensionRequestHandlingP", "LayoutSupport"]
+- !private ["So26NSExtensionRequestHandlingP", "bottomLayoutGuide"]
+- !private ["So26NSExtensionRequestHandlingP", "topLayoutGuide"]
+- ["So8NSObjectC", "LayoutSupport"]
+- !private ["So8NSObjectC", "bottomLayoutGuide"]
+- ["So8NSObjectC", "car_bottomLayoutGuide"]
+- ["So8NSObjectC", "car_topLayoutGuide"]
+- !private ["So8NSObjectC", "topLayoutGuide"]
+- !private ["So16NSObjectProtocolP", "LayoutSupport"]
+- !private ["So16NSObjectProtocolP", "bottomLayoutGuide"]
+- !private ["So16NSObjectProtocolP", "topLayoutGuide"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "init"]
+- !private ["11Cartography25SupportsHeightLayoutProxyP", "init"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "init"]
+- !private ["So21UIAppearanceContainerP", "LayoutSupport"]
+- !private ["So21UIAppearanceContainerP", "bottomLayoutGuide"]
+- !private ["So21UIAppearanceContainerP", "topLayoutGuide"]
+- !private ["So18UIContentContainerP", "LayoutSupport"]
+- !private ["So18UIContentContainerP", "bottomLayoutGuide"]
+- !private ["So18UIContentContainerP", "topLayoutGuide"]
+- !private ["So18UIFocusEnvironmentP", "LayoutSupport"]
+- !private ["So18UIFocusEnvironmentP", "bottomLayoutGuide"]
+- !private ["So18UIFocusEnvironmentP", "topLayoutGuide"]
+- !private ["So30UIPasteConfigurationSupportingP", "LayoutSupport"]
+- !private ["So30UIPasteConfigurationSupportingP", "bottomLayoutGuide"]
+- !private ["So30UIPasteConfigurationSupportingP", "topLayoutGuide"]
+- ["So11UIResponderC", "LayoutSupport"]
+- !private ["So11UIResponderC", "bottomLayoutGuide"]
+- ["So11UIResponderC", "car_bottomLayoutGuide"]
+- ["So11UIResponderC", "car_topLayoutGuide"]
+- !private ["So11UIResponderC", "topLayoutGuide"]
+- !private ["So30UIResponderStandardEditActionsP", "LayoutSupport"]
+- !private ["So30UIResponderStandardEditActionsP", "bottomLayoutGuide"]
+- !private ["So30UIResponderStandardEditActionsP", "topLayoutGuide"]
+- !private ["So16UIStateRestoringP", "LayoutSupport"]
+- !private ["So16UIStateRestoringP", "bottomLayoutGuide"]
+- !private ["So16UIStateRestoringP", "topLayoutGuide"]
+- !private ["So18UITraitEnvironmentP", "LayoutSupport"]
+- !private ["So18UITraitEnvironmentP", "bottomLayoutGuide"]
+- !private ["So18UITraitEnvironmentP", "topLayoutGuide"]
+- ["So16UIViewControllerC", "LayoutSupport"]
+- !private ["So16UIViewControllerC", "bottomLayoutGuide"]
+- ["So16UIViewControllerC", "car_bottomLayoutGuide"]
+- ["So16UIViewControllerC", "car_topLayoutGuide"]
+- !private ["So16UIViewControllerC", "topLayoutGuide"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LayoutSupport"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomLayoutGuide"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topLayoutGuide"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- "11Cartography10LayoutItemP"
+- !private "11Cartography11LayoutProxyP"
+- "11Cartography13LayoutSupportC"
+- "11Cartography18LayoutSupportProxyC"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "11Cartography25SupportsBottomLayoutProxyP"
+- !private "11Cartography25SupportsHeightLayoutProxyP"
+- !private "11Cartography22SupportsTopLayoutProxyP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Cartography/Cartography-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Cartography.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d8ac17fe0f2b896f56e3be87efb4816a"

@@ -1,0 +1,272 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxTextViewDelegateProxy"
+provides-nominal:
+- "7RxCocoa0A21TextViewDelegateProxyC"
+provides-member:
+- ["7RxCocoa0A21TextViewDelegateProxyC", ""]
+provides-dynamic-lookup:
+- "textView"
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "NSRange"
+- "RxScrollViewDelegateProxy"
+- "RxTextViewDelegateProxy"
+- "String"
+- !private "StringLiteralType"
+- "UITextView"
+- "UITextViewDelegate"
+depends-member:
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "forwardToDelegate"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "textView"]
+- ["s7CVarArgP", "textViewDidBeginEditing"]
+- ["s7CVarArgP", "textViewDidChange"]
+- ["s7CVarArgP", "textViewDidChangeSelection"]
+- ["s7CVarArgP", "textViewDidEndEditing"]
+- ["s7CVarArgP", "textViewShouldBeginEditing"]
+- ["s7CVarArgP", "textViewShouldEndEditing"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "forwardToDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "textView"]
+- ["s28CustomDebugStringConvertibleP", "textViewDidBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textViewDidChange"]
+- ["s28CustomDebugStringConvertibleP", "textViewDidChangeSelection"]
+- ["s28CustomDebugStringConvertibleP", "textViewDidEndEditing"]
+- ["s28CustomDebugStringConvertibleP", "textViewShouldBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "textViewShouldEndEditing"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "forwardToDelegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "textView"]
+- ["s23CustomStringConvertibleP", "textViewDidBeginEditing"]
+- ["s23CustomStringConvertibleP", "textViewDidChange"]
+- ["s23CustomStringConvertibleP", "textViewDidChangeSelection"]
+- ["s23CustomStringConvertibleP", "textViewDidEndEditing"]
+- ["s23CustomStringConvertibleP", "textViewShouldBeginEditing"]
+- ["s23CustomStringConvertibleP", "textViewShouldEndEditing"]
+- ["7RxCocoa13DelegateProxyC", "Bool"]
+- ["7RxCocoa13DelegateProxyC", "NSRange"]
+- ["7RxCocoa13DelegateProxyC", "String"]
+- ["7RxCocoa13DelegateProxyC", "UITextView"]
+- !private ["7RxCocoa13DelegateProxyC", "UITextViewDelegate"]
+- !private ["7RxCocoa13DelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa13DelegateProxyC", "textView"]
+- ["7RxCocoa13DelegateProxyC", "textViewDidBeginEditing"]
+- ["7RxCocoa13DelegateProxyC", "textViewDidChange"]
+- ["7RxCocoa13DelegateProxyC", "textViewDidChangeSelection"]
+- ["7RxCocoa13DelegateProxyC", "textViewDidEndEditing"]
+- ["7RxCocoa13DelegateProxyC", "textViewShouldBeginEditing"]
+- ["7RxCocoa13DelegateProxyC", "textViewShouldEndEditing"]
+- ["7RxCocoa17DelegateProxyTypeP", ""]
+- !private ["7RxCocoa17DelegateProxyTypeP", "forwardToDelegate"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "init"]
+- ["7RxCocoa17DelegateProxyTypeP", "textView"]
+- ["7RxCocoa17DelegateProxyTypeP", "textViewDidBeginEditing"]
+- ["7RxCocoa17DelegateProxyTypeP", "textViewDidChange"]
+- ["7RxCocoa17DelegateProxyTypeP", "textViewDidChangeSelection"]
+- ["7RxCocoa17DelegateProxyTypeP", "textViewDidEndEditing"]
+- ["7RxCocoa17DelegateProxyTypeP", "textViewShouldBeginEditing"]
+- ["7RxCocoa17DelegateProxyTypeP", "textViewShouldEndEditing"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "forwardToDelegate"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "textView"]
+- ["s9EquatableP", "textViewDidBeginEditing"]
+- ["s9EquatableP", "textViewDidChange"]
+- ["s9EquatableP", "textViewDidChangeSelection"]
+- ["s9EquatableP", "textViewDidEndEditing"]
+- ["s9EquatableP", "textViewShouldBeginEditing"]
+- ["s9EquatableP", "textViewShouldEndEditing"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "forwardToDelegate"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "textView"]
+- ["s8HashableP", "textViewDidBeginEditing"]
+- ["s8HashableP", "textViewDidChange"]
+- ["s8HashableP", "textViewDidChangeSelection"]
+- ["s8HashableP", "textViewDidEndEditing"]
+- ["s8HashableP", "textViewShouldBeginEditing"]
+- ["s8HashableP", "textViewShouldEndEditing"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "NSRange"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UITextView"]
+- !private ["So8NSObjectC", "UITextViewDelegate"]
+- !private ["So8NSObjectC", "forwardToDelegate"]
+- ["So8NSObjectC", "textView"]
+- ["So8NSObjectC", "textViewDidBeginEditing"]
+- ["So8NSObjectC", "textViewDidChange"]
+- ["So8NSObjectC", "textViewDidChangeSelection"]
+- ["So8NSObjectC", "textViewDidEndEditing"]
+- ["So8NSObjectC", "textViewShouldBeginEditing"]
+- ["So8NSObjectC", "textViewShouldEndEditing"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "forwardToDelegate"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "textView"]
+- ["So16NSObjectProtocolP", "textViewDidBeginEditing"]
+- ["So16NSObjectProtocolP", "textViewDidChange"]
+- ["So16NSObjectProtocolP", "textViewDidChangeSelection"]
+- ["So16NSObjectProtocolP", "textViewDidEndEditing"]
+- ["So16NSObjectProtocolP", "textViewShouldBeginEditing"]
+- ["So16NSObjectProtocolP", "textViewShouldEndEditing"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "forwardToDelegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "textView"]
+- ["7RxSwift18ReactiveCompatibleP", "textViewDidBeginEditing"]
+- ["7RxSwift18ReactiveCompatibleP", "textViewDidChange"]
+- ["7RxSwift18ReactiveCompatibleP", "textViewDidChangeSelection"]
+- ["7RxSwift18ReactiveCompatibleP", "textViewDidEndEditing"]
+- ["7RxSwift18ReactiveCompatibleP", "textViewShouldBeginEditing"]
+- ["7RxSwift18ReactiveCompatibleP", "textViewShouldEndEditing"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "Bool"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "NSRange"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "String"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "UITextView"]
+- !private ["7RxCocoa0A23ScrollViewDelegateProxyC", "UITextViewDelegate"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", ""]
+- !private ["7RxCocoa0A23ScrollViewDelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "init"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "textView"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "textViewDidBeginEditing"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "textViewDidChange"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "textViewDidChangeSelection"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "textViewDidEndEditing"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "textViewShouldBeginEditing"]
+- ["7RxCocoa0A23ScrollViewDelegateProxyC", "textViewShouldEndEditing"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "Bool"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "NSRange"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "String"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "UITextView"]
+- !private ["7RxCocoa0A21TextViewDelegateProxyC", "UITextViewDelegate"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "deinit"]
+- !private ["7RxCocoa0A21TextViewDelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "init"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "textView"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "textViewDidBeginEditing"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "textViewDidChange"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "textViewDidChangeSelection"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "textViewDidEndEditing"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "textViewShouldBeginEditing"]
+- ["7RxCocoa0A21TextViewDelegateProxyC", "textViewShouldEndEditing"]
+- !private ["s12StaticStringV", "init"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "forwardToDelegate"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- ["So20UIScrollViewDelegateP", "textView"]
+- ["So20UIScrollViewDelegateP", "textViewDidBeginEditing"]
+- ["So20UIScrollViewDelegateP", "textViewDidChange"]
+- ["So20UIScrollViewDelegateP", "textViewDidChangeSelection"]
+- ["So20UIScrollViewDelegateP", "textViewDidEndEditing"]
+- ["So20UIScrollViewDelegateP", "textViewShouldBeginEditing"]
+- ["So20UIScrollViewDelegateP", "textViewShouldEndEditing"]
+- ["So18UITextViewDelegateP", ""]
+- !private ["So18UITextViewDelegateP", "forwardToDelegate"]
+- ["So18UITextViewDelegateP", "textView"]
+- ["So18UITextViewDelegateP", "textViewDidBeginEditing"]
+- ["So18UITextViewDelegateP", "textViewDidChange"]
+- ["So18UITextViewDelegateP", "textViewDidChangeSelection"]
+- ["So18UITextViewDelegateP", "textViewDidEndEditing"]
+- ["So18UITextViewDelegateP", "textViewShouldBeginEditing"]
+- ["So18UITextViewDelegateP", "textViewShouldEndEditing"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forwardToDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewDidBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewDidChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewDidChangeSelection"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewDidEndEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewShouldBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "textViewShouldEndEditing"]
+- ["So16_RXDelegateProxyC", "Bool"]
+- ["So16_RXDelegateProxyC", "NSRange"]
+- ["So16_RXDelegateProxyC", "String"]
+- ["So16_RXDelegateProxyC", "UITextView"]
+- !private ["So16_RXDelegateProxyC", "UITextViewDelegate"]
+- !private ["So16_RXDelegateProxyC", "forwardToDelegate"]
+- ["So16_RXDelegateProxyC", "textView"]
+- ["So16_RXDelegateProxyC", "textViewDidBeginEditing"]
+- ["So16_RXDelegateProxyC", "textViewDidChange"]
+- ["So16_RXDelegateProxyC", "textViewDidChangeSelection"]
+- ["So16_RXDelegateProxyC", "textViewDidEndEditing"]
+- ["So16_RXDelegateProxyC", "textViewShouldBeginEditing"]
+- ["So16_RXDelegateProxyC", "textViewShouldEndEditing"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "7RxCocoa13DelegateProxyC"
+- "7RxCocoa17DelegateProxyTypeP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0A23ScrollViewDelegateProxyC"
+- "7RxCocoa0A21TextViewDelegateProxyC"
+- !private "s12StaticStringV"
+- "So20UIScrollViewDelegateP"
+- "So18UITextViewDelegateP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "So16_RXDelegateProxyC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "bf710db38341a90e79b77eb9eeb48d23"

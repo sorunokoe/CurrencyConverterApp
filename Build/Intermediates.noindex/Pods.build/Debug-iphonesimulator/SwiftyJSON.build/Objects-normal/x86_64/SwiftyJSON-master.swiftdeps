@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "c44d67e421f9cfd39ef1809b3a7f9880"
+build_time: [1525946838, 618105000]
+inputs:
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1525946581, 0]

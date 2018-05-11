@@ -1,0 +1,250 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+- "align"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "=="
+- !private "AnyBaselineLayoutProxy"
+- !private "AnyBottomLayoutProxy"
+- !private "AnyCenterXLayoutProxy"
+- !private "AnyCenterYLayoutProxy"
+- !private "AnyLeadingLayoutProxy"
+- !private "AnyLeftLayoutProxy"
+- !private "AnyRightLayoutProxy"
+- !private "AnyTopLayoutProxy"
+- !private "AnyTrailingLayoutProxy"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "AutoresizingMaskLayoutProxy"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "LayoutProxy"
+- "NSLayoutConstraint"
+- "RelativeEquality"
+- "SupportsBaselineLayoutProxy"
+- "SupportsBottomLayoutProxy"
+- "SupportsCenterXLayoutProxy"
+- "SupportsCenterYLayoutProxy"
+- "SupportsLeadingLayoutProxy"
+- "SupportsLeftLayoutProxy"
+- "SupportsRightLayoutProxy"
+- "SupportsTopLayoutProxy"
+- "SupportsTrailingLayoutProxy"
+- "align"
+- !private "makeEqual"
+depends-member:
+- !private ["11Cartography22AnyBaselineLayoutProxyC", "baseline"]
+- !private ["11Cartography22AnyBaselineLayoutProxyC", "deinit"]
+- !private ["11Cartography22AnyBaselineLayoutProxyC", "init"]
+- !private ["11Cartography20AnyBottomLayoutProxyC", "bottom"]
+- !private ["11Cartography20AnyBottomLayoutProxyC", "deinit"]
+- !private ["11Cartography20AnyBottomLayoutProxyC", "init"]
+- !private ["11Cartography21AnyCenterXLayoutProxyC", "centerX"]
+- !private ["11Cartography21AnyCenterXLayoutProxyC", "deinit"]
+- !private ["11Cartography21AnyCenterXLayoutProxyC", "init"]
+- !private ["11Cartography21AnyCenterYLayoutProxyC", "centerY"]
+- !private ["11Cartography21AnyCenterYLayoutProxyC", "deinit"]
+- !private ["11Cartography21AnyCenterYLayoutProxyC", "init"]
+- !private ["11Cartography21AnyLeadingLayoutProxyC", "deinit"]
+- !private ["11Cartography21AnyLeadingLayoutProxyC", "init"]
+- !private ["11Cartography21AnyLeadingLayoutProxyC", "leading"]
+- !private ["11Cartography18AnyLeftLayoutProxyC", "deinit"]
+- !private ["11Cartography18AnyLeftLayoutProxyC", "init"]
+- !private ["11Cartography18AnyLeftLayoutProxyC", "left"]
+- !private ["11Cartography19AnyRightLayoutProxyC", "deinit"]
+- !private ["11Cartography19AnyRightLayoutProxyC", "init"]
+- !private ["11Cartography19AnyRightLayoutProxyC", "right"]
+- !private ["11Cartography17AnyTopLayoutProxyC", "deinit"]
+- !private ["11Cartography17AnyTopLayoutProxyC", "init"]
+- !private ["11Cartography17AnyTopLayoutProxyC", "top"]
+- !private ["11Cartography22AnyTrailingLayoutProxyC", "deinit"]
+- !private ["11Cartography22AnyTrailingLayoutProxyC", "init"]
+- !private ["11Cartography22AnyTrailingLayoutProxyC", "trailing"]
+- !private ["Sa", "dropFirst"]
+- !private ["Sa", "first"]
+- !private ["Sa", "map"]
+- !private ["s10ArraySliceV", "reduce"]
+- !private ["11Cartography27AutoresizingMaskLayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23BidirectionalCollectionP", "dropFirst"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["s7CVarArgP", "dropFirst"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s10CollectionP", "dropFirst"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s17CustomReflectableP", "dropFirst"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "dropFirst"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s9DecodableP", "dropFirst"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "map"]
+- !private ["11Cartography4EdgeV", "deinit"]
+- !private ["s9EncodableP", "dropFirst"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EquatableP", "dropFirst"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "dropFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["11Cartography11LayoutProxyP", "baseline"]
+- !private ["11Cartography11LayoutProxyP", "bottom"]
+- !private ["11Cartography11LayoutProxyP", "centerX"]
+- !private ["11Cartography11LayoutProxyP", "centerY"]
+- !private ["11Cartography11LayoutProxyP", "init"]
+- !private ["11Cartography11LayoutProxyP", "leading"]
+- !private ["11Cartography11LayoutProxyP", "left"]
+- !private ["11Cartography11LayoutProxyP", "right"]
+- !private ["11Cartography11LayoutProxyP", "top"]
+- !private ["11Cartography11LayoutProxyP", "trailing"]
+- !private ["11Cartography11LayoutProxyP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s17MutableCollectionP", "dropFirst"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["s22RandomAccessCollectionP", "dropFirst"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "dropFirst"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s8SequenceP", "dropFirst"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["11Cartography27SupportsBaselineLayoutProxyP", "baseline"]
+- !private ["11Cartography27SupportsBaselineLayoutProxyP", "init"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "bottom"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "init"]
+- !private ["11Cartography26SupportsCenterXLayoutProxyP", "centerX"]
+- !private ["11Cartography26SupportsCenterXLayoutProxyP", "init"]
+- !private ["11Cartography26SupportsCenterYLayoutProxyP", "centerY"]
+- !private ["11Cartography26SupportsCenterYLayoutProxyP", "init"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "init"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "leading"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "init"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "left"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "init"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "right"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "init"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "top"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "init"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "trailing"]
+- !private ["s14_ArrayProtocolP", "dropFirst"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "dropFirst"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "dropFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "11Cartography22AnyBaselineLayoutProxyC"
+- !private "11Cartography20AnyBottomLayoutProxyC"
+- !private "11Cartography21AnyCenterXLayoutProxyC"
+- !private "11Cartography21AnyCenterYLayoutProxyC"
+- !private "11Cartography21AnyLeadingLayoutProxyC"
+- !private "11Cartography18AnyLeftLayoutProxyC"
+- !private "11Cartography19AnyRightLayoutProxyC"
+- !private "11Cartography17AnyTopLayoutProxyC"
+- !private "11Cartography22AnyTrailingLayoutProxyC"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "11Cartography27AutoresizingMaskLayoutProxyP"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "11Cartography4EdgeV"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "11Cartography11LayoutProxyP"
+- !private "s17MutableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "11Cartography27SupportsBaselineLayoutProxyP"
+- !private "11Cartography25SupportsBottomLayoutProxyP"
+- !private "11Cartography26SupportsCenterXLayoutProxyP"
+- !private "11Cartography26SupportsCenterYLayoutProxyP"
+- !private "11Cartography26SupportsLeadingLayoutProxyP"
+- !private "11Cartography23SupportsLeftLayoutProxyP"
+- !private "11Cartography24SupportsRightLayoutProxyP"
+- !private "11Cartography22SupportsTopLayoutProxyP"
+- !private "11Cartography27SupportsTrailingLayoutProxyP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Cartography/Cartography-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Cartography.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b7032c22d3cd55f724ca45225e418016"

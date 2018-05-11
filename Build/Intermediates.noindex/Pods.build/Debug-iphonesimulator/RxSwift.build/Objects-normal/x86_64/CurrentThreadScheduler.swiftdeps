@@ -1,0 +1,343 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CurrentThreadScheduler"
+provides-nominal:
+- "7RxSwift22CurrentThreadSchedulerC"
+provides-member:
+- ["7RxSwift22CurrentThreadSchedulerC", ""]
+provides-dynamic-lookup:
+- "copy"
+- "hash"
+depends-top-level:
+- !private "!="
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CurrentThreadScheduler"
+- "CurrentThreadSchedulerQueueKey"
+- "Disposable"
+- "ImmediateSchedulerType"
+- "Int"
+- "NSCopying"
+- "NSObject"
+- "NSZone"
+- "Queue"
+- "RxMutableBox"
+- !private "ScheduledItem"
+- "ScheduledItemType"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "Thread"
+- "UnsafeMutablePointer"
+- "UnsafeRawPointer"
+- !private "pthread_getspecific"
+- "pthread_key_create"
+- "pthread_key_t"
+- !private "pthread_setspecific"
+- "rxFatalError"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "CurrentThreadSchedulerQueueKey"]
+- !private ["s7CVarArgP", ""]
+- ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "allocate"]
+- ["s7CVarArgP", "copy"]
+- ["s7CVarArgP", "copyWithZone"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "getThreadLocalStorageValueForKey"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instance"]
+- ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "setThreadLocalStorageValue"]
+- !private ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "invoke"]
+- !private ["7RxSwift10CancelableP", "isDisposed"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "allocate"]
+- !private ["s10ComparableP", "deallocate"]
+- ["s10ComparableP", "init"]
+- ["s10ComparableP", "pointee"]
+- ["7RxSwift22CurrentThreadSchedulerC", "Bool"]
+- ["7RxSwift22CurrentThreadSchedulerC", "CurrentThreadScheduler"]
+- !private ["7RxSwift22CurrentThreadSchedulerC", "CurrentThreadSchedulerQueueKey"]
+- ["7RxSwift22CurrentThreadSchedulerC", "Disposable"]
+- ["7RxSwift22CurrentThreadSchedulerC", "Int"]
+- ["7RxSwift22CurrentThreadSchedulerC", "Queue"]
+- ["7RxSwift22CurrentThreadSchedulerC", "RxMutableBox"]
+- ["7RxSwift22CurrentThreadSchedulerC", "ScheduleQueue"]
+- !private ["7RxSwift22CurrentThreadSchedulerC", "ScheduledItem"]
+- ["7RxSwift22CurrentThreadSchedulerC", "ScheduledItemType"]
+- !private ["7RxSwift22CurrentThreadSchedulerC", "Thread"]
+- ["7RxSwift22CurrentThreadSchedulerC", "UnsafeMutablePointer"]
+- ["7RxSwift22CurrentThreadSchedulerC", "UnsafeRawPointer"]
+- ["7RxSwift22CurrentThreadSchedulerC", "deinit"]
+- ["7RxSwift22CurrentThreadSchedulerC", "init"]
+- ["7RxSwift22CurrentThreadSchedulerC", "instance"]
+- ["7RxSwift22CurrentThreadSchedulerC", "isScheduleRequired"]
+- !private ["7RxSwift22CurrentThreadSchedulerC", "isScheduleRequiredKey"]
+- !private ["7RxSwift22CurrentThreadSchedulerC", "pthread_getspecific"]
+- ["7RxSwift22CurrentThreadSchedulerC", "pthread_key_create"]
+- ["7RxSwift22CurrentThreadSchedulerC", "pthread_key_t"]
+- !private ["7RxSwift22CurrentThreadSchedulerC", "pthread_setspecific"]
+- ["7RxSwift22CurrentThreadSchedulerC", "queue"]
+- ["7RxSwift22CurrentThreadSchedulerC", "rxFatalError"]
+- ["7RxSwift22CurrentThreadSchedulerC", "schedule"]
+- !private ["7RxSwift22CurrentThreadSchedulerC", "scheduleInProgressSentinel"]
+- ["s28CustomDebugStringConvertibleP", "CurrentThreadSchedulerQueueKey"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "allocate"]
+- ["s28CustomDebugStringConvertibleP", "copy"]
+- ["s28CustomDebugStringConvertibleP", "copyWithZone"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "getThreadLocalStorageValueForKey"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instance"]
+- ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "setThreadLocalStorageValue"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "pointee"]
+- ["s23CustomStringConvertibleP", "CurrentThreadSchedulerQueueKey"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "copy"]
+- ["s23CustomStringConvertibleP", "copyWithZone"]
+- !private ["s23CustomStringConvertibleP", "getThreadLocalStorageValueForKey"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instance"]
+- !private ["s23CustomStringConvertibleP", "setThreadLocalStorageValue"]
+- ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "invoke"]
+- !private ["7RxSwift10DisposableP", "isDisposed"]
+- ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "CurrentThreadSchedulerQueueKey"]
+- !private ["s9EquatableP", ""]
+- ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "allocate"]
+- ["s9EquatableP", "copy"]
+- ["s9EquatableP", "copyWithZone"]
+- !private ["s9EquatableP", "deallocate"]
+- !private ["s9EquatableP", "getThreadLocalStorageValueForKey"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instance"]
+- ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "setThreadLocalStorageValue"]
+- ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "CurrentThreadSchedulerQueueKey"]
+- !private ["s8HashableP", ""]
+- ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "allocate"]
+- ["s8HashableP", "copy"]
+- ["s8HashableP", "copyWithZone"]
+- !private ["s8HashableP", "deallocate"]
+- !private ["s8HashableP", "getThreadLocalStorageValueForKey"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "instance"]
+- ["s8HashableP", "pointee"]
+- !private ["s8HashableP", "setThreadLocalStorageValue"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "CurrentThreadScheduler"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "CurrentThreadSchedulerQueueKey"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "Queue"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "RxMutableBox"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "ScheduledItem"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "Thread"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "UnsafeMutablePointer"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "UnsafeRawPointer"]
+- ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- ["7RxSwift22ImmediateSchedulerTypeP", "init"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "isScheduleRequired"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "isScheduleRequiredKey"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "pthread_getspecific"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "pthread_key_create"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "pthread_setspecific"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "queue"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "rxFatalError"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "schedule"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "scheduleInProgressSentinel"]
+- !private ["7RxSwift13InvocableTypeP", "init"]
+- !private ["7RxSwift13InvocableTypeP", "invoke"]
+- !private ["7RxSwift13InvocableTypeP", "isDisposed"]
+- ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So9NSCopyingP", "CurrentThreadSchedulerQueueKey"]
+- !private ["So9NSCopyingP", ""]
+- ["So9NSCopyingP", "copy"]
+- ["So9NSCopyingP", "copyWithZone"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "instance"]
+- ["So8NSObjectC", "CurrentThreadSchedulerQueueKey"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSZone"]
+- !private ["So8NSObjectC", ""]
+- ["So8NSObjectC", "copy"]
+- ["So8NSObjectC", "copyWithZone"]
+- !private ["So8NSObjectC", "getThreadLocalStorageValueForKey"]
+- ["So8NSObjectC", "hash"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "instance"]
+- !private ["So8NSObjectC", "setThreadLocalStorageValue"]
+- ["So16NSObjectProtocolP", "CurrentThreadSchedulerQueueKey"]
+- !private ["So16NSObjectProtocolP", ""]
+- ["So16NSObjectProtocolP", "copy"]
+- ["So16NSObjectProtocolP", "copyWithZone"]
+- !private ["So16NSObjectProtocolP", "getThreadLocalStorageValueForKey"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instance"]
+- !private ["So16NSObjectProtocolP", "setThreadLocalStorageValue"]
+- !private ["7RxSwift5QueueV", "dequeue"]
+- !private ["7RxSwift5QueueV", "enqueue"]
+- !private ["7RxSwift5QueueV", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "CurrentThreadSchedulerQueueKey"]
+- !private ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "copy"]
+- ["7RxSwift18ReactiveCompatibleP", "copyWithZone"]
+- !private ["7RxSwift18ReactiveCompatibleP", "getThreadLocalStorageValueForKey"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "instance"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setThreadLocalStorageValue"]
+- !private ["7RxSwift0A10MutableBoxC", "init"]
+- !private ["7RxSwift0A10MutableBoxC", "value"]
+- !private ["7RxSwift13ScheduledItemV", "deinit"]
+- !private ["7RxSwift13ScheduledItemV", "init"]
+- !private ["7RxSwift17ScheduledItemTypeP", "init"]
+- !private ["7RxSwift17ScheduledItemTypeP", "invoke"]
+- !private ["7RxSwift17ScheduledItemTypeP", "isDisposed"]
+- !private ["s8SequenceP", "dequeue"]
+- !private ["s8SequenceP", "enqueue"]
+- ["s8SequenceP", "init"]
+- ["s12StaticStringV", "init"]
+- ["s10StrideableP", "allocate"]
+- !private ["s10StrideableP", "deallocate"]
+- ["s10StrideableP", "init"]
+- ["s10StrideableP", "pointee"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So6ThreadC", "getThreadLocalStorageValueForKey"]
+- !private ["So6ThreadC", "setThreadLocalStorageValue"]
+- ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- ["Sp", "pointee"]
+- ["SV", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CurrentThreadSchedulerQueueKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "copy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "copyWithZone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getThreadLocalStorageValueForKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setThreadLocalStorageValue"]
+- ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "deallocate"]
+- ["s8_PointerP", "init"]
+- ["s8_PointerP", "pointee"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "Sb"
+- "s7CVarArgP"
+- !private "7RxSwift10CancelableP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "7RxSwift22CurrentThreadSchedulerC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "7RxSwift10DisposableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "7RxSwift22ImmediateSchedulerTypeP"
+- !private "7RxSwift13InvocableTypeP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "7RxSwift5QueueV"
+- "s26RangeReplaceableCollectionP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "7RxSwift0A10MutableBoxC"
+- !private "7RxSwift13ScheduledItemV"
+- !private "7RxSwift17ScheduledItemTypeP"
+- "s8SequenceP"
+- "s12StaticStringV"
+- "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So6ThreadC"
+- "Sp"
+- "SV"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s8_PointerP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8409a8cde79c4a96ba85ed95be09d2c4"

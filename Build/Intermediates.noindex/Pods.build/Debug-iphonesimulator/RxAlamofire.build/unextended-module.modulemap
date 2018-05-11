@@ -1,0 +1,10 @@
+framework module RxAlamofire {
+  umbrella header "RxAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module RxAlamofire.__Swift {
+    exclude header "RxAlamofire-Swift.h"
+}

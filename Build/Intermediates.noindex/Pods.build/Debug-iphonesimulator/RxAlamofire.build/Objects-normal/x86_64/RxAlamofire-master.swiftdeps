@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "5551cb9df9f831ac04167d729853c4c6"
+build_time: [1525946851, 832934000]
+inputs:
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxAlamofire/Sources/RxAlamofire.swift": [1525946580, 0]

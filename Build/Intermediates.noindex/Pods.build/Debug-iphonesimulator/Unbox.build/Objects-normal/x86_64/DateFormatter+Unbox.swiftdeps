@@ -1,0 +1,143 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "So13DateFormatterC"
+provides-member:
+- ["So13DateFormatterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Date"
+- "DateFormatter"
+- "String"
+- "UnboxFormatter"
+depends-member:
+- ["s7CVarArgP", "UnboxFormattedType"]
+- ["s7CVarArgP", "UnboxRawValue"]
+- ["s7CVarArgP", "_Default_UnboxFormattedType"]
+- ["s7CVarArgP", "_Default_UnboxRawValue"]
+- !private ["s7CVarArgP", "date"]
+- ["s7CVarArgP", "format"]
+- ["s28CustomDebugStringConvertibleP", "UnboxFormattedType"]
+- ["s28CustomDebugStringConvertibleP", "UnboxRawValue"]
+- ["s28CustomDebugStringConvertibleP", "_Default_UnboxFormattedType"]
+- ["s28CustomDebugStringConvertibleP", "_Default_UnboxRawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- ["s28CustomDebugStringConvertibleP", "format"]
+- ["s23CustomStringConvertibleP", "UnboxFormattedType"]
+- ["s23CustomStringConvertibleP", "UnboxRawValue"]
+- ["s23CustomStringConvertibleP", "_Default_UnboxFormattedType"]
+- ["s23CustomStringConvertibleP", "_Default_UnboxRawValue"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "format"]
+- ["So13DateFormatterC", "Date"]
+- ["So13DateFormatterC", "String"]
+- ["So13DateFormatterC", "UnboxFormattedType"]
+- ["So13DateFormatterC", "UnboxRawValue"]
+- ["So13DateFormatterC", "_Default_UnboxFormattedType"]
+- ["So13DateFormatterC", "_Default_UnboxRawValue"]
+- !private ["So13DateFormatterC", "date"]
+- ["So13DateFormatterC", "deinit"]
+- ["So13DateFormatterC", "format"]
+- ["s9EquatableP", "UnboxFormattedType"]
+- ["s9EquatableP", "UnboxRawValue"]
+- ["s9EquatableP", "_Default_UnboxFormattedType"]
+- ["s9EquatableP", "_Default_UnboxRawValue"]
+- !private ["s9EquatableP", "date"]
+- ["s9EquatableP", "format"]
+- ["So9FormatterC", "Date"]
+- ["So9FormatterC", "String"]
+- ["So9FormatterC", "UnboxFormattedType"]
+- ["So9FormatterC", "UnboxRawValue"]
+- ["So9FormatterC", "_Default_UnboxFormattedType"]
+- ["So9FormatterC", "_Default_UnboxRawValue"]
+- !private ["So9FormatterC", "date"]
+- ["So9FormatterC", "format"]
+- ["s8HashableP", "UnboxFormattedType"]
+- ["s8HashableP", "UnboxRawValue"]
+- ["s8HashableP", "_Default_UnboxFormattedType"]
+- ["s8HashableP", "_Default_UnboxRawValue"]
+- !private ["s8HashableP", "date"]
+- ["s8HashableP", "format"]
+- ["So8NSCodingP", "UnboxFormattedType"]
+- ["So8NSCodingP", "UnboxRawValue"]
+- ["So8NSCodingP", "_Default_UnboxFormattedType"]
+- ["So8NSCodingP", "_Default_UnboxRawValue"]
+- !private ["So8NSCodingP", "date"]
+- ["So8NSCodingP", "format"]
+- ["So9NSCopyingP", "UnboxFormattedType"]
+- ["So9NSCopyingP", "UnboxRawValue"]
+- ["So9NSCopyingP", "_Default_UnboxFormattedType"]
+- ["So9NSCopyingP", "_Default_UnboxRawValue"]
+- !private ["So9NSCopyingP", "date"]
+- ["So9NSCopyingP", "format"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UnboxFormattedType"]
+- ["So8NSObjectC", "UnboxRawValue"]
+- ["So8NSObjectC", "_Default_UnboxFormattedType"]
+- ["So8NSObjectC", "_Default_UnboxRawValue"]
+- !private ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "format"]
+- ["So16NSObjectProtocolP", "UnboxFormattedType"]
+- ["So16NSObjectProtocolP", "UnboxRawValue"]
+- ["So16NSObjectProtocolP", "_Default_UnboxFormattedType"]
+- ["So16NSObjectProtocolP", "_Default_UnboxRawValue"]
+- !private ["So16NSObjectProtocolP", "date"]
+- ["So16NSObjectProtocolP", "format"]
+- ["SS", "deinit"]
+- ["5Unbox0A9FormatterP", "UnboxFormattedType"]
+- ["5Unbox0A9FormatterP", "UnboxRawValue"]
+- ["5Unbox0A9FormatterP", ""]
+- ["5Unbox0A9FormatterP", "_Default_UnboxFormattedType"]
+- ["5Unbox0A9FormatterP", "_Default_UnboxRawValue"]
+- !private ["5Unbox0A9FormatterP", "date"]
+- ["5Unbox0A9FormatterP", "format"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UnboxFormattedType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UnboxRawValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_Default_UnboxFormattedType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_Default_UnboxRawValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "format"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So13DateFormatterC"
+- "s9EquatableP"
+- "So9FormatterC"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "SS"
+- "5Unbox0A9FormatterP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Unbox/Unbox-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Unbox.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8a94d6c936d66430719c4d3396c22272"

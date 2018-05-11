@@ -1,0 +1,446 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LayoutProxy"
+- "SupportsTopLayoutProxy"
+- "SupportsBottomLayoutProxy"
+- "SupportsRightLayoutProxy"
+- "SupportsLeftLayoutProxy"
+- "SupportsLeadingLayoutProxy"
+- "SupportsTrailingLayoutProxy"
+- "SupportsEdgesLayoutProxy"
+- "SupportsCenterXLayoutProxy"
+- "SupportsCenterYLayoutProxy"
+- "SupportsCenteringLayoutProxy"
+- "SupportsWidthLayoutProxy"
+- "SupportsHeightLayoutProxy"
+- "SupportsSizeLayoutProxy"
+- "SupportsBaselineLayoutProxy"
+- "SupportsPositioningLayoutProxy"
+provides-nominal:
+- "11Cartography11LayoutProxyP"
+- "11Cartography22SupportsTopLayoutProxyP"
+- "11Cartography25SupportsBottomLayoutProxyP"
+- "11Cartography24SupportsRightLayoutProxyP"
+- "11Cartography23SupportsLeftLayoutProxyP"
+- "11Cartography26SupportsLeadingLayoutProxyP"
+- "11Cartography27SupportsTrailingLayoutProxyP"
+- "11Cartography24SupportsEdgesLayoutProxyP"
+- "11Cartography26SupportsCenterXLayoutProxyP"
+- "11Cartography26SupportsCenterYLayoutProxyP"
+- "11Cartography28SupportsCenteringLayoutProxyP"
+- "11Cartography24SupportsWidthLayoutProxyP"
+- "11Cartography25SupportsHeightLayoutProxyP"
+- "11Cartography23SupportsSizeLayoutProxyP"
+- "11Cartography27SupportsBaselineLayoutProxyP"
+- "11Cartography30SupportsPositioningLayoutProxyP"
+provides-member:
+- ["11Cartography11LayoutProxyP", ""]
+- ["11Cartography22SupportsTopLayoutProxyP", ""]
+- ["11Cartography25SupportsBottomLayoutProxyP", ""]
+- ["11Cartography24SupportsRightLayoutProxyP", ""]
+- ["11Cartography23SupportsLeftLayoutProxyP", ""]
+- ["11Cartography26SupportsLeadingLayoutProxyP", ""]
+- ["11Cartography27SupportsTrailingLayoutProxyP", ""]
+- ["11Cartography24SupportsEdgesLayoutProxyP", ""]
+- ["11Cartography26SupportsCenterXLayoutProxyP", ""]
+- ["11Cartography26SupportsCenterYLayoutProxyP", ""]
+- ["11Cartography28SupportsCenteringLayoutProxyP", ""]
+- ["11Cartography24SupportsWidthLayoutProxyP", ""]
+- ["11Cartography25SupportsHeightLayoutProxyP", ""]
+- ["11Cartography23SupportsSizeLayoutProxyP", ""]
+- ["11Cartography27SupportsBaselineLayoutProxyP", ""]
+- ["11Cartography30SupportsPositioningLayoutProxyP", ""]
+- ["11Cartography11LayoutProxyP", "dimension"]
+- ["11Cartography11LayoutProxyP", "edge"]
+- ["11Cartography11LayoutProxyP", "point"]
+- ["11Cartography11LayoutProxyP", "size"]
+- ["11Cartography11LayoutProxyP", "edges"]
+- ["11Cartography22SupportsTopLayoutProxyP", "top"]
+- ["11Cartography22SupportsTopLayoutProxyP", "topMargin"]
+- ["11Cartography25SupportsBottomLayoutProxyP", "bottom"]
+- ["11Cartography25SupportsBottomLayoutProxyP", "bottomMargin"]
+- ["11Cartography24SupportsRightLayoutProxyP", "right"]
+- ["11Cartography24SupportsRightLayoutProxyP", "rightMargin"]
+- ["11Cartography23SupportsLeftLayoutProxyP", "left"]
+- ["11Cartography23SupportsLeftLayoutProxyP", "leftMargin"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "leading"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "leadingMargin"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "trailing"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "trailingMargin"]
+- ["11Cartography24SupportsEdgesLayoutProxyP", "edges"]
+- ["11Cartography24SupportsEdgesLayoutProxyP", "edgesWithinMargins"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "centerX"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "centerXWithinMargins"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "centerY"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "centerYWithinMargins"]
+- ["11Cartography28SupportsCenteringLayoutProxyP", "center"]
+- ["11Cartography28SupportsCenteringLayoutProxyP", "centerWithinMargins"]
+- ["11Cartography24SupportsWidthLayoutProxyP", "width"]
+- ["11Cartography25SupportsHeightLayoutProxyP", "height"]
+- ["11Cartography23SupportsSizeLayoutProxyP", "size"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "lastBaseline"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "baseline"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "firstBaseline"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- !private "Array"
+- "Context"
+- "Dimension"
+- "Edge"
+- "Edges"
+- "LayoutProxy"
+- "NSLayoutAttribute"
+- "Point"
+- "Size"
+- "SupportsBaselineLayoutProxy"
+- "SupportsBottomLayoutProxy"
+- "SupportsCenterXLayoutProxy"
+- "SupportsCenterYLayoutProxy"
+- "SupportsCenteringLayoutProxy"
+- "SupportsEdgesLayoutProxy"
+- "SupportsHeightLayoutProxy"
+- "SupportsLeadingLayoutProxy"
+- "SupportsLeftLayoutProxy"
+- "SupportsPositioningLayoutProxy"
+- "SupportsRightLayoutProxy"
+- "SupportsSizeLayoutProxy"
+- "SupportsTopLayoutProxy"
+- "SupportsTrailingLayoutProxy"
+- "SupportsWidthLayoutProxy"
+depends-member:
+- !private ["11Cartography8AdditionP", "init"]
+- !private ["11Cartography8CompoundP", "init"]
+- !private ["11Cartography9DimensionV", "deinit"]
+- !private ["11Cartography9DimensionV", "init"]
+- !private ["11Cartography4EdgeV", "deinit"]
+- !private ["11Cartography4EdgeV", "init"]
+- !private ["11Cartography5EdgesV", "init"]
+- !private ["s9EquatableP", "bottom"]
+- !private ["s9EquatableP", "bottomMargin"]
+- !private ["s9EquatableP", "centerX"]
+- !private ["s9EquatableP", "centerXWithinMargins"]
+- !private ["s9EquatableP", "centerY"]
+- !private ["s9EquatableP", "centerYWithinMargins"]
+- !private ["s9EquatableP", "firstBaseline"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "lastBaseline"]
+- !private ["s9EquatableP", "leading"]
+- !private ["s9EquatableP", "leadingMargin"]
+- !private ["s9EquatableP", "left"]
+- !private ["s9EquatableP", "leftMargin"]
+- !private ["s9EquatableP", "right"]
+- !private ["s9EquatableP", "rightMargin"]
+- !private ["s9EquatableP", "top"]
+- !private ["s9EquatableP", "topMargin"]
+- !private ["s9EquatableP", "trailing"]
+- !private ["s9EquatableP", "trailingMargin"]
+- !private ["s9EquatableP", "width"]
+- !private ["s8HashableP", "bottom"]
+- !private ["s8HashableP", "bottomMargin"]
+- !private ["s8HashableP", "centerX"]
+- !private ["s8HashableP", "centerXWithinMargins"]
+- !private ["s8HashableP", "centerY"]
+- !private ["s8HashableP", "centerYWithinMargins"]
+- !private ["s8HashableP", "firstBaseline"]
+- !private ["s8HashableP", "height"]
+- !private ["s8HashableP", "lastBaseline"]
+- !private ["s8HashableP", "leading"]
+- !private ["s8HashableP", "leadingMargin"]
+- !private ["s8HashableP", "left"]
+- !private ["s8HashableP", "leftMargin"]
+- !private ["s8HashableP", "right"]
+- !private ["s8HashableP", "rightMargin"]
+- !private ["s8HashableP", "top"]
+- !private ["s8HashableP", "topMargin"]
+- !private ["s8HashableP", "trailing"]
+- !private ["s8HashableP", "trailingMargin"]
+- !private ["s8HashableP", "width"]
+- ["11Cartography11LayoutProxyP", "AnyObject"]
+- ["11Cartography11LayoutProxyP", "Context"]
+- ["11Cartography11LayoutProxyP", "Dimension"]
+- ["11Cartography11LayoutProxyP", "Edge"]
+- ["11Cartography11LayoutProxyP", "Edges"]
+- ["11Cartography11LayoutProxyP", "NSLayoutAttribute"]
+- ["11Cartography11LayoutProxyP", "Point"]
+- ["11Cartography11LayoutProxyP", "Size"]
+- ["11Cartography11LayoutProxyP", ""]
+- !private ["11Cartography11LayoutProxyP", "bottom"]
+- !private ["11Cartography11LayoutProxyP", "bottomMargin"]
+- !private ["11Cartography11LayoutProxyP", "centerX"]
+- !private ["11Cartography11LayoutProxyP", "centerXWithinMargins"]
+- !private ["11Cartography11LayoutProxyP", "centerY"]
+- !private ["11Cartography11LayoutProxyP", "centerYWithinMargins"]
+- ["11Cartography11LayoutProxyP", "context"]
+- ["11Cartography11LayoutProxyP", "dimension"]
+- ["11Cartography11LayoutProxyP", "edge"]
+- ["11Cartography11LayoutProxyP", "edges"]
+- !private ["11Cartography11LayoutProxyP", "height"]
+- ["11Cartography11LayoutProxyP", "item"]
+- !private ["11Cartography11LayoutProxyP", "leading"]
+- !private ["11Cartography11LayoutProxyP", "leadingMargin"]
+- ["11Cartography11LayoutProxyP", "point"]
+- ["11Cartography11LayoutProxyP", "size"]
+- !private ["11Cartography11LayoutProxyP", "top"]
+- !private ["11Cartography11LayoutProxyP", "topMargin"]
+- !private ["11Cartography11LayoutProxyP", "trailing"]
+- !private ["11Cartography11LayoutProxyP", "trailingMargin"]
+- !private ["11Cartography11LayoutProxyP", "width"]
+- !private ["11Cartography14MultiplicationP", "init"]
+- !private ["SC17NSLayoutAttributeO", "bottom"]
+- !private ["SC17NSLayoutAttributeO", "bottomMargin"]
+- !private ["SC17NSLayoutAttributeO", "centerX"]
+- !private ["SC17NSLayoutAttributeO", "centerXWithinMargins"]
+- !private ["SC17NSLayoutAttributeO", "centerY"]
+- !private ["SC17NSLayoutAttributeO", "centerYWithinMargins"]
+- !private ["SC17NSLayoutAttributeO", "firstBaseline"]
+- !private ["SC17NSLayoutAttributeO", "height"]
+- !private ["SC17NSLayoutAttributeO", "lastBaseline"]
+- !private ["SC17NSLayoutAttributeO", "leading"]
+- !private ["SC17NSLayoutAttributeO", "leadingMargin"]
+- !private ["SC17NSLayoutAttributeO", "left"]
+- !private ["SC17NSLayoutAttributeO", "leftMargin"]
+- !private ["SC17NSLayoutAttributeO", "right"]
+- !private ["SC17NSLayoutAttributeO", "rightMargin"]
+- !private ["SC17NSLayoutAttributeO", "top"]
+- !private ["SC17NSLayoutAttributeO", "topMargin"]
+- !private ["SC17NSLayoutAttributeO", "trailing"]
+- !private ["SC17NSLayoutAttributeO", "trailingMargin"]
+- !private ["SC17NSLayoutAttributeO", "width"]
+- !private ["11Cartography17NumericalEqualityP", "init"]
+- !private ["11Cartography19NumericalInequalityP", "init"]
+- !private ["11Cartography5PointV", "init"]
+- !private ["11Cartography8PropertyP", "init"]
+- !private ["s16RawRepresentableP", "bottom"]
+- !private ["s16RawRepresentableP", "bottomMargin"]
+- !private ["s16RawRepresentableP", "centerX"]
+- !private ["s16RawRepresentableP", "centerXWithinMargins"]
+- !private ["s16RawRepresentableP", "centerY"]
+- !private ["s16RawRepresentableP", "centerYWithinMargins"]
+- !private ["s16RawRepresentableP", "firstBaseline"]
+- !private ["s16RawRepresentableP", "height"]
+- !private ["s16RawRepresentableP", "lastBaseline"]
+- !private ["s16RawRepresentableP", "leading"]
+- !private ["s16RawRepresentableP", "leadingMargin"]
+- !private ["s16RawRepresentableP", "left"]
+- !private ["s16RawRepresentableP", "leftMargin"]
+- !private ["s16RawRepresentableP", "right"]
+- !private ["s16RawRepresentableP", "rightMargin"]
+- !private ["s16RawRepresentableP", "top"]
+- !private ["s16RawRepresentableP", "topMargin"]
+- !private ["s16RawRepresentableP", "trailing"]
+- !private ["s16RawRepresentableP", "trailingMargin"]
+- !private ["s16RawRepresentableP", "width"]
+- !private ["11Cartography24RelativeCompoundEqualityP", "init"]
+- !private ["11Cartography26RelativeCompoundInequalityP", "init"]
+- !private ["11Cartography16RelativeEqualityP", "init"]
+- !private ["11Cartography18RelativeInequalityP", "init"]
+- !private ["11Cartography4SizeV", "init"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "Edge"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "baseline"]
+- !private ["11Cartography27SupportsBaselineLayoutProxyP", "edge"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "firstBaseline"]
+- ["11Cartography27SupportsBaselineLayoutProxyP", "lastBaseline"]
+- ["11Cartography25SupportsBottomLayoutProxyP", "Edge"]
+- ["11Cartography25SupportsBottomLayoutProxyP", "Edges"]
+- ["11Cartography25SupportsBottomLayoutProxyP", ""]
+- ["11Cartography25SupportsBottomLayoutProxyP", "bottom"]
+- ["11Cartography25SupportsBottomLayoutProxyP", "bottomMargin"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "edge"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "edges"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "leading"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "leadingMargin"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "top"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "topMargin"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "trailing"]
+- !private ["11Cartography25SupportsBottomLayoutProxyP", "trailingMargin"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "Edge"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "Point"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", ""]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "centerX"]
+- ["11Cartography26SupportsCenterXLayoutProxyP", "centerXWithinMargins"]
+- !private ["11Cartography26SupportsCenterXLayoutProxyP", "centerY"]
+- !private ["11Cartography26SupportsCenterXLayoutProxyP", "centerYWithinMargins"]
+- !private ["11Cartography26SupportsCenterXLayoutProxyP", "edge"]
+- !private ["11Cartography26SupportsCenterXLayoutProxyP", "point"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "Edge"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "Point"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", ""]
+- !private ["11Cartography26SupportsCenterYLayoutProxyP", "centerX"]
+- !private ["11Cartography26SupportsCenterYLayoutProxyP", "centerXWithinMargins"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "centerY"]
+- ["11Cartography26SupportsCenterYLayoutProxyP", "centerYWithinMargins"]
+- !private ["11Cartography26SupportsCenterYLayoutProxyP", "edge"]
+- !private ["11Cartography26SupportsCenterYLayoutProxyP", "point"]
+- ["11Cartography28SupportsCenteringLayoutProxyP", "Point"]
+- ["11Cartography28SupportsCenteringLayoutProxyP", ""]
+- ["11Cartography28SupportsCenteringLayoutProxyP", "center"]
+- ["11Cartography28SupportsCenteringLayoutProxyP", "centerWithinMargins"]
+- !private ["11Cartography28SupportsCenteringLayoutProxyP", "centerX"]
+- !private ["11Cartography28SupportsCenteringLayoutProxyP", "centerXWithinMargins"]
+- !private ["11Cartography28SupportsCenteringLayoutProxyP", "centerY"]
+- !private ["11Cartography28SupportsCenteringLayoutProxyP", "centerYWithinMargins"]
+- !private ["11Cartography28SupportsCenteringLayoutProxyP", "point"]
+- ["11Cartography24SupportsEdgesLayoutProxyP", "Edges"]
+- ["11Cartography24SupportsEdgesLayoutProxyP", ""]
+- !private ["11Cartography24SupportsEdgesLayoutProxyP", "bottom"]
+- !private ["11Cartography24SupportsEdgesLayoutProxyP", "bottomMargin"]
+- ["11Cartography24SupportsEdgesLayoutProxyP", "edges"]
+- ["11Cartography24SupportsEdgesLayoutProxyP", "edgesWithinMargins"]
+- !private ["11Cartography24SupportsEdgesLayoutProxyP", "leading"]
+- !private ["11Cartography24SupportsEdgesLayoutProxyP", "leadingMargin"]
+- !private ["11Cartography24SupportsEdgesLayoutProxyP", "top"]
+- !private ["11Cartography24SupportsEdgesLayoutProxyP", "topMargin"]
+- !private ["11Cartography24SupportsEdgesLayoutProxyP", "trailing"]
+- !private ["11Cartography24SupportsEdgesLayoutProxyP", "trailingMargin"]
+- ["11Cartography25SupportsHeightLayoutProxyP", "Dimension"]
+- ["11Cartography25SupportsHeightLayoutProxyP", "Size"]
+- ["11Cartography25SupportsHeightLayoutProxyP", ""]
+- !private ["11Cartography25SupportsHeightLayoutProxyP", "dimension"]
+- ["11Cartography25SupportsHeightLayoutProxyP", "height"]
+- !private ["11Cartography25SupportsHeightLayoutProxyP", "size"]
+- !private ["11Cartography25SupportsHeightLayoutProxyP", "width"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "Edge"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "Edges"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", ""]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "bottom"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "bottomMargin"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "edge"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "edges"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "leading"]
+- ["11Cartography26SupportsLeadingLayoutProxyP", "leadingMargin"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "top"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "topMargin"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "trailing"]
+- !private ["11Cartography26SupportsLeadingLayoutProxyP", "trailingMargin"]
+- ["11Cartography23SupportsLeftLayoutProxyP", "Edge"]
+- ["11Cartography23SupportsLeftLayoutProxyP", "Edges"]
+- ["11Cartography23SupportsLeftLayoutProxyP", ""]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "bottom"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "bottomMargin"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "edge"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "edges"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "leading"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "leadingMargin"]
+- ["11Cartography23SupportsLeftLayoutProxyP", "left"]
+- ["11Cartography23SupportsLeftLayoutProxyP", "leftMargin"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "top"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "topMargin"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "trailing"]
+- !private ["11Cartography23SupportsLeftLayoutProxyP", "trailingMargin"]
+- ["11Cartography24SupportsRightLayoutProxyP", "Edge"]
+- ["11Cartography24SupportsRightLayoutProxyP", "Edges"]
+- ["11Cartography24SupportsRightLayoutProxyP", ""]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "bottom"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "bottomMargin"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "edge"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "edges"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "leading"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "leadingMargin"]
+- ["11Cartography24SupportsRightLayoutProxyP", "right"]
+- ["11Cartography24SupportsRightLayoutProxyP", "rightMargin"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "top"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "topMargin"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "trailing"]
+- !private ["11Cartography24SupportsRightLayoutProxyP", "trailingMargin"]
+- ["11Cartography23SupportsSizeLayoutProxyP", "Size"]
+- ["11Cartography23SupportsSizeLayoutProxyP", ""]
+- !private ["11Cartography23SupportsSizeLayoutProxyP", "height"]
+- ["11Cartography23SupportsSizeLayoutProxyP", "size"]
+- !private ["11Cartography23SupportsSizeLayoutProxyP", "width"]
+- ["11Cartography22SupportsTopLayoutProxyP", "Edge"]
+- ["11Cartography22SupportsTopLayoutProxyP", "Edges"]
+- ["11Cartography22SupportsTopLayoutProxyP", ""]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "bottom"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "bottomMargin"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "edge"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "edges"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "leading"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "leadingMargin"]
+- ["11Cartography22SupportsTopLayoutProxyP", "top"]
+- ["11Cartography22SupportsTopLayoutProxyP", "topMargin"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "trailing"]
+- !private ["11Cartography22SupportsTopLayoutProxyP", "trailingMargin"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "Edge"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "Edges"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", ""]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "bottom"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "bottomMargin"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "edge"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "edges"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "leading"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "leadingMargin"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "top"]
+- !private ["11Cartography27SupportsTrailingLayoutProxyP", "topMargin"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "trailing"]
+- ["11Cartography27SupportsTrailingLayoutProxyP", "trailingMargin"]
+- ["11Cartography24SupportsWidthLayoutProxyP", "Dimension"]
+- ["11Cartography24SupportsWidthLayoutProxyP", "Size"]
+- ["11Cartography24SupportsWidthLayoutProxyP", ""]
+- !private ["11Cartography24SupportsWidthLayoutProxyP", "dimension"]
+- !private ["11Cartography24SupportsWidthLayoutProxyP", "height"]
+- !private ["11Cartography24SupportsWidthLayoutProxyP", "size"]
+- ["11Cartography24SupportsWidthLayoutProxyP", "width"]
+depends-nominal:
+- !private "11Cartography8AdditionP"
+- !private "11Cartography8CompoundP"
+- !private "11Cartography9DimensionV"
+- !private "11Cartography4EdgeV"
+- !private "11Cartography5EdgesV"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- "11Cartography11LayoutProxyP"
+- !private "11Cartography14MultiplicationP"
+- !private "SC17NSLayoutAttributeO"
+- !private "11Cartography17NumericalEqualityP"
+- !private "11Cartography19NumericalInequalityP"
+- !private "11Cartography5PointV"
+- !private "11Cartography8PropertyP"
+- !private "s16RawRepresentableP"
+- !private "11Cartography24RelativeCompoundEqualityP"
+- !private "11Cartography26RelativeCompoundInequalityP"
+- !private "11Cartography16RelativeEqualityP"
+- !private "11Cartography18RelativeInequalityP"
+- !private "11Cartography4SizeV"
+- "11Cartography27SupportsBaselineLayoutProxyP"
+- "11Cartography25SupportsBottomLayoutProxyP"
+- "11Cartography26SupportsCenterXLayoutProxyP"
+- "11Cartography26SupportsCenterYLayoutProxyP"
+- "11Cartography28SupportsCenteringLayoutProxyP"
+- "11Cartography24SupportsEdgesLayoutProxyP"
+- "11Cartography25SupportsHeightLayoutProxyP"
+- "11Cartography26SupportsLeadingLayoutProxyP"
+- "11Cartography23SupportsLeftLayoutProxyP"
+- "11Cartography24SupportsRightLayoutProxyP"
+- "11Cartography23SupportsSizeLayoutProxyP"
+- "11Cartography22SupportsTopLayoutProxyP"
+- "11Cartography27SupportsTrailingLayoutProxyP"
+- "11Cartography24SupportsWidthLayoutProxyP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Cartography/Cartography-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Cartography.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "5e24397a7975012fc6b41ab15f73ffcc"

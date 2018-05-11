@@ -1,0 +1,145 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "s3SetV"
+provides-member:
+- ["s3SetV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Set"
+- "UnboxCollectionElementTransformer"
+- "UnboxableCollection"
+depends-member:
+- !private ["Sa", "deinit"]
+- !private ["Sa", "unbox"]
+- !private ["s23BidirectionalCollectionP", "unbox"]
+- !private ["s7CVarArgP", "Set"]
+- ["s7CVarArgP", "UnboxValue"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "unbox"]
+- !private ["s10CollectionP", "Set"]
+- ["s10CollectionP", "UnboxValue"]
+- !private ["s10CollectionP", "init"]
+- ["s10CollectionP", "unbox"]
+- !private ["s28CustomDebugStringConvertibleP", "Set"]
+- ["s28CustomDebugStringConvertibleP", "UnboxValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "unbox"]
+- !private ["s17CustomReflectableP", "Set"]
+- ["s17CustomReflectableP", "UnboxValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "unbox"]
+- !private ["s23CustomStringConvertibleP", "Set"]
+- ["s23CustomStringConvertibleP", "UnboxValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "unbox"]
+- !private ["s9DecodableP", "Set"]
+- ["s9DecodableP", "UnboxValue"]
+- !private ["s9DecodableP", "init"]
+- ["s9DecodableP", "unbox"]
+- !private ["s9EncodableP", "Set"]
+- ["s9EncodableP", "UnboxValue"]
+- !private ["s9EncodableP", "init"]
+- ["s9EncodableP", "unbox"]
+- !private ["s9EquatableP", "Set"]
+- ["s9EquatableP", "UnboxValue"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "unbox"]
+- !private ["s25ExpressibleByArrayLiteralP", "Set"]
+- ["s25ExpressibleByArrayLiteralP", "UnboxValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "unbox"]
+- !private ["s8HashableP", "Set"]
+- ["s8HashableP", "UnboxValue"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "unbox"]
+- !private ["s17MutableCollectionP", "unbox"]
+- !private ["s22RandomAccessCollectionP", "unbox"]
+- !private ["s26RangeReplaceableCollectionP", "unbox"]
+- !private ["s8SequenceP", "Set"]
+- ["s8SequenceP", "UnboxValue"]
+- !private ["s8SequenceP", "init"]
+- ["s8SequenceP", "unbox"]
+- ["s3SetV", "Bool"]
+- ["s3SetV", "Element"]
+- ["s3SetV", "Set"]
+- ["s3SetV", "UnboxCollectionElementTransformer"]
+- ["s3SetV", "UnboxValue"]
+- ["s3SetV", "deinit"]
+- !private ["s3SetV", "init"]
+- ["s3SetV", "unbox"]
+- !private ["s10SetAlgebraP", "Set"]
+- ["s10SetAlgebraP", "UnboxValue"]
+- !private ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "unbox"]
+- !private ["5Unbox0A10CompatibleP", "Set"]
+- ["5Unbox0A10CompatibleP", "UnboxValue"]
+- ["5Unbox0A10CompatibleP", ""]
+- !private ["5Unbox0A10CompatibleP", "init"]
+- ["5Unbox0A10CompatibleP", "unbox"]
+- !private ["5Unbox0A8PathNodeP", "unbox"]
+- !private ["5Unbox19UnboxableCollectionP", "Set"]
+- ["5Unbox19UnboxableCollectionP", "UnboxValue"]
+- ["5Unbox19UnboxableCollectionP", ""]
+- !private ["5Unbox19UnboxableCollectionP", "init"]
+- ["5Unbox19UnboxableCollectionP", "unbox"]
+- !private ["s14_ArrayProtocolP", "unbox"]
+- !private ["s24_DestructorSafeContainerP", "unbox"]
+- !private ["s21_ObjectiveCBridgeableP", "Set"]
+- ["s21_ObjectiveCBridgeableP", "UnboxValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "unbox"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- "s8HashableP"
+- !private "s17MutableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "s3SetV"
+- "s10SetAlgebraP"
+- "5Unbox0A10CompatibleP"
+- !private "5Unbox0A8PathNodeP"
+- "5Unbox19UnboxableCollectionP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Unbox/Unbox-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Unbox.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "1c6d2178294a1d75acdb8db227c471ed"

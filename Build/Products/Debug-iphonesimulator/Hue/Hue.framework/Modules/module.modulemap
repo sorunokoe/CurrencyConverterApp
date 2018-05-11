@@ -1,0 +1,11 @@
+framework module Hue {
+  umbrella header "Hue-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Hue.Swift {
+    header "Hue-Swift.h"
+    requires objc
+}

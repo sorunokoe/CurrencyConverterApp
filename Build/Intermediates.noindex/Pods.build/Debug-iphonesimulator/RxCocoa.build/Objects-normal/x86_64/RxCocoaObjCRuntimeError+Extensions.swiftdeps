@@ -1,0 +1,358 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCocoaInterceptionMechanism"
+- "RxCocoaObjCRuntimeError"
+provides-nominal:
+- "7RxCocoa0aB21InterceptionMechanismO"
+- "7RxCocoa0aB16ObjCRuntimeErrorO"
+provides-member:
+- ["7RxCocoa0aB21InterceptionMechanismO", ""]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", ""]
+- ["s5ErrorP", ""]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "debugDescription"]
+- ["s5ErrorP", "rxCocoaErrorForTarget"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "=="
+- !private "??"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "CustomDebugStringConvertible"
+- "Error"
+- !private "NSError"
+- !private "NSNumber"
+- !private "RXObjCRuntimeError"
+- !private "RXObjCRuntimeErrorDomain"
+- !private "RXObjCRuntimeErrorIsKVOKey"
+- "RxCocoaInterceptionMechanism"
+- "RxCocoaObjCRuntimeError"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "boolValue"]
+- !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "domain"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_code"]
+- ["s28CustomDebugStringConvertibleP", "_domain"]
+- ["s28CustomDebugStringConvertibleP", "_getEmbeddedNSError"]
+- ["s28CustomDebugStringConvertibleP", "_userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "boolValue"]
+- ["s28CustomDebugStringConvertibleP", "cantInterceptCoreFoundationTollFreeBridgedObjects"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "domain"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "objectMessagesAlreadyBeingIntercepted"]
+- ["s28CustomDebugStringConvertibleP", "observingMessagesWithUnsupportedReturnType"]
+- ["s28CustomDebugStringConvertibleP", "observingPerformanceSensitiveMessages"]
+- ["s28CustomDebugStringConvertibleP", "replacingMethodWithForwardingImplementation"]
+- ["s28CustomDebugStringConvertibleP", "savingOriginalForwardingMethodFailed"]
+- ["s28CustomDebugStringConvertibleP", "selectorNotImplemented"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "threadingCollisionWithOtherInterceptionMechanism"]
+- ["s28CustomDebugStringConvertibleP", "unknown"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "unknown"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- !private ["s23CustomStringConvertibleP", "domain"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "unknown"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "unknown"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "boolValue"]
+- ["s9EquatableP", "cantInterceptCoreFoundationTollFreeBridgedObjects"]
+- !private ["s9EquatableP", "code"]
+- !private ["s9EquatableP", "domain"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "kvo"]
+- ["s9EquatableP", "objectMessagesAlreadyBeingIntercepted"]
+- ["s9EquatableP", "observingMessagesWithUnsupportedReturnType"]
+- ["s9EquatableP", "observingPerformanceSensitiveMessages"]
+- ["s9EquatableP", "replacingMethodWithForwardingImplementation"]
+- ["s9EquatableP", "savingOriginalForwardingMethodFailed"]
+- ["s9EquatableP", "selectorNotImplemented"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "threadingCollisionWithOtherInterceptionMechanism"]
+- ["s9EquatableP", "unknown"]
+- !private ["s9EquatableP", "userInfo"]
+- ["s5ErrorP", "AnyObject"]
+- !private ["s5ErrorP", "NSError"]
+- !private ["s5ErrorP", "NSNumber"]
+- !private ["s5ErrorP", "RXObjCRuntimeError"]
+- !private ["s5ErrorP", "RXObjCRuntimeErrorDomain"]
+- !private ["s5ErrorP", "RXObjCRuntimeErrorIsKVOKey"]
+- ["s5ErrorP", "RxCocoaObjCRuntimeError"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "cantInterceptCoreFoundationTollFreeBridgedObjects"]
+- !private ["s5ErrorP", "code"]
+- ["s5ErrorP", "debugDescription"]
+- !private ["s5ErrorP", "domain"]
+- ["s5ErrorP", "objectMessagesAlreadyBeingIntercepted"]
+- ["s5ErrorP", "observingMessagesWithUnsupportedReturnType"]
+- ["s5ErrorP", "observingPerformanceSensitiveMessages"]
+- ["s5ErrorP", "replacingMethodWithForwardingImplementation"]
+- ["s5ErrorP", "rxCocoaErrorForTarget"]
+- ["s5ErrorP", "savingOriginalForwardingMethodFailed"]
+- ["s5ErrorP", "selectorNotImplemented"]
+- ["s5ErrorP", "threadingCollisionWithOtherInterceptionMechanism"]
+- ["s5ErrorP", "unknown"]
+- !private ["s5ErrorP", "userInfo"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "boolValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "boolValue"]
+- !private ["s23ExpressibleByNilLiteralP", "unknown"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "boolValue"]
+- ["s8HashableP", "cantInterceptCoreFoundationTollFreeBridgedObjects"]
+- !private ["s8HashableP", "code"]
+- !private ["s8HashableP", "domain"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "kvo"]
+- ["s8HashableP", "objectMessagesAlreadyBeingIntercepted"]
+- ["s8HashableP", "observingMessagesWithUnsupportedReturnType"]
+- ["s8HashableP", "observingPerformanceSensitiveMessages"]
+- ["s8HashableP", "replacingMethodWithForwardingImplementation"]
+- ["s8HashableP", "savingOriginalForwardingMethodFailed"]
+- ["s8HashableP", "selectorNotImplemented"]
+- ["s8HashableP", "threadingCollisionWithOtherInterceptionMechanism"]
+- ["s8HashableP", "unknown"]
+- !private ["s8HashableP", "userInfo"]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "boolValue"]
+- !private ["So8NSCodingP", "code"]
+- !private ["So8NSCodingP", "domain"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "boolValue"]
+- !private ["So9NSCopyingP", "code"]
+- !private ["So9NSCopyingP", "domain"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So7NSErrorC", "domain"]
+- !private ["So7NSErrorC", "userInfo"]
+- !private ["So8NSNumberC", "boolValue"]
+- !private ["So8NSObjectC", "boolValue"]
+- !private ["So8NSObjectC", "code"]
+- !private ["So8NSObjectC", "domain"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So16NSObjectProtocolP", "boolValue"]
+- !private ["So16NSObjectProtocolP", "code"]
+- !private ["So16NSObjectProtocolP", "domain"]
+- !private ["So16NSObjectProtocolP", "userInfo"]
+- !private ["So14NSSecureCodingP", "boolValue"]
+- !private ["So14NSSecureCodingP", "code"]
+- !private ["So14NSSecureCodingP", "domain"]
+- !private ["So14NSSecureCodingP", "userInfo"]
+- !private ["So7NSValueC", "boolValue"]
+- !private ["Sq", "unknown"]
+- ["SC18RXObjCRuntimeErrorO", "cantInterceptCoreFoundationTollFreeBridgedObjects"]
+- !private ["SC18RXObjCRuntimeErrorO", "init"]
+- ["SC18RXObjCRuntimeErrorO", "objectMessagesAlreadyBeingIntercepted"]
+- ["SC18RXObjCRuntimeErrorO", "observingMessagesWithUnsupportedReturnType"]
+- ["SC18RXObjCRuntimeErrorO", "observingPerformanceSensitiveMessages"]
+- ["SC18RXObjCRuntimeErrorO", "replacingMethodWithForwardingImplementation"]
+- ["SC18RXObjCRuntimeErrorO", "savingOriginalForwardingMethodFailed"]
+- ["SC18RXObjCRuntimeErrorO", "selectorNotImplemented"]
+- ["SC18RXObjCRuntimeErrorO", "threadingCollisionWithOtherInterceptionMechanism"]
+- ["SC18RXObjCRuntimeErrorO", "unknown"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "cantInterceptCoreFoundationTollFreeBridgedObjects"]
+- !private ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "objectMessagesAlreadyBeingIntercepted"]
+- ["s16RawRepresentableP", "observingMessagesWithUnsupportedReturnType"]
+- ["s16RawRepresentableP", "observingPerformanceSensitiveMessages"]
+- ["s16RawRepresentableP", "replacingMethodWithForwardingImplementation"]
+- ["s16RawRepresentableP", "savingOriginalForwardingMethodFailed"]
+- ["s16RawRepresentableP", "selectorNotImplemented"]
+- ["s16RawRepresentableP", "threadingCollisionWithOtherInterceptionMechanism"]
+- ["s16RawRepresentableP", "unknown"]
+- !private ["7RxSwift18ReactiveCompatibleP", "boolValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "code"]
+- !private ["7RxSwift18ReactiveCompatibleP", "domain"]
+- !private ["7RxSwift18ReactiveCompatibleP", "userInfo"]
+- ["7RxCocoa0aB21InterceptionMechanismO", "__derived_enum_equals"]
+- ["7RxCocoa0aB21InterceptionMechanismO", "deinit"]
+- ["7RxCocoa0aB21InterceptionMechanismO", "hashValue"]
+- ["7RxCocoa0aB21InterceptionMechanismO", "kvo"]
+- ["7RxCocoa0aB21InterceptionMechanismO", "unknown"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "AnyObject"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "RxCocoaInterceptionMechanism"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "String"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "_code"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "_domain"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "_getEmbeddedNSError"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "_userInfo"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "cantInterceptCoreFoundationTollFreeBridgedObjects"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "debugDescription"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "deinit"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "objectMessagesAlreadyBeingIntercepted"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "observingMessagesWithUnsupportedReturnType"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "observingPerformanceSensitiveMessages"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "replacingMethodWithForwardingImplementation"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "savingOriginalForwardingMethodFailed"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "selectorNotImplemented"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "threadingCollisionWithOtherInterceptionMechanism"]
+- ["7RxCocoa0aB16ObjCRuntimeErrorO", "unknown"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "boolValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boolValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "domain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "unknown"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- !private "Sq"
+- "SC18RXObjCRuntimeErrorO"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0aB21InterceptionMechanismO"
+- "7RxCocoa0aB16ObjCRuntimeErrorO"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a36aa7ab2e386b01c9450ffb43f59fd9"

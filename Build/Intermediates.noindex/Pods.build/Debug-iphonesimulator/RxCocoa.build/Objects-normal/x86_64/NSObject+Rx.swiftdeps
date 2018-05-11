@@ -1,0 +1,707 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift8ReactiveV", "observe"]
+- ["7RxSwift8ReactiveV", "observeWeakly"]
+- ["7RxSwift8ReactiveV", "deallocated"]
+- ["7RxSwift8ReactiveV", "sentMessage"]
+- ["7RxSwift8ReactiveV", "methodInvoked"]
+- ["7RxSwift8ReactiveV", "deallocating"]
+- ["7RxSwift8ReactiveV", "synchronized"]
+- ["7RxSwift8ReactiveV", "lazyInstanceObservable"]
+provides-dynamic-lookup:
+- "deallocating"
+- "dispose"
+- "messageSent"
+- "methodInvoked"
+- "targetImplementation"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "..<"
+- !private "=="
+- !private "??"
+- "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "DeallocObservable"
+- !private "DeallocatingProxy"
+- "Disposable"
+- !private "Disposables"
+- "FloatLiteralType"
+- "IMP"
+- "IntegerLiteralType"
+- !private "KVOObservable"
+- "KVOObservableProtocol"
+- "KVOObserver"
+- "KeyValueObservingOptions"
+- "MessageInterceptorSubject"
+- !private "MessageSentProxy"
+- !private "NSError"
+- "NSKeyValueObservingOptions"
+- !private "NSNull"
+- "NSObject"
+- "NSSelectorFromString"
+- "Observable"
+- "ObservableType"
+- "ObserverType"
+- "PublishSubject"
+- "RXDeallocatingObserver"
+- "RXMessageSentObserver"
+- "RX_default_target_implementation"
+- !private "RX_ensure_observing"
+- !private "RX_reference_from_selector"
+- !private "RX_selector"
+- "Reactive"
+- "ReplaySubject"
+- !private "RxCocoaError"
+- "Selector"
+- "String"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- !private "UInt"
+- "UInt8"
+- !private "UnicodeScalarType"
+- "UnsafeRawPointer"
+- "Void"
+- "_RXKVOObserver"
+- !private "class_getProperty"
+- !private "deallocSelector"
+- !private "deallocatedSubjectContext"
+- !private "deallocatedSubjectTriggerContext"
+- !private "deallocatingSubjectContext"
+- !private "deallocatingSubjectTriggerContext"
+- !private "isWeakProperty"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+- !private "objc_sync_enter"
+- !private "objc_sync_exit"
+- !private "object_getClass"
+- !private "observeWeaklyKeyPathFor"
+- !private "property_getAttributes"
+- !private "|="
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "components"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "filter"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "range"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8CAActionP", "init"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "dispose"]
+- !private ["s7CVarArgP", "filter"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "retainSelf"]
+- !private ["s7CVarArgP", "rx"]
+- !private ["s7CVarArgP", "rxCocoaErrorForTarget"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["7RxSwift10CancelableP", "asObservable"]
+- ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "on"]
+- !private ["s10CollectionP", "components"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "filter"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "range"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "components"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "dispose"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidObjectOnKeyPath"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidPropertyName"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "retainSelf"]
+- !private ["s28CustomDebugStringConvertibleP", "rx"]
+- !private ["s28CustomDebugStringConvertibleP", "rxCocoaErrorForTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unknown"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "components"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "range"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "range"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "dispose"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "retainSelf"]
+- !private ["s23CustomStringConvertibleP", "rx"]
+- !private ["s23CustomStringConvertibleP", "rxCocoaErrorForTarget"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "components"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "filter"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "range"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift10DisposableP", "asObservable"]
+- ["7RxSwift10DisposableP", "create"]
+- ["7RxSwift10DisposableP", "dispose"]
+- ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "on"]
+- !private ["7RxSwift10DisposableP", "retainSelf"]
+- !private ["7RxSwift11DisposablesV", "create"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "components"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "filter"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "range"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "NSKeyValueObservingOptions"]
+- !private ["s9EquatableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "components"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "count"]
+- ["s9EquatableP", "dispose"]
+- !private ["s9EquatableP", "filter"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initial"]
+- !private ["s9EquatableP", "intersection"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "new"]
+- !private ["s9EquatableP", "nsOptions"]
+- !private ["s9EquatableP", "range"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "retainSelf"]
+- !private ["s9EquatableP", "rx"]
+- !private ["s9EquatableP", "rxCocoaErrorForTarget"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "union"]
+- !private ["s5ErrorP", "invalidObjectOnKeyPath"]
+- !private ["s5ErrorP", "invalidPropertyName"]
+- !private ["s5ErrorP", "rxCocoaErrorForTarget"]
+- !private ["s5ErrorP", "unknown"]
+- !private ["7RxSwift5EventO", "completed"]
+- !private ["7RxSwift5EventO", "next"]
+- !private ["7RxSwift16EventConvertibleP", "completed"]
+- !private ["7RxSwift16EventConvertibleP", "next"]
+- !private ["s25ExpressibleByArrayLiteralP", "NSKeyValueObservingOptions"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "initial"]
+- !private ["s25ExpressibleByArrayLiteralP", "intersection"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "new"]
+- !private ["s25ExpressibleByArrayLiteralP", "nsOptions"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "union"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["s8HashableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "components"]
+- ["s8HashableP", "dispose"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "range"]
+- !private ["s8HashableP", "retainSelf"]
+- !private ["s8HashableP", "rx"]
+- !private ["s8HashableP", "rxCocoaErrorForTarget"]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
+- ["7RxCocoa24KeyValueObservingOptionsV", "NSKeyValueObservingOptions"]
+- !private ["7RxCocoa24KeyValueObservingOptionsV", "UInt"]
+- !private ["7RxCocoa24KeyValueObservingOptionsV", "contains"]
+- !private ["7RxCocoa24KeyValueObservingOptionsV", "deinit"]
+- !private ["7RxCocoa24KeyValueObservingOptionsV", "initial"]
+- !private ["7RxCocoa24KeyValueObservingOptionsV", "intersection"]
+- !private ["7RxCocoa24KeyValueObservingOptionsV", "isEmpty"]
+- !private ["7RxCocoa24KeyValueObservingOptionsV", "new"]
+- !private ["7RxCocoa24KeyValueObservingOptionsV", "nsOptions"]
+- !private ["7RxCocoa24KeyValueObservingOptionsV", "union"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "range"]
+- !private ["s10MirrorPathP", "components"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "range"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "filter"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "components"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "rxCocoaErrorForTarget"]
+- !private ["So9NSCopyingP", "components"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "rxCocoaErrorForTarget"]
+- !private ["So7NSErrorC", "rxCocoaErrorForTarget"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["SC26NSKeyValueObservingOptionsV", "init"]
+- !private ["SC26NSKeyValueObservingOptionsV", "initial"]
+- !private ["SC26NSKeyValueObservingOptionsV", "new"]
+- !private ["SC26NSKeyValueObservingOptionsV", "rawValue"]
+- !private ["So16NSMutableCopyingP", "components"]
+- !private ["So16NSMutableCopyingP", "range"]
+- !private ["So6NSNullC", "init"]
+- ["So8NSObjectC", "Callback"]
+- ["So8NSObjectC", "KVOObservableProtocol"]
+- ["So8NSObjectC", "KVOObserver"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "components"]
+- ["So8NSObjectC", "dispose"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "range"]
+- ["So8NSObjectC", "retainSelf"]
+- !private ["So8NSObjectC", "rx"]
+- !private ["So8NSObjectC", "rxCocoaErrorForTarget"]
+- !private ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "components"]
+- ["So16NSObjectProtocolP", "dispose"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "range"]
+- !private ["So16NSObjectProtocolP", "retainSelf"]
+- !private ["So16NSObjectProtocolP", "rx"]
+- !private ["So16NSObjectProtocolP", "rxCocoaErrorForTarget"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "rxCocoaErrorForTarget"]
+- !private ["So8NSStringC", "components"]
+- !private ["So8NSStringC", "range"]
+- !private ["7RxSwift10ObservableC", "asObservable"]
+- ["7RxSwift10ObservableC", "create"]
+- !private ["7RxSwift10ObservableC", "empty"]
+- !private ["7RxSwift10ObservableC", "error"]
+- !private ["7RxSwift10ObservableC", "finishWithNilWhenDealloc"]
+- ["7RxSwift10ObservableC", "init"]
+- !private ["7RxSwift10ObservableC", "just"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift10ObservableC", "on"]
+- !private ["7RxSwift10ObservableC", "skip"]
+- !private ["7RxSwift10ObservableC", "startWith"]
+- !private ["7RxSwift10ObservableC", "switchLatest"]
+- ["7RxSwift25ObservableConvertibleTypeP", "AnyObject"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "Disposables"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "KVOObserver"]
+- ["7RxSwift25ObservableConvertibleTypeP", "NSObject"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "create"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "empty"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "error"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "finishWithNilWhenDealloc"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMapLatest"]
+- ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "just"]
+- ["7RxSwift25ObservableConvertibleTypeP", "keyPath"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "on"]
+- ["7RxSwift25ObservableConvertibleTypeP", "options"]
+- ["7RxSwift25ObservableConvertibleTypeP", "retainTarget"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "skip"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "startWith"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "strongTarget"]
+- ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "switchLatest"]
+- ["7RxSwift25ObservableConvertibleTypeP", "target"]
+- ["7RxSwift14ObservableTypeP", "AnyObject"]
+- !private ["7RxSwift14ObservableTypeP", "Disposables"]
+- ["7RxSwift14ObservableTypeP", "E"]
+- !private ["7RxSwift14ObservableTypeP", "KVOObserver"]
+- ["7RxSwift14ObservableTypeP", "NSObject"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- !private ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "asObservable"]
+- ["7RxSwift14ObservableTypeP", "create"]
+- !private ["7RxSwift14ObservableTypeP", "empty"]
+- !private ["7RxSwift14ObservableTypeP", "error"]
+- !private ["7RxSwift14ObservableTypeP", "finishWithNilWhenDealloc"]
+- !private ["7RxSwift14ObservableTypeP", "flatMapLatest"]
+- ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "just"]
+- ["7RxSwift14ObservableTypeP", "keyPath"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "on"]
+- ["7RxSwift14ObservableTypeP", "options"]
+- ["7RxSwift14ObservableTypeP", "retainTarget"]
+- !private ["7RxSwift14ObservableTypeP", "skip"]
+- !private ["7RxSwift14ObservableTypeP", "startWith"]
+- !private ["7RxSwift14ObservableTypeP", "strongTarget"]
+- ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "switchLatest"]
+- ["7RxSwift14ObservableTypeP", "target"]
+- !private ["7RxSwift12ObserverTypeP", "asObservable"]
+- ["7RxSwift12ObserverTypeP", "create"]
+- ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- !private ["s9OptionSetP", "NSKeyValueObservingOptions"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "initial"]
+- !private ["s9OptionSetP", "intersection"]
+- !private ["s9OptionSetP", "isEmpty"]
+- !private ["s9OptionSetP", "new"]
+- !private ["s9OptionSetP", "nsOptions"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["s9OptionSetP", "union"]
+- !private ["Sq", "map"]
+- !private ["7RxSwift14PublishSubjectC", "asObservable"]
+- ["7RxSwift14PublishSubjectC", "init"]
+- !private ["7RxSwift14PublishSubjectC", "on"]
+- ["So22RXDeallocatingObserverP", "RX_default_target_implementation"]
+- ["So22RXDeallocatingObserverP", "ReplaySubject"]
+- !private ["So22RXDeallocatingObserverP", ""]
+- ["So22RXDeallocatingObserverP", "deallocating"]
+- ["So22RXDeallocatingObserverP", "init"]
+- ["So22RXDeallocatingObserverP", "isActive"]
+- !private ["So22RXDeallocatingObserverP", "messageSent"]
+- ["So22RXDeallocatingObserverP", "targetImplementation"]
+- ["So21RXMessageSentObserverP", "PublishSubject"]
+- ["So21RXMessageSentObserverP", "RX_default_target_implementation"]
+- !private ["So21RXMessageSentObserverP", ""]
+- ["So21RXMessageSentObserverP", "init"]
+- ["So21RXMessageSentObserverP", "isActive"]
+- ["So21RXMessageSentObserverP", "messageSent"]
+- ["So21RXMessageSentObserverP", "messageSentWithArguments"]
+- ["So21RXMessageSentObserverP", "methodInvoked"]
+- ["So21RXMessageSentObserverP", "methodInvokedWithArguments"]
+- ["So21RXMessageSentObserverP", "targetImplementation"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "filter"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "components"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "filter"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "range"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "NSKeyValueObservingOptions"]
+- !private ["s16RawRepresentableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- !private ["s16RawRepresentableP", "contains"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "initial"]
+- !private ["s16RawRepresentableP", "intersection"]
+- !private ["s16RawRepresentableP", "isEmpty"]
+- !private ["s16RawRepresentableP", "new"]
+- !private ["s16RawRepresentableP", "nsOptions"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "union"]
+- ["7RxSwift8ReactiveV", "AnyObject"]
+- ["7RxSwift8ReactiveV", "Bool"]
+- !private ["7RxSwift8ReactiveV", "DeallocObservable"]
+- !private ["7RxSwift8ReactiveV", "DeallocatingProxy"]
+- !private ["7RxSwift8ReactiveV", "KVOObservable"]
+- ["7RxSwift8ReactiveV", "KeyValueObservingOptions"]
+- ["7RxSwift8ReactiveV", "MessageInterceptorSubject"]
+- !private ["7RxSwift8ReactiveV", "MessageSentProxy"]
+- !private ["7RxSwift8ReactiveV", "NSError"]
+- ["7RxSwift8ReactiveV", "NSObject"]
+- ["7RxSwift8ReactiveV", "Observable"]
+- !private ["7RxSwift8ReactiveV", "RX_ensure_observing"]
+- !private ["7RxSwift8ReactiveV", "RX_reference_from_selector"]
+- !private ["7RxSwift8ReactiveV", "RX_selector"]
+- !private ["7RxSwift8ReactiveV", "RxCocoaError"]
+- ["7RxSwift8ReactiveV", "Selector"]
+- ["7RxSwift8ReactiveV", "String"]
+- ["7RxSwift8ReactiveV", "UnsafeRawPointer"]
+- ["7RxSwift8ReactiveV", "Void"]
+- !private ["7RxSwift8ReactiveV", "base"]
+- !private ["7RxSwift8ReactiveV", "deallocSelector"]
+- ["7RxSwift8ReactiveV", "deallocated"]
+- !private ["7RxSwift8ReactiveV", "deallocatedSubjectContext"]
+- ["7RxSwift8ReactiveV", "deallocating"]
+- ["7RxSwift8ReactiveV", "lazyInstanceObservable"]
+- ["7RxSwift8ReactiveV", "methodInvoked"]
+- !private ["7RxSwift8ReactiveV", "objc_getAssociatedObject"]
+- !private ["7RxSwift8ReactiveV", "objc_setAssociatedObject"]
+- !private ["7RxSwift8ReactiveV", "objc_sync_enter"]
+- !private ["7RxSwift8ReactiveV", "objc_sync_exit"]
+- ["7RxSwift8ReactiveV", "observe"]
+- ["7RxSwift8ReactiveV", "observeWeakly"]
+- !private ["7RxSwift8ReactiveV", "observeWeaklyKeyPathFor"]
+- !private ["7RxSwift8ReactiveV", "registerMessageInterceptor"]
+- ["7RxSwift8ReactiveV", "sentMessage"]
+- ["7RxSwift8ReactiveV", "synchronized"]
+- !private ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "components"]
+- ["7RxSwift18ReactiveCompatibleP", "dispose"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "range"]
+- !private ["7RxSwift18ReactiveCompatibleP", "retainSelf"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rx"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rxCocoaErrorForTarget"]
+- !private ["7RxSwift13ReplaySubjectC", "asObservable"]
+- ["7RxSwift13ReplaySubjectC", "create"]
+- !private ["7RxSwift13ReplaySubjectC", "on"]
+- !private ["7RxCocoa0aB5ErrorO", "deinit"]
+- !private ["7RxCocoa0aB5ErrorO", "invalidObjectOnKeyPath"]
+- !private ["7RxCocoa0aB5ErrorO", "invalidPropertyName"]
+- !private ["7RxCocoa0aB5ErrorO", "unknown"]
+- !private ["7RxCocoa0aB16ObjCRuntimeErrorO", "deinit"]
+- !private ["s8SequenceP", "components"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "filter"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "range"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "NSKeyValueObservingOptions"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "initial"]
+- !private ["s10SetAlgebraP", "intersection"]
+- !private ["s10SetAlgebraP", "isEmpty"]
+- !private ["s10SetAlgebraP", "new"]
+- !private ["s10SetAlgebraP", "nsOptions"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- !private ["s10SetAlgebraP", "union"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "components"]
+- ["SS", "init"]
+- !private ["SS", "range"]
+- !private ["s14StringProtocolP", "components"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "range"]
+- !private ["7RxSwift11SubjectTypeP", "asObservable"]
+- ["7RxSwift11SubjectTypeP", "create"]
+- ["7RxSwift11SubjectTypeP", "init"]
+- !private ["7RxSwift11SubjectTypeP", "on"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "asObservable"]
+- ["7RxSwift27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "on"]
+- !private ["s16TextOutputStreamP", "components"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "range"]
+- !private ["s20TextOutputStreamableP", "components"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "range"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "range"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "components"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "range"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "range"]
+- !private ["s33_ExpressibleByStringInterpolationP", "components"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "range"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dispose"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "retainSelf"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rx"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rxCocoaErrorForTarget"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "range"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["So14_RXKVOObserverC", "Callback"]
+- ["So14_RXKVOObserverC", "KVOObservableProtocol"]
+- ["So14_RXKVOObserverC", "KVOObserver"]
+- ["So14_RXKVOObserverC", "Void"]
+- !private ["So14_RXKVOObserverC", ""]
+- ["So14_RXKVOObserverC", "dispose"]
+- ["So14_RXKVOObserverC", "init"]
+- ["So14_RXKVOObserverC", "retainSelf"]
+- !private ["s16_SwiftStringViewP", "components"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "range"]
+- !private ["SC22objc_AssociationPolicyO", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So8CAActionP"
+- "s7CVarArgP"
+- "7RxSwift10CancelableP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "7RxSwift10DisposableP"
+- !private "7RxSwift11DisposablesV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "7RxCocoa16KVORepresentableP"
+- "7RxCocoa24KeyValueObservingOptionsV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "SC26NSKeyValueObservingOptionsV"
+- !private "So16NSMutableCopyingP"
+- !private "So6NSNullC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift12ObserverTypeP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "7RxSwift14PublishSubjectC"
+- "So22RXDeallocatingObserverP"
+- "So21RXMessageSentObserverP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxSwift13ReplaySubjectC"
+- !private "7RxCocoa0aB5ErrorO"
+- !private "7RxCocoa0aB16ObjCRuntimeErrorO"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "7RxSwift11SubjectTypeP"
+- "7RxSwift27SynchronizedUnsubscribeTypeP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "So14_RXKVOObserverC"
+- "s16_SwiftStringViewP"
+- !private "SC22objc_AssociationPolicyO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c7e4afedf988527937d4a1b44e6fa85b"

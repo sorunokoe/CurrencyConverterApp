@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "2fb6c02cc3bca67baaccd9dd2ef1b885"
+build_time: [1525946832, 306006000]
+inputs:
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Hue/Source/iOS/UIColor+Hue.swift": [1525946577, 0]
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Hue/Source/iOS/UIImage+Hue.swift": [1525946577, 0]

@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "6e5b3c95e2945795520122a5457fb406"
+build_time: [1525952330, 735869000]
+inputs:
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/CurrencyApp/App/AppCoordinator.swift": [1525948665, 0]
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/CurrencyApp/Classes/Currency/CurrencyController.swift": [1525948491, 0]
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/CurrencyApp/Classes/Currency/Currency.swift": [1525940502, 0]
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/CurrencyApp/Classes/Currency/CurrencyViewModel.swift": [1525940491, 0]
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/CurrencyApp/DataManager/API/CurrencyService.swift": [1525952330, 0]
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/CurrencyApp/App/Constants.swift": [1525949612, 0]
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/CurrencyApp/Classes/Currency/CurrencyView.swift": [1525949199, 0]
+  "/Users/Salgara/Desktop/IOS/CurrencyApp/CurrencyApp/App/AppDelegate.swift": [1525948401, 0]

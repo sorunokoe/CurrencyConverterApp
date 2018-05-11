@@ -1,0 +1,95 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Dimension"
+provides-nominal:
+- "11Cartography9DimensionV"
+provides-member:
+- ["11Cartography9DimensionV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Addition"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Context"
+- "Dimension"
+- "LayoutAttribute"
+- "Multiplication"
+- "NumericalEquality"
+- "NumericalInequality"
+- "Property"
+- "RelativeEquality"
+- "RelativeInequality"
+depends-member:
+- ["11Cartography8AdditionP", ""]
+- ["11Cartography8AdditionP", "attribute"]
+- ["11Cartography8AdditionP", "context"]
+- ["11Cartography8AdditionP", "item"]
+- ["11Cartography9DimensionV", "AnyObject"]
+- ["11Cartography9DimensionV", "Context"]
+- ["11Cartography9DimensionV", "LayoutAttribute"]
+- ["11Cartography9DimensionV", "attribute"]
+- ["11Cartography9DimensionV", "context"]
+- ["11Cartography9DimensionV", "deinit"]
+- ["11Cartography9DimensionV", "init"]
+- ["11Cartography9DimensionV", "item"]
+- ["11Cartography14MultiplicationP", ""]
+- ["11Cartography14MultiplicationP", "attribute"]
+- ["11Cartography14MultiplicationP", "context"]
+- ["11Cartography14MultiplicationP", "item"]
+- ["11Cartography17NumericalEqualityP", ""]
+- ["11Cartography17NumericalEqualityP", "attribute"]
+- ["11Cartography17NumericalEqualityP", "context"]
+- ["11Cartography17NumericalEqualityP", "item"]
+- ["11Cartography19NumericalInequalityP", ""]
+- ["11Cartography19NumericalInequalityP", "attribute"]
+- ["11Cartography19NumericalInequalityP", "context"]
+- ["11Cartography19NumericalInequalityP", "item"]
+- ["11Cartography8PropertyP", ""]
+- ["11Cartography8PropertyP", "attribute"]
+- ["11Cartography8PropertyP", "context"]
+- ["11Cartography8PropertyP", "item"]
+- ["11Cartography16RelativeEqualityP", ""]
+- ["11Cartography16RelativeEqualityP", "attribute"]
+- ["11Cartography16RelativeEqualityP", "context"]
+- ["11Cartography16RelativeEqualityP", "item"]
+- ["11Cartography18RelativeInequalityP", ""]
+- ["11Cartography18RelativeInequalityP", "attribute"]
+- ["11Cartography18RelativeInequalityP", "context"]
+- ["11Cartography18RelativeInequalityP", "item"]
+depends-nominal:
+- "11Cartography8AdditionP"
+- "11Cartography9DimensionV"
+- "11Cartography14MultiplicationP"
+- "11Cartography17NumericalEqualityP"
+- "11Cartography19NumericalInequalityP"
+- "11Cartography8PropertyP"
+- "11Cartography16RelativeEqualityP"
+- "11Cartography18RelativeInequalityP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Cartography/Cartography-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Cartography.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "99e41e0ca42fb40f286bd38771402863"

@@ -1,0 +1,248 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "s10DictionaryV"
+provides-member:
+- ["s10DictionaryV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "Dictionary"
+- "String"
+- "UnboxCollectionElementTransformer"
+- !private "UnboxPathError"
+- "UnboxPathNode"
+- "UnboxableCollection"
+- !private "UnboxableKey"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Key"]
+- !private ["s7CVarArgP", "UnboxPathError"]
+- ["s7CVarArgP", "UnboxValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "makeKeyTransform"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "unbox"]
+- ["s7CVarArgP", "unboxPathValue"]
+- !private ["s10CollectionP", "Key"]
+- !private ["s10CollectionP", "UnboxPathError"]
+- ["s10CollectionP", "UnboxValue"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "makeKeyTransform"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10CollectionP", "unbox"]
+- ["s10CollectionP", "unboxPathValue"]
+- !private ["s28CustomDebugStringConvertibleP", "Key"]
+- !private ["s28CustomDebugStringConvertibleP", "UnboxPathError"]
+- ["s28CustomDebugStringConvertibleP", "UnboxValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "unbox"]
+- ["s28CustomDebugStringConvertibleP", "unboxPathValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "Key"]
+- !private ["s17CustomReflectableP", "UnboxPathError"]
+- ["s17CustomReflectableP", "UnboxValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "makeKeyTransform"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "unbox"]
+- ["s17CustomReflectableP", "unboxPathValue"]
+- !private ["s23CustomStringConvertibleP", "Key"]
+- !private ["s23CustomStringConvertibleP", "UnboxPathError"]
+- ["s23CustomStringConvertibleP", "UnboxValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidDictionaryKey"]
+- !private ["s23CustomStringConvertibleP", "invalidDictionaryKeyType"]
+- !private ["s23CustomStringConvertibleP", "invalidDictionaryValue"]
+- !private ["s23CustomStringConvertibleP", "makeKeyTransform"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "unbox"]
+- ["s23CustomStringConvertibleP", "unboxPathValue"]
+- !private ["s9DecodableP", "Key"]
+- !private ["s9DecodableP", "UnboxPathError"]
+- ["s9DecodableP", "UnboxValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "makeKeyTransform"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "subscript"]
+- ["s9DecodableP", "unbox"]
+- ["s9DecodableP", "unboxPathValue"]
+- ["s10DictionaryV", "Bool"]
+- ["s10DictionaryV", "Dictionary"]
+- ["s10DictionaryV", "Key"]
+- ["s10DictionaryV", "String"]
+- ["s10DictionaryV", "UnboxCollectionElementTransformer"]
+- !private ["s10DictionaryV", "UnboxPathError"]
+- ["s10DictionaryV", "UnboxValue"]
+- !private ["s10DictionaryV", "UnboxableKey"]
+- ["s10DictionaryV", "Value"]
+- ["s10DictionaryV", "deinit"]
+- !private ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "makeKeyTransform"]
+- !private ["s10DictionaryV", "map"]
+- !private ["s10DictionaryV", "subscript"]
+- ["s10DictionaryV", "unbox"]
+- ["s10DictionaryV", "unboxPathValue"]
+- !private ["s9EncodableP", "Key"]
+- !private ["s9EncodableP", "UnboxPathError"]
+- ["s9EncodableP", "UnboxValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "makeKeyTransform"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EncodableP", "unbox"]
+- ["s9EncodableP", "unboxPathValue"]
+- !private ["s9EquatableP", "Key"]
+- !private ["s9EquatableP", "UnboxPathError"]
+- ["s9EquatableP", "UnboxValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "makeKeyTransform"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "subscript"]
+- ["s9EquatableP", "unbox"]
+- ["s9EquatableP", "unboxPathValue"]
+- !private ["s5ErrorP", "invalidDictionaryKey"]
+- !private ["s5ErrorP", "invalidDictionaryKeyType"]
+- !private ["s5ErrorP", "invalidDictionaryValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "UnboxPathError"]
+- ["s30ExpressibleByDictionaryLiteralP", "UnboxValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "makeKeyTransform"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "unbox"]
+- ["s30ExpressibleByDictionaryLiteralP", "unboxPathValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s8SequenceP", "Key"]
+- !private ["s8SequenceP", "UnboxPathError"]
+- ["s8SequenceP", "UnboxValue"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "makeKeyTransform"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "unbox"]
+- ["s8SequenceP", "unboxPathValue"]
+- !private ["5Unbox0A28CollectionElementTransformerP", "UnboxRawElement"]
+- !private ["5Unbox0A28CollectionElementTransformerP", "unbox"]
+- !private ["5Unbox0A10CompatibleP", "Key"]
+- !private ["5Unbox0A10CompatibleP", "UnboxPathError"]
+- ["5Unbox0A10CompatibleP", "UnboxValue"]
+- ["5Unbox0A10CompatibleP", ""]
+- !private ["5Unbox0A10CompatibleP", "_getBuiltinLogicValue"]
+- !private ["5Unbox0A10CompatibleP", "init"]
+- !private ["5Unbox0A10CompatibleP", "makeKeyTransform"]
+- !private ["5Unbox0A10CompatibleP", "map"]
+- !private ["5Unbox0A10CompatibleP", "subscript"]
+- ["5Unbox0A10CompatibleP", "unbox"]
+- ["5Unbox0A10CompatibleP", "unboxPathValue"]
+- !private ["5Unbox0A9PathErrorO", "deinit"]
+- !private ["5Unbox0A9PathErrorO", "invalidDictionaryKey"]
+- !private ["5Unbox0A9PathErrorO", "invalidDictionaryKeyType"]
+- !private ["5Unbox0A9PathErrorO", "invalidDictionaryValue"]
+- !private ["5Unbox0A8PathNodeP", "Key"]
+- !private ["5Unbox0A8PathNodeP", "UnboxPathError"]
+- ["5Unbox0A8PathNodeP", "UnboxValue"]
+- ["5Unbox0A8PathNodeP", ""]
+- !private ["5Unbox0A8PathNodeP", "init"]
+- !private ["5Unbox0A8PathNodeP", "makeKeyTransform"]
+- !private ["5Unbox0A8PathNodeP", "map"]
+- !private ["5Unbox0A8PathNodeP", "subscript"]
+- ["5Unbox0A8PathNodeP", "unbox"]
+- ["5Unbox0A8PathNodeP", "unboxPathValue"]
+- !private ["5Unbox19UnboxableCollectionP", "Key"]
+- !private ["5Unbox19UnboxableCollectionP", "UnboxPathError"]
+- ["5Unbox19UnboxableCollectionP", "UnboxValue"]
+- ["5Unbox19UnboxableCollectionP", ""]
+- !private ["5Unbox19UnboxableCollectionP", "init"]
+- !private ["5Unbox19UnboxableCollectionP", "makeKeyTransform"]
+- !private ["5Unbox19UnboxableCollectionP", "map"]
+- !private ["5Unbox19UnboxableCollectionP", "subscript"]
+- ["5Unbox19UnboxableCollectionP", "unbox"]
+- ["5Unbox19UnboxableCollectionP", "unboxPathValue"]
+- !private ["5Unbox12UnboxableKeyP", "transform"]
+- !private ["5Unbox16UnboxableRawTypeP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "Key"]
+- !private ["s21_ObjectiveCBridgeableP", "UnboxPathError"]
+- ["s21_ObjectiveCBridgeableP", "UnboxValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "makeKeyTransform"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "unbox"]
+- ["s21_ObjectiveCBridgeableP", "unboxPathValue"]
+depends-nominal:
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "s8SequenceP"
+- !private "5Unbox0A28CollectionElementTransformerP"
+- "5Unbox0A10CompatibleP"
+- !private "5Unbox0A9PathErrorO"
+- "5Unbox0A8PathNodeP"
+- "5Unbox19UnboxableCollectionP"
+- !private "5Unbox12UnboxableKeyP"
+- !private "5Unbox16UnboxableRawTypeP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/Unbox/Unbox-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Unbox.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "dc5f62e41f055704d87f810fdc74f7a5"

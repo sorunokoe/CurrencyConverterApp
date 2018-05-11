@@ -1,0 +1,101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Driver"
+- "DriverSharingStrategy"
+provides-nominal:
+- "7RxCocoa21DriverSharingStrategyV"
+provides-member:
+- ["7RxCocoa21DriverSharingStrategyV", ""]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", ""]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "asDriver"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Driver"
+- "DriverSharingStrategy"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Observable"
+- "SchedulerType"
+- "SharedSequence"
+- "SharedSequenceConvertibleType"
+- !private "SharingScheduler"
+- "SharingStrategyProtocol"
+depends-member:
+- ["7RxCocoa21DriverSharingStrategyV", "Observable"]
+- ["7RxCocoa21DriverSharingStrategyV", "SchedulerType"]
+- !private ["7RxCocoa21DriverSharingStrategyV", "SharingScheduler"]
+- ["7RxCocoa21DriverSharingStrategyV", "deinit"]
+- ["7RxCocoa21DriverSharingStrategyV", "init"]
+- ["7RxCocoa21DriverSharingStrategyV", "scheduler"]
+- ["7RxCocoa21DriverSharingStrategyV", "share"]
+- !private ["s9EquatableP", "whileConnected"]
+- !private ["s8HashableP", "whileConnected"]
+- !private ["7RxSwift10ObservableC", "share"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Driver"]
+- ["7RxSwift25ObservableConvertibleTypeP", "DriverSharingStrategy"]
+- ["7RxSwift25ObservableConvertibleTypeP", "E"]
+- ["7RxSwift25ObservableConvertibleTypeP", "SharingStrategy"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "asSharedSequence"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "share"]
+- !private ["7RxSwift14ObservableTypeP", "share"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "Driver"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "DriverSharingStrategy"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "E"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "SharingStrategy"]
+- ["7RxCocoa29SharedSequenceConvertibleTypeP", "asDriver"]
+- !private ["7RxCocoa29SharedSequenceConvertibleTypeP", "asSharedSequence"]
+- !private ["7RxCocoa16SharingSchedulerO", "make"]
+- !private ["7RxCocoa23SharingStrategyProtocolP", "SharingScheduler"]
+- ["7RxCocoa23SharingStrategyProtocolP", ""]
+- ["7RxCocoa23SharingStrategyProtocolP", "scheduler"]
+- ["7RxCocoa23SharingStrategyProtocolP", "share"]
+- !private ["7RxSwift20SubjectLifetimeScopeO", "whileConnected"]
+depends-nominal:
+- "7RxCocoa21DriverSharingStrategyV"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- "7RxCocoa29SharedSequenceConvertibleTypeP"
+- !private "7RxCocoa16SharingSchedulerO"
+- "7RxCocoa23SharingStrategyProtocolP"
+- !private "7RxSwift20SubjectLifetimeScopeO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/Salgara/Desktop/IOS/CurrencyApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b6e50deb661fb11566ac9cee633fc1c8"
