@@ -1,4 +1,4 @@
-# Uncomment the next line to define a global platform for your project
+#Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
 target 'CurrencyApp' do
@@ -16,7 +16,7 @@ target 'CurrencyApp' do
 	pod 'SVProgressHUD'
 	pod 'Hue'
 	pod 'Cartography'
-
+	pod 'RealmSwift'
   target 'CurrencyAppTests' do
     inherit! :search_paths
     # Pods for testing

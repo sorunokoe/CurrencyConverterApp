@@ -8,7 +8,10 @@
 
 public class Constants{
     
-    public static let base_url = "http://data.fixer.io/api/latest"
-    public static let access_key = "3b78f39a130dd28295ffab0235e23cfd"
+    public static let base_url = "http://data.fixer.io/api/"
+    public static let access_key = "?access_key=3b78f39a130dd28295ffab0235e23cfd"
+    
+    public static let brand_color = "#2D9CDB"
+    public static let default_background_color = "#FAFAFA"
     
 }

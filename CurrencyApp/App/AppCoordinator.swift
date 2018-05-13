@@ -23,8 +23,6 @@ class AppCoordinator{
     
     public func start(){
         let vc = CurrencyController()
-        let view = CurrencyView(frame: vc.view.frame)
-        vc.view = view
         self.navigationController.viewControllers = [vc]
     }
     

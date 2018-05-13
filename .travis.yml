@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode9.3
+xcode_project: CurrencyApp.xcworkspace
+xcode_scheme: CurrencyApp
+xcode_sdk: iphonesimulator11.3

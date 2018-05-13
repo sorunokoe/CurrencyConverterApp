@@ -3,6 +3,11 @@ PODS:
   - Cartography (3.0.1)
   - Hue (3.0.1)
   - IQKeyboardManager (5.0.8)
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
   - RxAlamofire (4.2.0):
     - RxAlamofire/Core (= 4.2.0)
   - RxAlamofire/Core (4.2.0):
@@ -19,6 +24,7 @@ DEPENDENCIES:
   - Cartography
   - Hue
   - IQKeyboardManager
+  - RealmSwift
   - RxAlamofire
   - RxCocoa
   - RxSwift
@@ -26,24 +32,13 @@ DEPENDENCIES:
   - SwiftyJSON
   - Unbox
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - Alamofire
-    - Cartography
-    - Hue
-    - IQKeyboardManager
-    - RxAlamofire
-    - RxCocoa
-    - RxSwift
-    - SVProgressHUD
-    - SwiftyJSON
-    - Unbox
-
 SPEC CHECKSUMS:
   Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
   Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
   Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
   IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
+  Realm: '0378021c424e4e2bd6a0e63b27881e929d9b9ad1'
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
   RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxSwift: e49536837d9901277638493ea537394d4b55f570
@@ -51,6 +46,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   Unbox: 30e437e6151a6de16139375fd4e8dd9a664cfbf7
 
-PODFILE CHECKSUM: ac7bfbd53c32a17dd1fa1368cf0d4634a24ca7e6
+PODFILE CHECKSUM: 332b51a36c61a4b93f223e0e814c1bbeca8dbb2d
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.2.1
