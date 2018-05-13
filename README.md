@@ -1,7 +1,7 @@
 
 
 
-#IOS App for Currency Conversation.
+# IOS App for Currency Conversation.
 Elapsed time: 4 hours.
 
 Design: https://goo.gl/ByPNnp
